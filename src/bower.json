@@ -1,0 +1,20 @@
+{
+  "name": "robert-yarborough",
+  "homepage": "https://github.com/bobby5develops/robert-yarborough-generator",
+  "description": "portfolio",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "authors": [
+    "Robert Yarborough"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

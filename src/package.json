@@ -1,0 +1,22 @@
+{
+  "name": "robert-yarborough",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.html ",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobby5develops/robert-yarborough-generator.git"
+  },
+  "author": "Robert Yarborough",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobby5develops/robert-yarborough-generator/issues"
+  },
+  "homepage": "https://github.com/bobby5develops/robert-yarborough-generator#readme"
+}
