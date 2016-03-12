@@ -1,0 +1,21 @@
+{
+  "name": "robert-yarborough",
+  "description": "portfolio",
+  "main": "index.html",
+  "authors": [
+    "Robert Yarborough"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt"
+  },
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
