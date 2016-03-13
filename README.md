@@ -1,7 +1,4 @@
-# [HTML5 Boilerplate](https://html5boilerplate.com)
-
-[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
+# [Robert Yarborough / portfolio](http://robert-yarborough.com)
 
 HTML5 Boilerplate is a professional front-end template for building
 fast, robust, and adaptable web apps or sites.
@@ -41,6 +38,7 @@ Choose one of the following options:
     detection
   * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
     that, among other, improve the web site's performance and security
+* yarboroughGrid / CSS 12_column_grid_system
 * Placeholder CSS Media Queries.
 * Useful CSS helper classes.
 * Default print styles, performance optimized.
