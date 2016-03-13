@@ -8,7 +8,6 @@ var uglify = require('gulp-uglify');
 var jshint = require('gulp-jshint');
 var header = require('gulp-header');
 var rename = require('gulp-rename');
-var cssnano = require('gulp-rename');
 
 var banner = [
     '/*!\n' +
@@ -182,7 +181,7 @@ gulp.task('css', function () {
         }))
         .pipe(autoprefixer('last 4 version'))
         .pipe(gulp.dest('dist/css'))
-        .pipe(cssnano())
+        /*.pipe(cssnano())*/
         .pipe(rename({ suffix: '.min' }))
         .pipe(header(banner, { pkg : pkg }))
         .pipe(gulp.dest('dist/css'))
@@ -202,25 +201,25 @@ gulp.task('js', function() {
         .pipe(browserSync.reload({ stream:true, once: true }));
 });
 
-gulp.task('browser-sync', function(done) {
+gulp.task('browser-sync', function() {
     browserSync.init(null, {
         server: {
             baseDir: 'dist'
         }
     });
 });
-gulp.task('bs-reload', function (done) {
+
+gulp.task('bs-reload', function () {
     browserSync.reload();
 });
 
 /*gulp.task('build', function (done) {
     runSequence(
-        ['clean', 'lint:js'],
-        'copy',
+        ['clean', 'lint:js'], 'copy',
         done);
-});
+});*/
 
-
+/*
 gulp.task('archive', function (done) {
     runSequence(
         'build',
@@ -233,5 +232,6 @@ gulp.task('archive', function (done) {
 gulp.task('default', ['css', 'js', 'browser-sync'], function (done) {
     gulp.watch('src/scss/*/*.scss', ['css']);
     gulp.watch('src/js/*.js', ['js']);
-    gulp.watch('app/*.html', ['bs-reload']);
+    gulp.watch('dist/*.html', ['bs-reload']);
+    runSequence(['clean', 'lint:js'], 'copy', done);
 });
