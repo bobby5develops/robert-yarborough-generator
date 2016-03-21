@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Senior UI Designer/ Developer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,21 +15,191 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
         <!-- Main Content ( Dynamically Load Via: handlebars.js ) -->
-        <nav class="">
-            <ul class="section group">
-                <li class="col span_1_of_12"><a href="#">one</a></li>
-                <li class="col span_1_of_12"><a href="#">two</a></li>
-                <li class="col span_1_of_12"><a href="#">three</a></li>
-            </ul>
-        </nav>
-        <!--
+        <header class="header" role="banner">
+            <nav class="nav" role="navigation">
+                <ul class="section group">
+                    <li class="span_1_of_12 active">
+                        <a href="/">
+                            <img src="img/logo.png" alt="Logo">
+                        </a>
+                    </li>
+                    <!--<li class="yarboroughGrid col span_1_of_12">
+                        <a href="/">two</a>
+                    </li>
+                    <li class="yarboroughGrid col span_1_of_12">
+                        <a href="/">three</a>
+                    </li>-->
+                </ul>
+            </nav>
+        </header>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <!-- portfolio
+   ================================================== -->
+            <section id="portfolio" data-value="portfolio-list" class="yarboroughGrid">
+
+                <div class="row group">
+
+                    <div class="col span_12_of_12">
+
+                        <h1 class="section-header"><span>[ </span> latestProjects <span> ]</span></h1>
+
+                        <hr />
+
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        </p>
+
+                    </div>
+
+                </div> <!-- end section-head -->
+
+                <div class="row group">
+
+                    <!-- portfolio-wrapper -->
+                    <div id="portfolio-wrapper" class="section group">
+
+                        <div class="col span_4_of_12 folio-item">
+                            <div class="item-wrap">
+                                <a href="#modal-01">
+                                    <img src="http://placehold.it/400x400" alt="Underwater">
+                                    <div class="overlay"></div>
+                                    <div class="portfolio-item-meta">
+                                        <h5>Underwater</h5>
+                                        <p>Videography</p>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus"></i></div>
+                                </a>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="col span_4_of_12 folio-item">
+                            <div class="item-wrap">
+                                <a href="#modal-02">
+                                    <img src="http://placehold.it/400x400" alt="Hotel Sign">
+                                    <div class="overlay">
+                                        <div class="portfolio-item-meta">
+                                            <h5>Hotel Sign</h5>
+                                            <p>Branding</p>
+                                        </div>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus"></i></div>
+                                </a>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="col span_4_of_12 folio-item">
+                            <div class="item-wrap">
+                                <a href="#modal-03">
+                                    <img src="http://placehold.it/400x400" alt="Beetle">
+                                    <div class="overlay">
+                                        <div class="portfolio-item-meta">
+                                            <h5>Beetle</h5>
+                                            <p>Webdesign</p>
+                                        </div>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus"></i></div>
+                                </a>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="col span_4_of_12 folio-item">
+                            <div class="item-wrap">
+                                <a href="#modal-04">
+                                    <img src="http://placehold.it/400x400" alt="Banjo Player">
+                                    <div class="overlay">
+                                        <div class="portfolio-item-meta">
+                                            <h5>Banjo Player</h5>
+                                            <p>Photography</p>
+                                        </div>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus"></i></div>
+                                </a>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="col span_4_of_12 folio-item">
+                            <div class="item-wrap">
+                                <a href="#modal-05">
+                                    <img src="http://placehold.it/400x400" alt="Lighthouse">
+                                    <div class="overlay">
+                                        <div class="portfolio-item-meta">
+                                            <h5>Lighthouse</h5>
+                                            <p>Web Development</p>
+                                        </div>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus"></i></div>
+                                </a>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="col span_4_of_12 folio-item">
+                            <div class="item-wrap">
+                                <a href="#modal-06">
+                                    <img src="http://placehold.it/400x400" alt="Girl Stuff">
+                                    <div class="overlay">
+                                        <div class="portfolio-item-meta">
+                                            <h5>Girl Stuff</h5>
+                                            <p>Photography</p>
+                                        </div>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus"></i></div>
+                                </a>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="col span_4_of_12 folio-item">
+                            <div class="item-wrap">
+                                <a href="#modal-07">
+                                    <img src="http://placehold.it/400x400" alt="Coffee Cup">
+                                    <div class="overlay">
+                                        <div class="portfolio-item-meta">
+                                            <h5>Coffee Cup</h5>
+                                            <p>Branding</p>
+                                        </div>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus"></i></div>
+                                </a>
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="col span_4_of_12 folio-item">
+                            <div class="item-wrap">
+                                <a href="#modal-08">
+                                    <img src="http://placehold.it/400x400" alt="Judah">
+                                    <div class="overlay">
+                                        <div class="portfolio-item-meta">
+                                            <h5>Judah</h5>
+                                            <p>Webdesign</p>
+                                        </div>
+                                    </div>
+                                    <div class="link-icon"><i class="fa fa-plus"></i></div>
+                                </a>
+                            </div>
+                        </div>  <!-- item end -->
+
+                    </div> <!-- end portfolio-wrapper -->
+
+
+
+
+                </div>  <!-- end row -->
+
+            </section>
+            <section data-value="portfolio-modal">section two</section>
+            <!-- end portfolio -->
+
+
+
+        <footer class="footer" role="contentinfo">
+
+        </footer>
+
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

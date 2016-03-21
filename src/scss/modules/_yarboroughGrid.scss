@@ -1,6 +1,11 @@
 .yarboroughGrid{
-  /*  SECTIONS  */
-  .section {
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    margin-top: 100px;
+  /*  ROW SETUP  */
+  .row {
     clear: both;
     padding: 0px;
     margin: 0px;
@@ -10,9 +15,27 @@
   .col {
     display: block;
     float:left;
-    margin: 1% 0 1% 1.6%;
+    /*margin: 1% 0 1% 0.8%;*/
+
+          h1{
+              font: 33px/30px "raleway-heavy", sans-serif;
+              text-align: center;
+              letter-spacing: 2.5px;
+              color: #FFFFFF;
+              margin-bottom: 30px;
+              margin-top: 30px;
+
+          }
+
+            p{
+                font: 20px/30px "raleway-heavy", sans-serif;
+                margin: 15px 0 15px 0;
+            }
+
   }
-  .col:first-child { margin-left: 0; }
+    /*.col:first-child { margin-left: 0; }*/
+
+
 
   /*  GROUPING  */
   .group:before,
@@ -55,6 +78,9 @@
 
   .span_4_of_12 {
     width: 32.26%;
+      &.blockGrid {
+          width: 32.26%;
+      }
   }
 
   .span_3_of_12 {
@@ -68,6 +94,7 @@
   .span_1_of_12 {
     width: 6.866%;
   }
+
 
 
   /*  GO FULL WIDTH BELOW 480 PIXELS */

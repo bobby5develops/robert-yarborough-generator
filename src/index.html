@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Senior UI Designer/ Developer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,19 +15,44 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
         <!-- Main Content ( Dynamically Load Via: handlebars.js ) -->
-        <nav class="">
-            <ul class="section group">
-                <li class="col span_1_of_12"><a href="#">one</a></li>
-                <li class="col span_1_of_12"><a href="#">two</a></li>
-                <li class="col span_1_of_12"><a href="#">three</a></li>
-            </ul>
-        </nav>
-        <!--
+        <header class="header" role="banner">
+            <div class="logo">
+                <a href="/">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav role="navigation">
+                <ul class="yarboroughGrid section group">
+                    <li class="yarboroughGrid col span_1_of_12 active">
+                        <a href="/">one</a>
+                    </li>
+                    <li class="yarboroughGrid col span_1_of_12">
+                        <a href="/">two</a>
+                    </li>
+                    <li class="yarboroughGrid col span_1_of_12">
+                        <a href="/">three</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="yarboroughGrid" role="main">
+
+        </main>
+
+        <aside class="sidebar" role="complementary">
+
+        </aside>
+
+        <footer class="footer" role="contentinfo">
+
+        </footer>
+
+
+
+
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>

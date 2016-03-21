@@ -15,6 +15,13 @@ $breakpoint-large: "";
 
 
 // color variables
+$color: #1e3262;
+$light: lighten($color,15%);
+$lighter: lighten($color,30%);
+$darker: darken($color,30%);
+
 $base : #F7F6F0;
-$darken : darken(#F7F6F0 , 30%);
-$back: darken(#F7F6F0, 40%);
+$darken : darken($color, 8%);
+$back: darken($color, 20%);
+
+
