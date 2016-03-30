@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bobby5develops/robert-yarborough-generator/issues"
   },
-  "homepage": "https://github.com/bobby5develops/robert-yarborough-generator#readme"
+  "homepage": "https://github.com/bobby5develops/robert-yarborough-generator#readme",
+  "devDependencies": {
+    "font-awesome": "^4.5.0"
+  }
 }

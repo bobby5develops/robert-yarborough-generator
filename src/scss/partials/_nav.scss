@@ -5,9 +5,9 @@ nav{
 
 
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=19, Direction=0, Color=#2E2E2E)";/*IE 8*/
-    -moz-box-shadow: 0 0 19px 3px #2E2E2E;/*FF 3.5+*/
-    -webkit-box-shadow: 0 0 19px 3px #2E2E2E;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-    box-shadow: 0 0 19px 3px #2E2E2E;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
     filter: progid:DXImageTransform.Microsoft.Shadow(Strength=19, Direction=135, Color=#2E2E2E); /*IE 5.5-7*/
 
     &,
@@ -141,7 +141,7 @@ nav{
 
         &:hover > a:before,
         & > a:hover:before{
-            background: #1e3262;
+            background: #bf9941;
         }
 
 
@@ -185,7 +185,7 @@ nav{
               height: 100%;
               padding: 16px 20px;
               color: #dff2fa;
-              background: #19799f;
+              background: #bf9941;
               content: attr(data-title);
               -webkit-transition: background 0.3s;
               -moz-transition: background 0.3s;

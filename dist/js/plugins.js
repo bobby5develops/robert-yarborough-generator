@@ -136,3 +136,90 @@
 
     });
 })(jQuery);
+
+(function($) {
+    'use strict';
+    $.fn.yarboroughModal = function(options){
+        var settings, createModal, closeModal, setWidth, setHeight, body;
+
+        settings = $.extend({
+            'modal': 'modal',
+            'close': 'modal-close',
+            'closeText': '',
+            'shade': 'modal-shade',
+            'width': '',
+            'height': '',
+            'content': ''
+        }, options);
+
+        body = $('body');
+        // set the width dynamically for *all modals
+        setWidth = function(){
+            var width = $(window).width() - 200;
+            $(this).find(".modal-window").css("max-width", width);
+        };
+        // set the height dynamically for *all modals
+        setHeight = function(){
+            var height = $(window).height() - 200;
+            $(this).find(".modal-window").css("max-height", height);
+        };
+
+        closeModal = function(modal, shade){
+            modal.remove();
+            shade.remove();
+        };
+        // generate modal
+        createModal = function(data){
+            var shade, close, widthIs, heightIs, modal;
+            shade = $('<div />', {
+                class: settings.shade
+            }).on('click', function(){
+                // close modal and shade
+                closeModal(modal, shade);
+            });
+
+            widthIs = $({
+                class: settings.width
+            });
+
+            heightIs = $({
+                class: settings.height
+            });
+
+            close = $('<a />', {
+                text: settings.closeText,
+                class: settings.close,
+                href: '#'
+
+            }).on('click', function(e){
+                closeModal(modal, shade);
+                e.preventDefault();
+            });
+
+            modal = $('<div />', {
+                html: data,
+                class: settings.modal
+            }).append(close);
+
+            body.prepend(modal, shade);
+        };
+        // event listener agnostic to any/all global click-events
+        this.on('click', function(e){
+            var self = $(this);
+            // $().load();
+            $.ajax({
+                url: self.data('content'),
+                /*contentType: "application/json; charset=utf-8",*/
+                type: 'get',
+                cache: false,
+                dataType: 'html'
+
+            }).done(function(data){
+                createModal(data);
+            }).error(function(){
+                createModal('There was an ERROR!');
+            });
+            e.preventDefault();
+        });
+    };
+})(jQuery);
