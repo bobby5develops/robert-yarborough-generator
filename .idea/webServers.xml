@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="11028344-7fc0-4896-853c-38c81c719617" name="107.180.55.17" url="http://robert-yarborough.com">
+        <fileTransfer host="www.robert-yarborough.com" port="21" rootFolder="/public_html" username="ryarborough">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
