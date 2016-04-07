@@ -92,7 +92,6 @@
         // event listener agnostic to any/all global click-events
         this.on('click', function(e){
             var self = $(this);
-            // $().load();
             $.ajax({
                 url: self.data('content'),
                 /*contentType: "application/json; charset=utf-8",*/

@@ -1,0 +1,11 @@
+.finderPage#fitshirt {
+    height:616px;
+}
+
+.finderPage#fitshirt .mainimage {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding:0;
+}
+

@@ -1,0 +1,10 @@
+.finderPage#fitsuit {
+   height:616px;
+}
+
+.finderPage#fitsuit .mainimage {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding:0;
+}

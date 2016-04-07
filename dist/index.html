@@ -11,11 +11,13 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!-- Main Content ( Dynamically Load Via: handlebars.js ) -->
+        <!-- Main Content ( Dynamically Load Via: Express ) -->
         <header class="header" role="banner">
             <nav class="nav" role="navigation">
                 <ul class="section group">
@@ -41,12 +43,10 @@
 
                     <div class="col span_12_of_12">
 
-                        <h1 class="section-header"><span>[ </span> latestProjects <span> ]</span></h1>
+                        <h1 class="section-header"> Latest Projects</h1>
 
                         <hr />
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p>
+                        <p></p>
 
                     </div>
 
@@ -60,7 +60,8 @@
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
                                 <a href="#" class="modal" data-content="content/royce.html">
-                                    <img src="img/thumbnail/royce-thumbnail.svg" alt="roycefunds">
+                                    <object height="100%" width="100%" data="img/thumbnail/royce-thumbnail.svg" type="image/svg+xml"></object>
+                                    <!--<img src="img/thumbnail/royce-thumbnail.svg" alt="roycefunds">-->
                                     <div class="overlay"></div>
                                     <div class="portfolio-item-meta">
                                         <h5>Royce Funds</h5>
@@ -74,7 +75,7 @@
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
                                 <a href="#" class="modal" data-content="content/rca.html">
-                                    <img src="img/thumbnail/rca-thumbnail.svg" alt="rca">
+                                    <object height="100%" width="100%" data="img/thumbnail/rca-thumbnail.svg" type="image/svg+xml"></object>
                                     <div class="overlay">
                                         <div class="portfolio-item-meta">
                                             <h5>RCA</h5>
@@ -89,7 +90,7 @@
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
                                 <a href="#" class="modal" data-content="content/zola.html">
-                                    <img src="img/thumbnail/zola-thumbnail.svg" alt="zola">
+                                    <object height="100%" width="100%" data="img/thumbnail/zola-thumbnail.svg" type="image/svg+xml"></object>
                                     <div class="overlay">
                                         <div class="portfolio-item-meta">
                                             <h5>Zola Books</h5>
@@ -104,7 +105,7 @@
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
                                 <a href="#" class="modal" data-content="content/macys-mensguide.html">
-                                    <img src="img/thumbnail/macys-mensguide-thumbnail.svg" alt="macys-mensguide">
+                                    <object height="100%" width="100%" data="img/thumbnail/macys-mensguide-thumbnail.svg" type="image/svg+xml"></object>
                                     <div class="overlay">
                                         <div class="portfolio-item-meta">
                                             <h5>Macys / Mens Guide</h5>
@@ -119,7 +120,7 @@
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
                                 <a href="#" class="modal" data-content="content/macys-falltrendreport.html">
-                                    <img src="img/thumbnail/macys-ftr-thumbnail.svg" alt="macys-falltrendreport">
+                                    <object height="100%" width="100%" data="img/thumbnail/macys-ftr-thumbnail.svg" type="image/svg+xml"></object>
                                     <div class="overlay">
                                         <div class="portfolio-item-meta">
                                             <h5>Macys / Fall Trend Report</h5>
@@ -133,8 +134,8 @@
 
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
-                                <a href="#" class="modal" data-content="content/fruit.html">
-                                    <img src="img/thumbnail/path-thumbnail.svg" alt="path-interactive">
+                                <a href="#" class="modal" data-content="content/path.html">
+                                    <object height="100%" width="100%" data="img/thumbnail/path-thumbnail.svg" type="image/svg+xml"></object>
                                     <div class="overlay">
                                         <div class="portfolio-item-meta">
                                             <h5>Path Interactive</h5>
@@ -148,8 +149,8 @@
 
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
-                                <a href="#" class="modal" data-content="content/fruit.html">
-                                    <img src="img/thumbnail/bluebite-thumbnail.svg" alt="Bluebite">
+                                <a href="#" class="modal" data-content="content/bluebite.html">
+                                    <object height="100%" width="100%" data="img/thumbnail/bluebite-thumbnail.svg" type="image/svg+xml"></object>
                                     <div class="overlay">
                                         <div class="portfolio-item-meta">
                                             <h5>Bluebite</h5>
@@ -163,8 +164,8 @@
 
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
-                                <a href="#" class="modal" data-content="content/fruit.html">
-                                    <img src="img/thumbnail/michaelcfina-thumbnail.svg" alt="Michael C Fina">
+                                <a href="#" class="modal" data-content="content/michaelcfina.html">
+                                    <object height="100%" width="100%" data="img/thumbnail/michaelcfina-thumbnail.svg" type="image/svg+xml"></object>
                                     <div class="overlay">
                                         <div class="portfolio-item-meta">
                                             <h5>Michael C. Fina</h5>
@@ -178,8 +179,8 @@
 
                         <div class="col span_4_of_12 folio-item">
                             <div class="item-wrap">
-                                <a href="#" class="modal" data-content="content/fruit.html">
-                                    <img src="img/thumbnail/iris-thumbnail.svg" alt="Iris Nation">
+                                <a href="#" class="modal" data-content="content/iris.html">
+                                    <object height="100%" width="100%" data="img/thumbnail/iris-thumbnail.svg" type="image/svg+xml"></object>
                                     <div class="overlay">
                                         <div class="portfolio-item-meta">
                                             <h5>Iris Nation</h5>
@@ -200,17 +201,19 @@
 
             </section>
             <!-- end portfolio -->
-            <footer class="footer" role="contentinfo">
-                <h2>Powered By: Robert Yarborough 2016</h2>
+            <footer class="footer yarboroughGrid" role="contentinfo">
+                <div class="row group">
+                    <div class="col span_12_of_12">
+                        <hr />
+                        <h3 class="section-header">Powered By: Robert Yarborough 2016</h3>
+                        <p></p>
+                    </div>
+                </div>
             </footer>
         </div>
 
 
-
-
-
-
-
+        <!--load scripts via gulp task-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

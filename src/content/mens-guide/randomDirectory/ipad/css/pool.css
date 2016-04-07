@@ -1,0 +1,96 @@
+#poolBackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100% !important;
+    height: 100% !important;
+    background-image: url('../images/dressing101/transparentGrey.png');
+    z-index: 111;
+}
+
+#poolBox {
+    background: #fff;
+    position: absolute;
+    top: 32px !important;
+    left: 34px !important;
+    width: 820px;
+    height: 550px;
+}
+
+
+#poolResults {
+	clear: both;
+	-webkit-transform: translate(0px, 0px, 0px);
+	position: relative;
+	overflow: hidden;
+	width: 590px;
+	height: 600px;
+}
+
+#footerContainer #poolResults {
+    width: 900px !important;
+    height: auto !important;
+    position: absolute;
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+#poolHeader {
+	width: 300px;
+	height: 0px;
+	font-family: Conv_ITCAvantGardeStd-Md, arial;
+	font-size: 12px;
+    display:none
+}
+
+#poolHeader DIV {
+	float: left;
+}
+
+#poolHeader DIV#filterDiv {
+	margin-left: 20px;
+
+}
+#poolHeader #compareControls{
+    display: none;
+}
+.poolPagination {
+	text-align: right;
+	font: 14px Arial;
+	color: #333333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.poolPagination .itemsFound {
+    display:none;
+}
+
+.poolPagination .pageNumbers {
+	float: right;
+	text-align:right;
+}
+
+.poolPagination .pageNumbers A {
+	color: #333333;
+	text-decoration: none;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.poolPagination .pageNumbers A:hover, .poolPagination .pageNumbers A.selected {
+	color: #CC0000;
+	text-decoration: underline !important;
+}
+
+#facetsContainer .resetFacet{
+    position: absolute;
+    top: 0px;
+    left: 140px;
+}
+#poolResults .votingRow{
+    cursor: pointer;
+}
+
+

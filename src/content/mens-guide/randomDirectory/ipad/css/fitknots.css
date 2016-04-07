@@ -1,0 +1,18 @@
+.finderPage#fitknots,
+.finderPage#fitknots2,
+.finderPage#fitknots3,
+.finderPage#fitknots4 {
+    height:615px;
+}
+
+
+.finderPage#fitknots .mainimage,
+.finderPage#fitknots2 .mainimage,
+.finderPage#fitknots3 .mainimage,
+.finderPage#fitknots4 .mainimage {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding:0;
+}
+

@@ -1,0 +1,66 @@
+.finderPage#home {
+    height: 614px !important;
+    background-color: #ffffff;
+}
+
+.finderPage#home .title {
+    position: absolute;
+    display:block;
+}
+
+.finderPage#home #man3 {
+    position: absolute;
+    top: 60px;
+    right: 75px;
+}
+.finderPage#home #man2 {
+    position: absolute;
+    top: 60px;
+    right: 167px;
+}
+.finderPage#home #man1 {
+    position: absolute;
+    top: 60px;
+    right: 275px;
+}
+.finderPage#home #title_guide {
+    left: 35px;
+    top: 530px;
+}
+
+.finderPage#home #title_sub {
+    left: 100px;
+    top: 250px;
+}
+
+.finderPage#home #title_transparent {
+    left: 80px;
+    top: 540px;
+}
+
+.finderPage#home .menuBotton {
+    display: pointer;
+}
+
+.finderPage#home #white {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 900px;
+    height: 700px;
+    background-color: white;
+}
+
+.finderPage#home .menuBotton{
+    position:absolute;
+    top: 300px;
+    right: 20px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.finderPage#home .menuBotton img {
+    padding-bottom: 35px;
+}

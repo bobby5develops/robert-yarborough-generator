@@ -1,0 +1,102 @@
+.finderPage#htwhotspot {
+
+}
+
+.finderPage#htwhotspot A,
+.finderPage#htwhotspot IMG {
+    display: block;
+}
+
+
+/***************  control to turn on and off anime buckets   *************/
+
+.finderPage#htwhotspot #animewrapper .animebucket { display: none; }
+
+
+
+
+/***************  TAGS and anything in the absolute div  *************/
+
+
+
+.finderPage#htwhotspot .childrenabsolute > * {
+    position: absolute;
+}
+
+
+
+
+/***************  BLUE coords for tags   *************/
+
+
+.finderPage#htwhotspot .blue .h1_title {
+    top:491px;
+    left: 78px;
+    z-index: 100;
+}
+
+.finderPage#htwhotspot .blue .h2_title {
+    top:108px;
+    left: 410px;
+}
+.finderPage#htwhotspot .blue .man_left {
+    top:2px;
+    left: 38px;
+
+}
+
+/***************  GRAY coords for tags   *************/
+
+.finderPage#htwhotspot .gray .h1_title {
+    top:490px;
+    left: 50px;
+    z-index: 100;
+}
+
+.finderPage#htwhotspot .gray .h2_title {
+    top:108px;
+    left: 410px;
+}
+
+
+/***************  RUSTIC coords for tags   *************/
+
+
+.finderPage#htwhotspot .rustic .h1_title {
+    top:490px;
+    left: 50px;
+    z-index: 100;
+}
+
+.finderPage#htwhotspot .rustic .h2_title {
+    top:160px;
+    left: 415px;
+}
+
+/***************  STREET coords for tags   *************/
+
+
+.finderPage#htwhotspot .street .h1_title {
+    top:490px;
+    left: 50px;
+    z-index: 100;
+}
+
+.finderPage#htwhotspot .street .h2_title {
+    top:108px;
+    left: 410px;
+}
+/***************  coords for tags   *************/
+
+
+/*
+.finderPage#htwhotspot .gray .elementA {
+    top:130px;
+    left: 359px;
+}
+
+.finderPage#htwhotspot .gray .elementA {
+    top:300px;
+    left: 509px;
+}
+*/

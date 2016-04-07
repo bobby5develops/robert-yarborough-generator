@@ -47,7 +47,7 @@
                   cursor: pointer;
                   position: relative;
               }
-              .item-wrap img{
+              .item-wrap object{
                   vertical-align: bottom;
                   width: 100%;
                   -moz-transition: all 0.5s ease-in-out;
@@ -71,6 +71,7 @@
                   -o-transition: opacity 0.5s ease-in-out;
                   -webkit-transition: opacity 0.5s ease-in-out;
                   -ms-transition: opacity 0.5s ease-in-out;
+                  transform: translate3d(0, 0, 0);
                   transition: opacity 0.5s ease-in-out;
               }
               .item-wrap .link-icon{
@@ -96,6 +97,8 @@
                   top: 50%;
                   left: 50%;
               }
+
+
               .portfolio-item-meta {
                   width: 100%;
                   text-align: center;
@@ -130,6 +133,7 @@
               &.folio-item:hover .portfolio-item-meta {
                   filter: alpha(opacity=100);
                   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                  transform: translate3d(0, 0, 0);
                   opacity: 1;
                   zoom: 1;
               }
@@ -138,7 +142,7 @@
                   left: 0;
               }
 
-              &.folio-item:hover .item-wrap img {
+              &.folio-item:hover .item-wrap object {
                   -moz-transform: scale(1.1);
                   -o-transform: scale(1.1);
                   -webkit-transform: scale(1.1);
@@ -149,7 +153,9 @@
 
           }
           &.span_12_of_12{
-
+              p{
+                  color: azure;
+              }
           }
 
 
@@ -168,6 +174,7 @@
   /*  GRID OF TWELVE  */
   .span_12_of_12 {
     width: 100%;
+
   }
 
   .span_11_of_12 {

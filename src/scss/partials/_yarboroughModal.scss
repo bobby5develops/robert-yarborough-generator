@@ -1,61 +1,4 @@
 @import '../modules/_yarboroughGrid.scss';
-/* ==========================================================================
-   Modal utility-grid styles / extending yarboroughGrid 12-col
-   ========================================================================== */
-.row-modal{
-    width: auto;
-    padding: 0;
-
-    & .yarboroughGrid {
-        margin: 0;
-        padding-bottom: 30px;
-        .section-header{
-            margin-top: 12px;
-            margin-bottom: 12px;
-        }
-        p {
-            float: none;
-            padding: 0;
-            width: 100%;
-            color: #A1A1A1;
-            margin-top: 12px;
-            margin-bottom: 12px;
-        }
-
-    }
-
-
-}
-
-.row-modal hr{
-        border: solid #283436;
-        border-width: 3px 0 0;
-        width: 100px;
-        margin: 11px 0 30px;
-        height: 0;
-        clear: both;
-        text-align: left;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        -webkit-transition: all 0.5s ease-in-out;
-        -ms-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
-        &:hover {
-            width: 300px;
-            background: #1e3262;
-            cursor: pointer;
-        }
-
-}
-
-
-.media{
-    & img{
-        width: 100%;
-    }
-}
-
-
 
 /* ==========================================================================
    Modal custom styles
@@ -75,6 +18,7 @@
     animation-duration: 2s;
     animation-name: bounceIn;
 }
+
 
 .modal-close {
     position: absolute;
@@ -109,6 +53,91 @@
 
 
 /* Modal Text & Description */
+.row-modal {
+    width: auto;
+    padding: 0;
+
+    .yarboroughGrid {
+        margin: 0;
+        padding-bottom: 30px;
+        .section-header{
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+        p {
+            float: none;
+            padding: 0;
+            width: 100%;
+            color: #A1A1A1;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+
+    }
+     & hr {
+        border: solid #283436;
+        border-width: 3px 0 0;
+        width: 100px;
+        margin: 11px 0 30px;
+        height: 0;
+        clear: both;
+        text-align: left;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            width: 300px;
+            background: #1e3262;
+            cursor: pointer;
+        }
+
+    }
+    .media {
+        & img{
+            width: 100%;
+        }
+    }
+    .link-box {
+        width: 100%;
+        overflow: hidden;
+        background: #1e3262;
+        a {
+            font: 12px/60px "raleway-heavy", sans-serif;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            cursor: pointer;
+            display: block;
+            text-align: center;
+            float: left;
+            width: 50%;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        a:hover {
+            background: #bf9941;
+            color: #000000;
+            border: none;
+        }
+
+    }
+
+
+}
+
+
+.modal-body{
+    /* ==========================================================================
+   Modal utility-grid styles / extending yarboroughGrid 12-col
+   ========================================================================== */
+
+}
 
 .modal-body p{
     float: left;
@@ -120,6 +149,15 @@
 .modal-footer {
     clear: both;
 }
+
+
+
+
+
+
+
+
+
 
 
 
