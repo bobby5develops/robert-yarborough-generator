@@ -423,7 +423,7 @@ th {
   .yarboroughGrid .col {
     display: block;
     float: left;
-    /*margin: 1% 0 1% 0.8%;*/ }
+    margin: 1% 0 1% 0.5%; }
     .yarboroughGrid .col h1.section-header p {
       margin: 0 auto;
       width: 80%; }
@@ -712,6 +712,9 @@ nav {
 
 .footer {
   background-color: #142344; }
+  .footer a {
+    color: #d6e7f1;
+    text-decoration: none; }
 
 .yarboroughGrid {
   width: auto;
@@ -732,7 +735,7 @@ nav {
   .yarboroughGrid .col {
     display: block;
     float: left;
-    /*margin: 1% 0 1% 0.8%;*/ }
+    margin: 1% 0 1% 0.5%; }
     .yarboroughGrid .col h1.section-header p {
       margin: 0 auto;
       width: 80%; }
