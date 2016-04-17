@@ -600,6 +600,16 @@ nav {
     height: 0; }
   nav #menu-button {
     display: none; }
+  nav.toggle-nav ul.off-canvas {
+    display: none; }
+  nav.show-nav {
+    /* -webkit-transform: translateX(300px);
+         transform: translateX(300px);
+
+         -webkit-transform: translate3d(300px, 0, 0);
+         transform: translate3d(300px, 0, 0);*/
+    -webkit-transform: translate(260px, 0px);
+    transform: translate(260px, 0px); }
   nav.small-screen {
     width: 100%; }
   nav.small-screen > ul,
@@ -715,6 +725,23 @@ nav {
   .footer a {
     color: #d6e7f1;
     text-decoration: none; }
+
+.off-canvas {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.wrapper {
+  position: relative;
+  width: 100%; }
 
 .yarboroughGrid {
   width: auto;

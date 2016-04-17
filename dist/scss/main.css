@@ -426,7 +426,7 @@ th {
         display: block;
         cursor: pointer;
         position: relative; }
-      .yarboroughGrid .col.span_4_of_12 .item-wrap object {
+      .yarboroughGrid .col.span_4_of_12 .item-wrap img {
         vertical-align: bottom;
         width: 100%;
         -moz-transition: all 0.5s ease-in-out;
@@ -505,7 +505,7 @@ th {
         zoom: 1; }
       .yarboroughGrid .col.span_4_of_12.folio-item:hover .portfolio-item-meta {
         left: 0; }
-      .yarboroughGrid .col.span_4_of_12.folio-item:hover .item-wrap object {
+      .yarboroughGrid .col.span_4_of_12.folio-item:hover .item-wrap img {
         -moz-transform: scale(1.1);
         -o-transform: scale(1.1);
         -webkit-transform: scale(1.1);

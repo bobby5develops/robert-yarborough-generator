@@ -40,6 +40,25 @@ nav{
         display: none;
     }
 
+    &.toggle-nav {
+        ul.off-canvas{
+            display: none;
+        }
+    }
+
+    &.show-nav {
+        /* -webkit-transform: translateX(300px);
+         transform: translateX(300px);
+
+         -webkit-transform: translate3d(300px, 0, 0);
+         transform: translate3d(300px, 0, 0);*/
+
+        -webkit-transform: translate(260px, 0px);
+        -moz-transform: translate(260px, 0px);
+        -o-transform: translate(260px, 0px);
+        -ms-transform: translate(260px, 0px);
+        transform: translate(260px, 0px);
+    }
 
 
 
@@ -114,6 +133,7 @@ nav{
   ul {
       list-style: none;
       background: #1e3262;
+
     li {
         display: inline-block;
         float: left;
