@@ -25,7 +25,6 @@
 
 
 (function($) {
-
     $.fn.menumaker = function(options) {
 
         var yarboroughNav = $(this), settings = $.extend({

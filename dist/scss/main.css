@@ -426,7 +426,7 @@ th {
         display: block;
         cursor: pointer;
         position: relative; }
-      .yarboroughGrid .col.span_4_of_12 .item-wrap img {
+      .yarboroughGrid .col.span_4_of_12 .item-wrap object {
         vertical-align: bottom;
         width: 100%;
         -moz-transition: all 0.5s ease-in-out;
@@ -505,7 +505,7 @@ th {
         zoom: 1; }
       .yarboroughGrid .col.span_4_of_12.folio-item:hover .portfolio-item-meta {
         left: 0; }
-      .yarboroughGrid .col.span_4_of_12.folio-item:hover .item-wrap img {
+      .yarboroughGrid .col.span_4_of_12.folio-item:hover .item-wrap object {
         -moz-transform: scale(1.1);
         -o-transform: scale(1.1);
         -webkit-transform: scale(1.1);
@@ -560,6 +560,26 @@ th {
     display: inline-block; }
     .nav ul li a {
       color: #000; }
+
+.main_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: 0.30s ease;
+  -moz-transition: 0.30s ease;
+  -o-transition: 0.30s ease;
+  transition: 0.30s ease; }
+  .main_container .show-nav {
+    -webkit-transform: translate(260px, 0px);
+    -moz-transform: translate(260px, 0px);
+    -o-transform: translate(260px, 0px);
+    -ms-transform: translate(260px, 0px);
+    transform: translate(260px, 0px); }
 
 .footer {
   background-color: #142344; }
