@@ -1,0 +1,184 @@
+.finderPage#topgifts {
+
+}
+
+.finderPage#topgifts A,
+.finderPage#topgifts IMG {
+    display: block;
+}
+
+/***************  control to turn on and off anime buckets   *************/
+
+.finderPage#topgifts #animewrapper .animebucket { display: none; }
+
+
+
+
+/***************  TAGS and anything in the absolute div  *************/
+
+
+
+.finderPage#topgifts .childrenabsolute > * {
+    position: absolute;
+}
+
+
+
+
+/***************  LANDING coords for tags   *************/
+
+
+.finderPage#topgifts .topgifts_landing_title{
+    top:37px;
+    left: 83px;
+}
+
+.finderPage#topgifts .animebucket.topgifts .her{
+    top:35px;
+    left: 427px;
+}
+.finderPage#topgifts .animebucket.topgifts .him{
+    top:35px;
+    left: 610px;
+}
+.finderPage#topgifts .animebucket.topgifts .kids{
+    top:35px;
+    left: 795px;
+}
+.finderPage#topgifts .animebucket.topgifts .girls{
+    top:335px;
+    left: 62px;
+}
+.finderPage#topgifts .animebucket.topgifts .guys{
+    top:335px;
+    left: 246px;
+}
+.finderPage#topgifts .animebucket.topgifts .home{
+    top:335px;
+    left: 427px;
+}
+.finderPage#topgifts .animebucket.topgifts .beauty{
+    top:335px;
+    left: 610px;
+}
+.finderPage#topgifts .animebucket.topgifts .cologne{
+    top:335px;
+    left: 795px;
+}
+
+
+/***************  HER coords for tags   *************/
+
+
+.finderPage#topgifts .animebucket.her .topgifts_title_her,
+.finderPage#topgifts .animebucket.him .topgifts_title_him,
+.finderPage#topgifts .animebucket.kids .topgifts_title_him,
+.finderPage#topgifts .animebucket.girls .topgifts_title_girls,
+.finderPage#topgifts .animebucket.guys .topgifts_title_guys,
+.finderPage#topgifts .animebucket.homedecor .topgifts_title_home,
+.finderPage#topgifts .animebucket.beauty .topgifts_title_beauty,
+.finderPage#topgifts .animebucket.cologne .topgifts_title_cologne
+{
+    top:37px;
+    left: 83px;
+}
+
+
+/*********************** Landing Page Rules for Product Pools *************************/
+.finderPage#topgifts .product.notralphlauren .image{
+    border: none !important;
+}
+.finderPage#topgifts .products{
+    position: absolute;
+    top: 127px;
+    left: 80px;
+    width: auto;
+
+}
+
+.finderPage#topgifts .products .product{
+    position: relative;
+    display: inline-block;
+    vertical-align:top;
+    /*width:150px;*/
+    /*height:210px;*/
+    /*overflow: hidden;*/
+    margin-left: 3px;
+    margin-top: 19px;
+    margin-bottom: 18px;
+    left:61px;
+}
+
+.finderPage#topgifts .products .product:first-child{
+    position: relative;
+    width: 291px;
+    display: block;
+    /*overflow: hidden;*/
+    float: left;
+
+    left: 61px !important;
+    margin-top: 16px !important;
+    margin-left: -1px !important;
+
+}
+
+
+.finderPage#topgifts .products .product p.votes{
+    position: absolute;
+}
+
+
+.finderPage#topgifts .products .product:first-child .image{
+    width: 291px;
+    height: 356px;
+    overflow: hidden;
+}
+
+.finderPage#topgifts .products .product .image{
+    width: 113px;
+    height: 134px;
+    overflow: hidden;
+    /*float: right;*/
+
+}
+
+
+.finderPage#topgifts .products .product_image .num_container{
+    z-index: 99999999;
+
+}
+
+
+.finderPage#topgifts .products .product_image .indexcount{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    left: -8px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    box-shadow: grey 1px 1px 1px;
+    top: -8px;
+}
+
+.bigtab{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+.finderPage#topgifts #animewrapper .childrenabsolute img {
+   top: 20px;
+   left: 52px;
+}
+
+
+
+
+.finderPage#topgifts .products .product:first-child .votes {
+
+}

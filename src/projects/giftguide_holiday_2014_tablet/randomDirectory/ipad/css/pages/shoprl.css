@@ -1,0 +1,227 @@
+.finderPage#shoprl {
+
+}
+
+.finderPage#shoprl .products {
+    margin: 63px auto 0 auto;
+    width: 930px;
+}
+
+
+
+/*rl_navigation*/
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container{
+    list-style-type: none;
+}
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.her_btn{
+    width: 190px;
+    height: 34px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 324px;
+    left: 23px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.her_btn span{
+    position: absolute;
+    top: 10px;
+    left: 63px;
+    font-weight: bold;
+}
+
+
+
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.him_btn{
+       width: 190px;
+       height: 34px;
+       border: 1px solid #b7b5b3;
+       color: #000000;
+
+       position: absolute;
+       top: 324px;
+       left: 219px;
+       text-align: center;
+       font-size: 14px;
+       text-transform: uppercase;
+       text-decoration: none;
+
+   }
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.him_btn span{
+    position: absolute;
+    top: 8px;
+    left: 67px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.girls_btn{
+    width: 190px;
+    height: 34px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 324px;
+    left: 416px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.girls_btn span{
+    position: absolute;
+    top: 8px;
+    left: 58px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.boys_btn{
+    width: 190px;
+    height: 34px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 324px;
+    left: 612px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.boys_btn span{
+    position: absolute;
+    top: 8px;
+    left: 58px;
+    font-weight: bold;
+}
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.baby_btn{
+    width: 190px;
+    height: 34px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 324px;
+    left: 808px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.baby_btn span{
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    font-weight: bold;
+}
+
+
+
+
+.finderPage#shoprl .shareButton {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	color: #919191;
+	padding: 5px 9px 5px 9px;
+	font-size: 11px;
+	background-color: #f0efef;
+	text-decoration: none;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+}
+
+.finderPage#shoprl .filterBar {
+	background-color: #cc0000;
+    display: none;
+}
+
+
+/*utility navigation for pools*/
+.finderPage#shoprl .rl_nav_container .selected > * {
+    background: #000000;
+    color: #fff;
+
+}
+
+.finderPage#shoprl .rl_nav_container .selected a span{
+    color: #fff;
+}
+
+.finderPage#shoprl .right_block {
+    position: relative;
+    left: 47px;
+}
+
+.finderPage#shoprl .left_block {
+    position: relative;
+    right: 28px;
+}
+
+
+
+.finderPage#shoprl nav.utilities {
+ position: relative;
+ top: 50px;
+}
+
+.finderPage#shoprl nav.utilities a
+
+.finderPage#shoprl nav.utilities a.favorite_btn ul.utility_bar{
+    float: left;
+    width: 100%;
+    padding: 0;
+    marging: 0;
+    list-style-type: none;
+}
+
+
+
+.finderPage#shoprl nav.utilities li a{
+    padding: 0.2em 0.7em;
+}
+
+.finderPage#shoprl nav.utilities li a:hover{
+    /*background-color: ;*/
+}
+
+.finderPage#shoprl li{
+    display: inline;
+}

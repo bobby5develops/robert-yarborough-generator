@@ -1,0 +1,200 @@
+/* CSS Document */
+
+/*
+font-family:'Didot W01 Roman';
+font-family:'Didot W01 Italic';
+font-family:'Didot W01 Bold';
+font-family:'Didot W01 Headline';
+font-family:'Didot Open Face W01';
+font-family:'Didot W01 Bold Italic';
+font-family:'LinotypeDidotW95-Orname';
+font-family:'AvantGardeGothicITCW01X';
+font-family:'AvantGardeGthcITCW01XLt';
+font-family:'AvantGardeGothicITCW01B 731069';
+font-family:'AvantGardeGothicITCW01B 731072';
+font-family:'AvantGardeGothicITCW01M 731087';
+font-family:'AvantGardeGothicITCW01M 731090';
+font-family:'AvantGardeGothicITCW01D 731075';
+font-family:'AvantGardeGothicITCW01D 731078';
+font-family:'AvantGardeGothicITCW01B 731063';
+font-family:'AvantGardeGothicITCW01B 731066';
+font-family:'ITCAvantGardeW01-CnBk';
+font-family:'ITCAvantGardeW01-CnMd';
+font-family:'ITCAvantGardeW01-CnDm';
+font-family:'ITCAvantGardeW01-CnBd';
+*/
+
+@font-face {
+  font-family: 'symbology';
+  src: url("http://social.macys.com/fonts/Macys-com-Symbology.eot");
+  src: url("http://social.macys.com/fonts/Macys-com-Symbology.eot?#iefix") format("embedded-opentype"), url("http://social.macys.com/fonts/Macys-com-Symbology.woff") format("woff"), url("http://social.macys.com/fonts/Macys-com-Symbology.ttf") format("truetype"), url("http://social.macys.com/fonts/Macys-com-Symbology.svg#symbology") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+BODY {
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+#finderContainer {
+    width: 898px;
+    /*height: 746px;*/
+    position: relative;
+
+    /*border-bottom: 1px solid #666666;*/
+
+    /*background: black;*/
+}
+
+
+#pageContainer {
+    width: 100%;
+    min-height: 580px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*============================SHARING===================*/
+
+.sharing {
+}
+
+.sharing .share {
+    display: inline-block;
+    
+    cursor: pointer;
+}
+
+.sharing .share :first-child {
+    margin-right: 10px;
+}
+
+
+/*============================= REMOVE BORDER FROM IMAGES ===================================*/
+
+#pageContainer a img { border: none; }
+
+
+.image_replacement, .ir {
+    text-indent: -9000px;
+    outline: 0px;
+    border: 0px;
+    overflow: hidden;
+}
+
+A.image_replacement:hover {
+    background-position: bottom !important;
+}
+
+#finderContainer #bodyContainer {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+#finderContainer #bodyContainer .loading {
+    position: absolute;
+    background: #efefef;
+    top: 0px;
+    left: 0px;
+    z-index: 595;
+    width: 100%;
+}
+
+#finderContainer #bodyContainer #overlay {
+    position: absolute;
+    left: 0px;
+    z-index: 595;
+    width: 100%;
+    /*height: 1200px;*/
+    background: white;
+    -moz-opacity: 0;
+    -webkit-opacity: 0;
+    -o-opacity: 0;
+    opacity: 0;
+    filter: alpha(opacity = 70);
+    zoom: 1;
+}
+
+.finderPage #pageOverlay {
+    position: absolute;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+    /*height: 100%;*/
+    background: white;
+    -moz-opacity: .7;
+    -webkit-opacity: .7;
+    -o-opacity: .7;
+    opacity: .7;
+    filter: alpha(opacity = 70);
+    zoom: 1;
+}
+
+#finderContainer #bodyContainer .loading #loadingMessage {
+    position: absolute;
+    top: 100px;
+    left: 306px;
+    background: url("../images/loading.png");
+    color: white;
+    z-index: 999;
+    width: 288px;
+    height: 168px;
+    text-align: center;
+}
+
+#finderContainer #bodyContainer .loading #loadingMessage IMG {
+    margin-top: 100px;
+}
+
+.being_animated * {
+    visibility: inherit;
+}
+
+
+.facetTabsContainer {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 11px;
+}
+
+.facetTabsContainer .filter {
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.facetTabsContainer .filter.active {
+    color: blue;
+}
+
+A {
+    outline: 0px;
+    border: 0px;
+}
+/*=============
+font-family:'AvantGardeGothicITCW01X';
+font-family:'AvantGardeGthcITCW01XLt';
+font-family:'AvantGardeGothicITCW01B 731069';
+font-family:'AvantGardeGothicITCW01B 731072';
+font-family:'AvantGardeGothicITCW01M 731087';
+font-family:'AvantGardeGothicITCW01M 731090';
+font-family:'AvantGardeGothicITCW01D 731075';
+font-family:'AvantGardeGothicITCW01D 731078';
+font-family:'AvantGardeGothicITCW01B 731063';
+font-family:'AvantGardeGothicITCW01B 731066';
+font-family:'ITCAvantGardeW01-CnBk';
+font-family:'ITCAvantGardeW01-CnMd';
+font-family:'ITCAvantGardeW01-CnDm';
+font-family:'ITCAvantGardeW01-CnBd';
+=====*/
+

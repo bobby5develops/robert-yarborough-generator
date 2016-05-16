@@ -1,0 +1,23 @@
+.finderPage#trueblues{
+	background : url('../images/trueblues/bg.jpg') no-repeat;
+	height:657px!important;
+	position:relative;
+}
+.finderPage#trueblues img#onestar{
+	position:absolute;
+	top:390px;
+	left:26px;
+}
+.finderPage#trueblues img#trendreport{
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+.finderPage#trueblues div.plusDot#plusDot1{
+	top:240px;
+	left:265px;
+}
+.finderPage#trueblues div.plusDot#plusDot2{
+	top:170px;
+	left:665px;
+}

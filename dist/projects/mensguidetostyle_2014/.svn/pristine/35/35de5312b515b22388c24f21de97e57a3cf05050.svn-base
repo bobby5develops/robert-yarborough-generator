@@ -1,0 +1,31 @@
+<div id="fitshirtfitted" class="finderPage">
+
+    <img usemap="#fitshirtfittedMap" class="mainimage" src="randomDirectory/images/fitshirtfitted/mainshirt_f.jpg">
+
+    <div class="nextNavButton">
+        <a href="#/fitshirtclassic" track="fitshirtclassic">
+            <img src="randomDirectory/images/next_blk.png" alt="next" border="0">
+        </a>
+    </div>
+
+    <div class="prevNavButton">
+        <a href="#/fitshirtslim" track="fitshirtslim">
+            <img src="randomDirectory/images/prev_blk.png" alt="previous" border="0">
+        </a>
+    </div>
+
+</div>
+<map name="fitshirtfittedMap" id="fitshirtfittedMap">
+    <area shape="rect" coords="593,126,665,146" track="shop" alt="Alfani Red"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DAlfani%26SHIRT_FIT%3DFitted%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="663,125,776,147" track="shop" alt="Geoffrey Beene"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DGeoffrey%20Beene%26SHIRT_FIT%3DFitted%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="474,145,561,170" track="shop" alt="Van Heusen"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DVan%20Heusen%26SHIRT_FIT%3DFitted%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="561,145,645,169" track="shop" alt="Hugo Boss"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DHugo%20Boss%26SHIRT_FIT%3DFitted%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="458,505,647,541" track="shop"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=SHIRT_FIT%3DFitted%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="653,504,784,540" track="viewallfits"
+    href="#/fitshirt"/>
+</map>

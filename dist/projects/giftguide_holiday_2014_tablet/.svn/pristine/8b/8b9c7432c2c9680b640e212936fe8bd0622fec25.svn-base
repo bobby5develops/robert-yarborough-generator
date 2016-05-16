@@ -1,0 +1,45 @@
+	.scrollerTransition {
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 200ms ease-out;
+		-o-transition: all 200ms ease-out;
+	}
+	
+	.scrollme {
+		
+	}
+	
+	.scrollerBarContainer {
+		background: url('../images/scroll/scrollbarContainer.png');
+		background-repeat: repeat-y;
+		background-position: right;
+	}
+	.scrollerScrollbar {
+		background: red;
+		height: 45px;
+		width: 16px;
+		background: url('../images/scroll/scrollbar.png');
+		cursor: pointer;
+	}
+	
+	.scrollerTopFade {
+		background: url('../images/scroll/topfade.png');
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 40px;
+		display: none;
+	}
+	
+	.scrollerBottomFade {
+		background: url('../images/scroll/bottomfade.png');
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		height: 40px;
+	}
+	
+	.scrollingContent {
+		-moz-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+	}

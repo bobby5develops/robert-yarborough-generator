@@ -1,0 +1,209 @@
+.finderPage#hotList {
+    width:900px;
+    height: 615px;
+    /*background-image: url('../images/hotList/FPO.jpg');*/
+}
+
+.finderPage#hotList #menu{
+    position:relative;
+}
+
+.finderPage#hotList #copy {
+    position: absolute;
+    top: 335px;
+    left: 300px;
+    outline: none;
+}
+
+/*================================= TITLE ==================================*/
+
+.finderPage#hotList .shopall {
+    position: absolute;
+    top: 277px;
+    left: 192px;
+}
+
+.finderPage#hotList .shopall a {
+    position: absolute;
+    width:80px;
+    height:20px;
+
+    background-image: url('../images/transparent.png');
+    bottom: 0px;
+    right: 73px;
+}
+
+
+/*============================== ITEM LINKS ==============================*/
+.finderPage#hotList .item{
+    position: absolute;
+}
+
+.finderPage#hotList .item a p{
+    position: absolute;
+    text-decoration: underline;
+    color: #000000;
+    font-family:'AvantGardeGothicITCW01M 731087';
+    font-size: 13px;
+    margin: 0;
+}
+
+.finderPage#hotList .item1 {
+    top: 25px;
+    left: 25px;
+    display: block;
+}
+
+.finderPage#hotList .item2 {
+    top: 25px;
+    left: 255px;
+}
+
+.finderPage#hotList .item3 {
+    top: 12px;
+    left: 540px;
+}
+
+.finderPage#hotList .item4 {
+    top: 270px;
+    left: 710px;
+}
+
+.finderPage#hotList .item5 {
+    top: 415px;
+    left: 300px;
+}
+
+.finderPage#hotList .item6 {
+    top: 312px;
+    left: 10px;
+}
+
+.finderPage#hotList .item7 {
+    top: 247px;
+    left: 0;
+}
+
+
+/*===================================== POOL ========================================*/
+
+.finderPage#hotList #poolBackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 900px;
+    height: 600px;
+    background-image: url('../images/dressing101/transparentGrey.png');
+    z-index: 300;
+    display: none;
+}
+
+.finderPage#hotList #poolBox {
+    background: #fff;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    width: 820px;
+    height: 550px;
+}
+
+.finderPage#hotList #poolTitle {
+    height: 40px;
+}
+
+.finderPage#hotList #poolHeader {
+    position: absolute;
+    top: -28px;
+    left: 10px;
+    width: 220px;
+}
+
+.finderPage#hotList #close {
+    position: absolute;
+    right: 7px;
+    top: 4px;
+    cursor: pointer;
+}
+
+.finderPage#hotList #poolHeader {
+    float: right;
+    width: 750px;
+}
+
+.finderPage#hotList #poolPaginationTop{
+    float: right;
+}
+
+.finderPage#hotList .poolPaginationTop {
+
+}
+
+.finderPage#hotList #classic_poolContainer {
+    position: absolute;
+    top: 60px;
+    left:0px;
+}
+
+.finderPage#hotList #poolResults {
+    width: 800px;
+    height: 480px;
+    left: 10px;
+}
+
+.finderPage#hotList .touchScrollBottomFade, .touchScrollTopFade {
+    position: absolute;
+    left: 5px;
+}
+
+.finderPage#hotList .giftListRow{
+    display:none !important;
+}
+
+.finderPage#hotList #poolTitle {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+/*============================ SUB NAV ===================*/
+
+.finderPage#hotList #closesubNav{
+    position: absolute;
+    top:-20px;
+    left:0px;
+    display: none;
+    height:155px;
+    width:900px;
+    padding-left:12px;
+    background: none;
+}
+
+.finderPage#hotList #subNav{
+    position: absolute;
+    top:0px;
+    left:98px;
+    display: none;
+    height:27px;
+    width:697px;
+    padding-left:12px;
+    background: none;
+    *border:1px solid #d3d3d3;
+}
+
+.finderPage#hotList #subNav .imgholder{
+    position: absolute;
+    height:27px;
+    width:697px;
+    padding-left:-15px;
+    background: none;
+    -moz-border-radius : 0px; /* Firefox */
+    -webkit-border-radius : 0px; /* Safari & Chrome */
+    -khtml-border-radius : 0px; /* Linux browsers */
+    border-radius : 0px; /* CSS3 compatible browsers */
+    -moz-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+    -webkit-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+    box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+}

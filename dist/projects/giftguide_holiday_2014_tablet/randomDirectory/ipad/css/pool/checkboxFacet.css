@@ -1,0 +1,109 @@
+.facet.checkboxField SPAN {
+	color: #000000;
+	text-transform: uppercase;
+	font: 14px Arial;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.facet.checkboxField.color {
+	width: 362px;
+}
+.facet.checkboxField.color LI {
+	float: left;
+}
+
+
+
+.facet.checkboxField LI INPUT {
+	display: none;
+}
+
+.facet.checkboxField LI {
+	height: 14px;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-image: url("../images/pool/colorScale.png");
+	margin-bottom: 5px;
+
+	line-height: 14px;
+	width: 100px;
+
+}
+
+.facet.checkboxField LI.white {
+	background-position: 0px -14px;
+}
+.facet.checkboxField LI.brownbeige {
+	background-position: 0px -28px;
+}
+.facet.checkboxField LI.black {
+	background-position: 0px -42px;
+}
+.facet.checkboxField LI.graysilver {
+	background-position: 0px -56px;
+}
+.facet.checkboxField LI.green {
+	background-position: 0px -70px;
+}
+.facet.checkboxField LI.red {
+	background-position: 0px -84px;
+}
+.facet.checkboxField LI.purple {
+	background-position: 0px -98px;
+}
+.facet.checkboxField LI.pink {
+	background-position: 0px -112px;
+}
+.facet.checkboxField LI.yelloworange {
+	background-position: 0px -126px;
+}
+.facet.checkboxField LI.blue {
+	background-position: 0px -140px;
+}
+.facet.checkboxField LI.multiprint {
+	background-position: 0px -154px;
+}
+
+.facet.checkboxField LI.white.toggled {
+	background-position: -214px -14px;
+}
+.facet.checkboxField LI.brownbeige.toggled {
+	background-position: -214px -28px;
+}
+.facet.checkboxField LI.black.toggled {
+	background-position: -214px -42px;
+}
+.facet.checkboxField LI.graysilver.toggled {
+	background-position: -214px -56px;
+}
+.facet.checkboxField LI.green.toggled {
+	background-position: -214px -70px;
+}
+.facet.checkboxField LI.red.toggled {
+	background-position: -214px -84px;
+}
+.facet.checkboxField LI.purple.toggled {
+	background-position: -214px -98px;
+}
+.facet.checkboxField LI.pink.toggled {
+	background-position: -214px -112px;
+}
+.facet.checkboxField LI.yelloworange.toggled {
+	background-position: -214px -126px;
+}
+.facet.checkboxField LI.blue.toggled {
+	background-position: -214px -140px;
+}
+.facet.checkboxField LI.multiprint.toggled {
+	background-position: -214px -154px;
+}
+
+.facet.checkboxField LI.toggled {
+	background-position: -214px 0px;
+}
+
+
+
+

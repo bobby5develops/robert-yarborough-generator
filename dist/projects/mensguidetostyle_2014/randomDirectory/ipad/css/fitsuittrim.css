@@ -1,0 +1,9 @@
+.finderPage#fitsuittrim {
+    height:616px;
+}
+.finderPage#fitsuittrim .mainimage {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding:0;
+}

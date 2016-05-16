@@ -1,0 +1,69 @@
+.finderPage#home{
+	background : url('../images/home/fall_bg.jpg') no-repeat;
+	height:659px!important;
+	position:relative;
+}
+.finderPage#home img#onestar{
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+.finderPage#home img#trendreport{
+	position:absolute;
+	top:25px;
+	right:25px;
+}
+.finderPage#home ul.sections{
+	position:absolute;
+	top:518px;
+	left:0;
+	width:898px;
+	border:1px solid #000;
+	border-top:0px;
+	border-bottom:0px;
+	height:141px;
+	background-color:#fff;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+.finderPage#home ul.sections li{
+	display:block;
+	float:left;
+	width:125px;
+	height:140px;
+	*height:120px;
+	margin:0;
+	padding:10px 0 0 0;
+	text-align:center;
+	font-size:11px;
+	position:relative;
+}
+.finderPage#home ul.sections li a{
+	display:block;
+}
+.finderPage#home ul.sections li img{
+	clear:both;
+}
+.finderPage#home ul.sections li p{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:20px;
+	*bottom:0px;
+	margin:0;
+	padding:0;
+	color:#000;
+	text-decoration:underline;
+	text-transform:uppercase;
+	clear:both;
+	left:0;
+}
+p.findStore{
+	margin:10px auto;
+	text-align:center;
+	font-size:13px;
+}
+p.findStore a{
+	color:#000;
+}

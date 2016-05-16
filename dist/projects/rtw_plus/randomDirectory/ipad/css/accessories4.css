@@ -1,0 +1,18 @@
+.finderPage#accessories4 {
+	height:659px;
+	width:900px;
+	background-image:url('../images/accessories4/bg.jpg');
+	background-repeat:no-repeat;
+}
+
+
+.finderPage#accessories4 .section p{
+    position: absolute;
+    width: 300px !important;
+    font-size: 14px !important;
+}
+
+.finderPage#accessories4 .section a{
+    position: relative;
+    top: 70px;
+}

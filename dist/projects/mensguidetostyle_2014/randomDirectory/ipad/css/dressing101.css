@@ -1,0 +1,127 @@
+.finderPage#dressing101 {
+    height: 616px;
+}
+
+.fitbackground {
+    /*background: url('../images/dressing101/fitbackground.jpg') 0 0 no-repeat;*/
+    background:#fff;
+}
+
+.finderPage#dressing101 #backgroundImage {
+    background-image: url('../images/dressing101/tile.png');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 900px;
+    height: 650px;
+}
+
+.finderPage#dressing101 #main #title {
+    position: absolute;
+    top: 50px;
+    left: 315px;
+}
+
+.finderPage#dressing101 #main #sub {
+    position: absolute;
+    top: 105px;
+    left: 210px;
+}
+
+.finderPage#dressing101 #main .click {
+    cursor: pointer
+}
+.finderPage#dressing101 #main .main-link{
+    top:375px;
+    position:absolute;
+    margin-left:30px;
+}
+.finderPage#dressing101 .chowto {
+    position: absolute;
+    top: 150px;
+    left: 87px;
+    margin: 10px;
+}
+
+.finderPage#dressing101 .ccheckList {
+    position: absolute;
+    top: 150px;
+    left: 336px;
+    margin: 10px;
+}
+
+.finderPage#dressing101 .cfitGuide {
+    position: absolute;
+    top: 150px;
+    left: 585px;
+    margin: 10px;
+}
+
+.finderPage#dressing101 .howto, .checkList, .fitGuide {
+    background-image: url('../images/dressing101/transparentGrey.png');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 900px;
+    height: 600px;
+    display: none;
+}
+
+.finderPage#dressing101 .howto img {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
+.finderPage#dressing101 #checkListImage {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+
+.finderPage#dressing101 .checkList #ul {
+    list-style: none;
+    position: absolute;
+    top: 130px;
+    left: 70px;
+}
+
+.finderPage#dressing101 .checkList .li {
+    height: 30px;
+}
+
+.finderPage#dressing101 #suit img, #shirt img {
+    position: absolute;
+    top: 25px;
+    left: 16px;
+}
+
+.finderPage#dressing101 #closeChecllist {
+    position: absolute;
+    top: 20px;
+    left: 667px;
+    cursor: pointer;
+}
+
+.finderPage#dressing101 #printChecllist {
+    position: absolute;
+    top: 500px;
+    left: 330px;
+    cursor: pointer;
+    display: none;
+}
+
+.finderPage#dressing101 #forPrint {
+    width: 500px;
+    height: 527px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    z-index: 0;
+}
+
+.finderPage#dressing101 #printMe {
+    position: absolute;
+    top: 2330px;
+    left: 4030px;
+}

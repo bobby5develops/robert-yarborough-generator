@@ -1,0 +1,56 @@
+.poolPagination .pageNumbers {
+    position: absolute;
+    right: 10px;
+}
+.poolPagination .itemsFound {
+	visibility:hidden;
+	display:none;
+}
+#facetsContainer {
+	width:100%;
+	min-height:15px;
+	margin:25px 0;
+	clear:both;
+}
+.facetTitle {
+	visibility:hidden;
+	display:none;
+}
+.facetTabsContainer LI , #fake_facets li{
+	font-family: Conv_ITCAvantGardeStd-Md, arial;
+	display:inline;
+	font-size:11px;
+	font-weight:bold;
+	line-height:15px;
+	float:left;
+	padding:3px 8px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	margin-right:5px;
+	color:#111;
+}
+.facetTabsContainer LI.toggled, #fake_facets li.toggled, #fake_facets li:hover {
+	background-color:#000000;
+	color:#FFF;
+}
+#fake_facets{
+	display:none;
+	position:absolute;
+	top:9px;
+	*top:40px;
+	left:60px;
+	z-index:30;
+}
+#fake_facets li a{
+	text-decoration:none;
+	color:#000;
+}
+#fake_facets li:hover a, #fake_facets li.toggled a{
+	color:#fff;
+}
+
+.facetTabsContainer LI>INPUT {
+	visibility:hidden;
+	display:none;
+}
+

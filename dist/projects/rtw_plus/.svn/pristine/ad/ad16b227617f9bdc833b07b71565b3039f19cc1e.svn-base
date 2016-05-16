@@ -1,0 +1,23 @@
+.finderPage#blackandwhite{
+	background : url('../images/blackandwhite/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#blackandwhite img#onestar{
+	position:absolute;
+	top:520px;
+	left:20px;
+}
+.finderPage#blackandwhite img#trendreport{
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+.finderPage#blackandwhite div.plusDot#plusDot1{
+	top:215px;
+	left:550px;
+}
+.finderPage#blackandwhite div.plusDot#plusDot2{
+	top:170px;
+	left:645px;
+}

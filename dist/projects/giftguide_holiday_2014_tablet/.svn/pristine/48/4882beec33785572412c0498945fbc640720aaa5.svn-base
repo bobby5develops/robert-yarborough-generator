@@ -1,0 +1,136 @@
+
+var GgFinder = MacysFinder.extend({
+
+
+    setup: function(){
+    	this.defaultPage = this.getConfig().defaultPage;
+
+
+        /* GLOBAL EVENT HANDLERS GO HERE */
+        finder.autotracker = new AutoTracker();
+
+        /* END GLOBAL EVENT HANDLERS */
+
+
+        this.navView();   // all code for running the nav should be associeted with a navView
+
+
+
+        this.startFinder();
+    },
+
+
+
+
+
+
+
+    navView : function(){
+
+
+
+
+        // as per bb view, first we set $el
+        var $el = $('#navContainer');
+        // now set listeners for each button and apply click logic
+        $el.find('.navitem').on('click', function(){
+            // first get the desc attribute off the element which may exist or be null
+            var desc = $(this).attr('desc');
+            if (!desc) desc = '';
+            //console.log('desc = ', desc);
+            // check to see if we are clicking on something that does NOT have a dropdown
+            if (   !$(this).hasClass('hasdropdown') ) {
+                // if no dropdown then kill all dropdowns
+                $el.find('.dropdownimage').removeClass('active');
+            } else {
+                // toggle the dropdowns active class and kill active on all siblings
+                $el.find('.dropdownimage.'+desc).toggleClass('active').siblings().removeClass('active');
+            }
+        });
+
+        //$('#navContainer').on()
+
+
+
+    },
+
+
+
+
+
+    
+    pageChanged: function(page){
+        this.highlightSelected(page);
+
+        // close all drop downs on any page load
+        $('#navContainer').find('.dropdownimage').removeClass('active');
+
+    },
+    
+    highlightSelected: function(page){
+        
+    },
+	
+	getConfig: function() {
+		return SiteConfig;
+	}
+    
+})
+
+
+var PoolHelper = Class.extend({
+    
+	parseEntry: function(entry) {
+		
+		/*
+		if (entry.pfeed_specialsizes && !(entry.pfeed_specialsizes instanceof Array))
+			entry.pfeed_specialsizes = entry.pfeed_specialsizes.split(",");
+			
+		if (entry.pfeed_color && !(entry.pfeed_color instanceof Array))
+			entry.pfeed_color = entry.pfeed_color.split(",");
+			
+			
+		// parse teh color size etc...
+		entry.colorSize = {};
+		if (entry.pfeed_colorsizeex) {
+			
+			var upcs = [];
+			if (entry.pfeed_colorsizeexupc) {
+				upcs = jQuery.parseJSON(entry.pfeed_colorsizeexupc);
+			}
+			
+			var skus = [];
+			if (entry.pfeed_colorsizeexskuid) {
+				skus = jQuery.parseJSON(entry.pfeed_colorsizeexskuid);
+			}
+			
+			var colorSizes = entry.pfeed_colorsizeex.replace(/\],\[/gi, "]|[").split("|");
+			for (var i = 0; i < colorSizes.length; i++) {
+				var item = colorSizes[i].replace("[", "").replace("]", "").split(",");
+				entry.colorSize[item[0]+"_"+item[1]] = {
+					color: item[0],
+					size: item[1],
+					id: upcs[i] ? upcs[i] : "",
+					skuid: skus[i] ? skus[i] : ""
+				}
+			}
+			
+			if (entry.pfeed_upcs) {
+				upcs = jQuery.parseJSON(entry.pfeed_upcs);
+				for (var i = 0; i < upcs.length; i++) {
+					var thisItem = upcs[i];
+					if (entry.colorSize[thisItem.color + "_" + thisItem.size]) {
+						jQuery.extend(entry.colorSize[thisItem.color + "_" + thisItem.size], thisItem);
+					} else {
+						entry.colorSize[thisItem.color + "_" + thisItem.size] = thisItem;
+					}
+					
+				}
+			}
+
+		}
+		*/	
+	}
+	
+});
+

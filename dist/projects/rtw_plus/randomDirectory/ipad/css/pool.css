@@ -1,0 +1,84 @@
+
+#poolResults {
+	/*clear: both;
+	-webkit-transform: translate(0px, 0px, 0px);
+	position: relative;*/
+	width: 800px;
+	min-height:295px;
+	padding-left : 0px; 
+}
+
+#poolHeader, #poolFooter {
+	width: 800px;
+	clear:both;
+	font-family: Conv_ITCAvantGardeStd-Md, arial;
+	font-size: 12px;
+	padding-left : 10px; 
+	
+}
+ #poolFooter{
+	float:left;
+	height:100px;
+}
+
+#poolHeader DIV#filterDiv {
+	margin-left: 20px;
+	
+}
+
+.poolPagination {
+	text-align: right;
+	font: 14px Arial;
+	color: #333333;
+	width : 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.productListing .votingRow{
+	color : #CCC;
+	margin-top : 10px; 
+}
+
+div.poolSpecialOffer{
+	color : white; 
+	background-color : red; 
+	font-weight : arial; 
+	font-size : 11px; 
+	padding: 5px; 
+	width : 70px;
+}
+
+.voteCount{
+	border : 1px solid #CCC; 
+	padding : 5px; 
+	margin-top : -7px;	
+}
+
+.poolPagination .itemsFound {
+	float: left;
+}
+
+.productListing .label a{
+	text-decoration : none;
+}
+
+.poolPagination .pageNumbers {
+	float: right;
+	text-align:right;
+}
+
+.poolPagination .pageNumbers A:hover, {
+	color: #CC0000;
+	text-decoration: underline !important;
+}
+
+.poolPagination .pageNumbers A.selected{
+	color: #222;
+}
+
+span.lovethis{
+	cursor:pointer; 	
+}
+
+

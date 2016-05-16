@@ -1,0 +1,235 @@
+.finderPage#suitsMK {
+    height: 613px;
+    overflow: hidden;
+    /*background-image: url('../images/wearsuit/FPO.jpg');*/
+}
+.finderPage#suitsMK .panelHolder{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.finderPage#suitsMK .panel{
+    position: absolute;
+    height: 615px;
+    width: 898px;
+    float:left;
+    display: block;
+    text-align: center;
+}
+
+/*======================== PANEL 1 ===================*/
+
+.finderPage#suitsMK .panel.p1 {
+    top: 0;
+    left: 0;
+    width:227px;
+    z-index: 7;
+    position:absolute;
+}
+
+/*======================== PANEL 2 ===================*/
+
+.finderPage#suitsMK .p2{
+    top: 9px;
+    left: 390px;
+    width:329px;
+    z-index: 6;
+    position:absolute;
+}
+
+/*======================== PANEL 3 ===================*/
+
+.finderPage#suitsMK .p3{
+    top: 0;
+    left: 0;
+    width:387px;
+    z-index: 5;
+}
+
+/*======================== PANEL 4 ===================*/
+
+.finderPage#suitsMK .p4{
+    top: 0;
+    right: 0;
+    width:898px;
+}
+
+.finderPage#suitsMK #title{
+    position: absolute;
+    left: 197px;
+    bottom: 320px !important;
+    z-index: 8;
+}
+
+.finderPage#suitsMK #clicktosee{
+    position: absolute;
+    left: 18px;
+    bottom: 4px;
+}
+
+
+/*============================ SUB NAV ===================*/
+
+.finderPage#suitsMK #closesubNav{
+    position: absolute;
+    top:-20px;
+    left:0px;
+    display: none;
+    height:155px;
+    width:900px;
+    padding-left:12px;
+    background: none;
+}
+
+.finderPage#suitsMK #subNav{
+    position: absolute;
+    top:0px;
+    left:98px;
+    display: none;
+    height:27px;
+    width:697px;
+    padding-left:12px;
+    background: none;
+    border:1px solid #d3d3d3\9;
+    z-index: 10;
+}
+
+.finderPage#suitsMK #subNav .imgholder{
+    position: absolute;
+    height:27px;
+    width:697px;
+    padding-left:-15px;
+    background: none;
+    -moz-border-radius : 0px; /* Firefox */
+    -webkit-border-radius : 0px; /* Safari & Chrome */
+    -khtml-border-radius : 0px; /* Linux browsers */
+    border-radius : 0px; /* CSS3 compatible browsers */
+    -moz-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+    -webkit-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+    box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+}
+
+.finderPage#suitsMK #poolBackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 900px;
+    height: 600px;
+    background-image: url('../images/dressing101/transparentGrey.png');
+    z-index: 111;
+}
+
+.finderPage#suitsMK  #classic_poolBackground {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 900px;
+    height: 650px;
+    border: 1px solid #CCC;
+    background-color: white;
+}
+
+.finderPage#suitsMK  #classic_poolContainer {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 860px;
+    height: 545px;
+    background-color: #ffffff;
+}
+
+.finderPage#suitsMK #classic_poolContainer #poolResults {
+    height: 500px !important;
+    width: 830px !important;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: white;
+}
+
+.finderPage#suitsMK  #classic_poolContainer #poolHeader {
+    position: absolute;
+    top: 15px;
+    left: 550px;
+    width: 280px;
+}
+
+.finderPage#suitsMK  #classic_poolContainer #poolHeader #poolPaginationTop {
+    margin: 0 !important;
+    margin-right: 5px !important;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.finderPage#suitsMK  #classic_poolContainer #poolHeader #poolPaginationTop .itemsFound {
+    padding-right: 5px;
+}
+
+.finderPage#suitsMK  #classic_poolContainer #poolHeader #poolPaginationTop .nextPage {
+    padding-right: 5px;
+}
+
+.finderPage#suitsMK #poolResults  .giftListRow, .addToBridalParty {
+    display: none;
+}
+
+.finderPage#suitsMK .facetTitle {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.finderPage#suitsMK .facetTabsContainer {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 11px;
+}
+
+.finderPage#suitsMK #facetsContainer LI {
+    text-decoration: underline;
+!important margin-left : 20 px;
+    margin-right: 10px;
+}
+
+.finderPage#suitsMK #facetsContainer LI.toggled {
+    color:blue;
+}
+
+.finderPage#suitsMK #facetsContainer LI INPUT {
+    display: none;
+}
+
+.finderPage#suitsMK #close {
+    position: absolute;
+    left: 824px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.finderPage#suitsMK .facetTabsContainer li {
+    float: left;
+}
+
+.finderPage#suitsMK .secondTitle{
+    left:5px;
+    top: 370px;
+}
+.finderPage#suitsMK #classic .secondTitle{
+    left:5px;
+    top: 380px;
+}
+.finderPage#suitsMK .firstTitle{
+    left:5px;
+    top: 442px;
+}
+.finderPage#suitsMK .tooltip .sharing img{
+    margin-right:10px;
+}

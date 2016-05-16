@@ -1,0 +1,297 @@
+<script language="javascript">
+	function getVoteCopy(o){
+		var voteMsg = '';
+		if(o.inVoteList){
+			if(o.votes-1==0){
+				voteMsg = 'You love this';
+			} else if(o.votes-1==1){
+				voteMsg = 'You &amp; 1 other love this!';
+			} else {
+				voteMsg = 'You and '+(o.votes-1)+' others love this';
+			}
+		} else {
+			if(o.votes==0){
+				voteMsg = 'love it';
+			} else if(o.votes==1){
+				voteMsg = '1 loves this';
+			} else {
+				voteMsg = o.votes+' love this';
+			}
+		}
+		return voteMsg;
+	}
+</script>
+
+<script id="productTopGifts" type="text/html">
+	<div class="product notralphlauren" {{if $data.containerClass!='offer'}} entryId="${$data.entryId}" {{/if}} productId="${$data.pfeed_id}" {{if $data.containerClass=='offer'}} tracking="${$data.tracking}"{{/if}}>
+		<div class="product_image">
+			<!--<img class="topgift_header" src="${assetsDirectory}images/pool/topgifts_hgg.png"/>-->
+			<a entryId="${$data.entryId}" productId="${$data.pfeed_id}" {{if finder.isTablet()}}role="skavaInteropQuickView" href="javascript:void(0)"{{else}}href="${$data.pfeed_url}"{{/if}}  {{if $data.containerClass=='offer'}}target="${$data.target}"{{else}}target="_blank"{{/if}}>
+				<img class="image" src="${String($data.image_fullImage).replace(/wid=(.*?)&/gi, 'wid=190&')}" />
+			</a>	
+			{{if $data.pfeed_productvideo != ''}}
+				<div entryId="${$data.entryId}" productId="${$data.pfeed_id}" onclick="finder.insertProductVideo({id:'${$data.pfeed_productvideo}' })" class="product_video_btn product_button_base">
+					<div class="arrow-right"></div>
+				</div>
+			{{/if}}
+		
+			<div class="quickview product_button_base" entryId="${$data.entryId}" productId="${$data.pfeed_id}" role="skavaInteropQuickView">Quickview</div>
+		
+		</div>
+		<div class="label">
+			<a href="${pfeed_url}" target="_blank">
+				${label}
+			</a>
+		</div>
+		{{if finder.isInternational && skShipping && skShipping.getLocalizedPriceEx}}
+			{{if $data.pfeed_price1}}<p class="price price1">${skShipping.getLocalizedPriceEx($data.pfeed_price1)}</p>{{/if}}
+			{{if $data.pfeed_price2}}<p class="price price2">${skShipping.getLocalizedPriceEx($data.pfeed_price2)}</p>{{/if}}
+			{{if $data.pfeed_price3}}<p class="price price3">${skShipping.getLocalizedPriceEx($data.pfeed_price3)}</p>{{/if}}
+		{{else}}
+			{{if $data.pfeed_price1}}<p class="price price1">${$data.pfeed_price1}</p>{{/if}}
+			{{if $data.pfeed_price2}}<p class="price price2">${$data.pfeed_price2}</p>{{/if}}
+			{{if $data.pfeed_price3}}<p class="price price3">${$data.pfeed_price3}</p>{{/if}}
+		{{/if}}
+		
+		{{if $data.pfeed_promotions && $data.pfeed_promotions.length>5}}
+		<p class="promotions">SPECIAL OFFER</p>
+		{{/if}}
+		
+		<p class="votes">${getVoteCopy($data)}</p>
+		
+		<div class="buttons">
+			<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="voteButton ${$data.inVoteList ? 'selected' : ''}"><img src="randomDirectory/images/pool/${$data.inVoteList ? 'button_lovelist_off.png' : 'button_lovelist.png'}"/></span>
+			<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="addtobag" role="skavaInteropQuickView"><img src="randomDirectory/images/pool/button_addtobag.png"/></span>
+			<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="pinit" role="skavaInteropSharePinterest" config="product" product_url="${$data.pfeed_url}" product_image="${$data.image_fullImage}" product_desc="${$data.title}"><img src="randomDirectory/images/pool/button_pinit.png"/></span>
+		</div>
+	</div>
+</script>
+
+<script id="productListingNew" type="text/html">
+	<div class="product {{if $data.ralphlauren}}ralphlauren{{/if}} {{if !$data.ralphlauren}}notralphlauren{{/if}} {{if $data.mostVoted}}topgifted{{/if}} ${$data.containerClass ? $data.containerClass : ''}" {{if $data.containerClass!='offer'}} entryId="${$data.entryId}" {{/if}} productId="${$data.pfeed_id}" {{if $data.containerClass=='offer'}} tracking="${$data.tracking}"{{/if}}>
+		<div class="product_image">
+			<!--<img class="topgift_header" src="${assetsDirectory}images/pool/topgifts_hgg.png"/>-->
+			<a entryId="${$data.entryId}" productId="${$data.pfeed_id}" {{if finder.isTablet()}}role="skavaInteropQuickView" href="javascript:void(0)"{{else}}href="${$data.pfeed_url}"{{/if}}  {{if $data.containerClass=='offer'}}target="${$data.target}"{{else}}target="_blank"{{/if}}>
+				<img class="image" src="${String($data.image_fullImage).replace(/wid=(.*?)&/gi, 'wid=190&')}" />
+			</a>	
+			{{if $data.pfeed_productvideo != ''}}
+				<div entryId="${$data.entryId}" productId="${$data.pfeed_id}" onclick="finder.insertProductVideo({id:'${$data.pfeed_productvideo}' })" class="product_video_btn product_button_base">
+					<div class="arrow-right"></div>
+				</div>
+			{{/if}}
+		
+			<div class="quickview product_button_base" entryId="${$data.entryId}" productId="${$data.pfeed_id}" role="skavaInteropQuickView">Quickview</div>
+		
+		</div>
+		<div class="label">
+			<a href="${pfeed_url}" target="_blank">
+				${label}
+			</a>
+		</div>
+		{{if finder.isInternational && skShipping && skShipping.getLocalizedPriceEx}}
+			{{if $data.pfeed_price1}}<p class="price price1">${skShipping.getLocalizedPriceEx($data.pfeed_price1)}</p>{{/if}}
+			{{if $data.pfeed_price2}}<p class="price price2">${skShipping.getLocalizedPriceEx($data.pfeed_price2)}</p>{{/if}}
+			{{if $data.pfeed_price3}}<p class="price price3">${skShipping.getLocalizedPriceEx($data.pfeed_price3)}</p>{{/if}}
+		{{else}}
+			{{if $data.pfeed_price1}}<p class="price price1">${$data.pfeed_price1}</p>{{/if}}
+			{{if $data.pfeed_price2}}<p class="price price2">${$data.pfeed_price2}</p>{{/if}}
+			{{if $data.pfeed_price3}}<p class="price price3">${$data.pfeed_price3}</p>{{/if}}
+		{{/if}}
+		
+		{{if $data.pfeed_promotions && $data.pfeed_promotions.length>5}}
+		<p class="promotions">SPECIAL OFFER</p>
+		{{/if}}
+		
+		<p class="votes">${getVoteCopy($data)}</p>
+		
+		<div class="buttons">
+			<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="voteButton ${$data.inVoteList ? 'selected' : ''}"><img src="randomDirectory/images/pool/${$data.inVoteList ? 'button_lovelist_off.png' : 'button_lovelist.png'}"/></span>
+			<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="addtobag" role="skavaInteropQuickView"><img src="randomDirectory/images/pool/button_addtobag.png"/></span>
+			<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="pinit" role="skavaInteropSharePinterest" config="product" product_url="${$data.pfeed_url}" product_image="${$data.image_fullImage}" product_desc="${$data.title}"><img src="randomDirectory/images/pool/button_pinit.png"/></span>
+		</div>
+	</div>
+</script>
+
+<script id="productListingRL" type="text/html">
+	<div class="product {{if $data.ralphlauren}}ralphlauren{{/if}} {{if !$data.ralphlauren}}notralphlauren{{/if}} {{if $data.mostVoted}}topgifted{{/if}} ${$data.containerClass ? $data.containerClass : ''}" {{if $data.containerClass!='offer'}} entryId="${$data.entryId}" {{/if}} productId="${$data.pfeed_id}" {{if $data.containerClass=='offer'}} tracking="${$data.tracking}"{{/if}}>
+		<div class="product_image">
+			<!--<img class="topgift_header" src="${assetsDirectory}images/pool/topgifts_hgg.png"/>-->
+			<a entryId="${$data.entryId}" productId="${$data.pfeed_id}" {{if finder.isTablet()}}role="skavaInteropQuickView" href="javascript:void(0)"{{else}}href="${$data.pfeed_url}"{{/if}}  {{if $data.containerClass=='offer'}}target="${$data.target}"{{else}}target="_blank"{{/if}}>
+				<img class="image" src="${String($data.image_fullImage).replace(/wid=(.*?)&/gi, 'wid=190&')}" />
+			</a>	
+			{{if $data.pfeed_productvideo != ''}}
+				<div entryId="${$data.entryId}" productId="${$data.pfeed_id}" onclick="finder.insertProductVideo({id:'${$data.pfeed_productvideo}' })" class="product_video_btn product_button_base">
+					<div class="arrow-right"></div>
+				</div>
+			{{/if}}
+		
+			<div class="quickview product_button_base" entryId="${$data.entryId}" productId="${$data.pfeed_id}" role="skavaInteropQuickView">Quickview</div>
+		
+		</div>
+		<div class="label">
+			<a href="${pfeed_url}" target="_blank">
+				${label}
+			</a>
+		</div>
+		{{if finder.isInternational && skShipping && skShipping.getLocalizedPriceEx}}
+			{{if $data.pfeed_price1}}<p class="price price1">${skShipping.getLocalizedPriceEx($data.pfeed_price1)}</p>{{/if}}
+			{{if $data.pfeed_price2}}<p class="price price2">${skShipping.getLocalizedPriceEx($data.pfeed_price2)}</p>{{/if}}
+			{{if $data.pfeed_price3}}<p class="price price3">${skShipping.getLocalizedPriceEx($data.pfeed_price3)}</p>{{/if}}
+		{{else}}
+			{{if $data.pfeed_price1}}<p class="price price1">${$data.pfeed_price1}</p>{{/if}}
+			{{if $data.pfeed_price2}}<p class="price price2">${$data.pfeed_price2}</p>{{/if}}
+			{{if $data.pfeed_price3}}<p class="price price3">${$data.pfeed_price3}</p>{{/if}}
+		{{/if}}
+		
+		{{if $data.pfeed_promotions && $data.pfeed_promotions.length>5}}
+		<p class="promotions">SPECIAL OFFER</p>
+		{{/if}}
+		
+
+		<div class="bottomContainer">
+			<div class="buttons">
+				<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="voteButton iconButton ${$data.inVoteList ? 'selected' : ''}"><img src="randomDirectory/images/pool/${$data.inVoteList ? 'button_lovelist_off.png' : 'button_lovelist.png'}"/></span>
+				<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="addtobag iconButton" role="skavaInteropQuickView"><img src="randomDirectory/images/pool/button_addtobag.png"/></span>
+				<span entryId="${$data.entryId}" productId="${$data.pfeed_id}" class="pinit iconButton" role="skavaInteropSharePinterest" config="product" product_url="${$data.pfeed_url}" product_image="${$data.image_fullImage}" product_desc="${$data.title}"><img src="randomDirectory/images/pool/button_pinit.png"/></span>
+
+			</div>
+
+			<p class="votes">${getVoteCopy($data)}</p>
+		</div>
+
+
+	</div>
+</script>
+
+<script id="XproductListing" type="text/html">
+	<div class="product ${$data.containerClass ? $data.containerClass : ''}" {{if $data.containerClass!='offer'}}entryId="${$data.entryId}"{{/if}} productId="${$data.properties.pfeed_id}" style="width:190px">
+		<div class="product_image">
+			<!--<img class="topgift_header" src="${assetsDirectory}images/pool/topgifts_hgg.png"/>-->
+			<a entryId="${$data.entryId}" productId="${$data.properties.pfeed_id}" href="${$data.properties.pfeed_url}" target="_blank">
+				<img onload="finder.requestResizePage()" class="image" style="width:190px;" src="${String($data.properties.pfeed_imageurl).replace(/wid=(.*?)&/gi, 'wid=190&')}" />
+			</a>
+			<div class="quickview">
+				<a entryId="${$data.entryId}" productId="${$data.properties.pfeed_id}" role="skavaInteropQuickView">Quick View</a>
+			</div>
+			{{if finder.product_videos[$data.properties.pfeed_id]}}
+				<div class="product_video_icon" title="click to play video" onclick="finder.showProductVideo(${$data.properties.pfeed_id})">&nbsp;</div>
+			{{/if}}
+		</div>
+		<p class="description">${$data.title}</p>
+		{{if finder.isInternational && skShipping && skShipping.getLocalizedPriceEx}}
+			{{if $data.properties.pfeed_price1}}<p class="price price1">${skShipping.getLocalizedPriceEx($data.properties.pfeed_price1)}</p>{{/if}}
+			{{if $data.properties.pfeed_price2}}<p class="price price2">${skShipping.getLocalizedPriceEx($data.properties.pfeed_price2)}</p>{{/if}}
+			{{if $data.properties.pfeed_price3}}<p class="price price3">${skShipping.getLocalizedPriceEx($data.properties.pfeed_price3)}</p>{{/if}}
+		{{else}}
+			{{if $data.properties.pfeed_price1}}<p class="price price1">${$data.properties.pfeed_price1}</p>{{/if}}
+			{{if $data.properties.pfeed_price2}}<p class="price price2">${$data.properties.pfeed_price2}</p>{{/if}}
+			{{if $data.properties.pfeed_price3}}<p class="price price3">${$data.properties.pfeed_price3}</p>{{/if}}
+		{{/if}}
+		
+		{{if $data.pfeed_promotions && $data.pfeed_promotions.length>5}}
+		<p class="promotions">SPECIAL OFFER</p>
+		{{/if}}
+		
+		<p class="votes">${ getVoteCopy($data) }</p>
+		<div class="buttons">
+			<span entryId="${$data.entryId}" productId="${$data.properties.pfeed_id}" class="giftlistButton ${$data.inGiftList ? 'selected' : ''}"><img src="randomDirectory/images/pool/button_giftlist.png"/></span>
+			<span entryId="${$data.entryId}" productId="${$data.properties.pfeed_id}" class="voteButton ${$data.inVoteList ? 'selected' : ''}"><img src="randomDirectory/images/pool/button_lovelist.png"/></span>
+			<span entryId="${$data.entryId}" productId="${$data.properties.pfeed_id}" class="addtobag" role="skavaInteropQuickView"><img src="randomDirectory/images/pool/button_addtobag.png"/></span>
+			<span entryId="${$data.entryId}" productId="${$data.properties.pfeed_id}" class="pinit" role="skavaInteropSharePinterest" config="product" product_url="${$data.properties.pfeed_url}" product_image="${$data.properties.pfeed_imageurl}" product_desc="${$data.title}"><img src="randomDirectory/images/pool/button_pinit.png"/></span>
+		</div>
+	</div>
+</script>
+
+
+
+
+
+<script id="giftlistItem" type="text/html">
+	<div entryid="${entryId}" uniqueid="${$data.uniqueId}" ${$data.gifttag ? 'hasTag' : ''}>
+		<table width="100%" cellpadding="0" cellspacing="5" border="0" class="product_info">
+			<tr>
+				<td width="1" rowspan="2" valign="top" align="left">
+					<div>
+						<div class="button-remove" title="delete">x</div>
+						<img class="image" style="min-width:${$data.imageWidth}px; min-height:${Math.round($data.imageWidth*1.221333)}px" src="${String($data.properties.pfeed_imageurl).replace(/wid=(.*?)&/gi, 'wid='+$data.imageWidth+'&').replace(/hei=(.*?)&/gi, '&')}" />
+					</div>
+				</td>
+				<td colspan="2" align="left" valign="top">
+					<p class="description">${$data.title}</p>
+				</td><!--
+				<td width="1" rowspan="2" align="left" valign="bottom">
+					<div style="display:block; white-space:nowrap;" class="addtobag redGradientSm redGradient">+ add to bag</div>
+				</td>-->
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+					{{if $data.properties.pfeed_price1}}<p class="price price1">${$data.properties.pfeed_price1}</p>{{/if}}
+					{{if $data.properties.pfeed_price2}}<p class="price price2">${$data.properties.pfeed_price2}</p>{{/if}}
+					{{if $data.properties.pfeed_price3}}<p class="price price3">${$data.properties.pfeed_price3}</p>{{/if}}
+					<div class="tagButton">add custom tag</div>
+					<div class="tag">
+						<div class="tag_p1"></div>
+						<div class="tag_p2">For:</div>
+						<div class="tag_p2">
+							<div class="autocomplete">
+								<input type="text" class="suggest" />
+								<input maxlength="20" type="text" name="gift_tag" startval="Enter name" class="userinput ${$data.gifttag ? 'changed' : ''}" value="${$data.gifttag ? $data.gifttag : 'Enter name'}" />
+							</div>
+						</div>
+						<div class="tag_p3"></div>
+					</div>
+				</td>
+				<td width="1" align="right" valign="bottom">
+					<div class="shareButton">share<div class="icon"></div></div>
+					<div class="addtogiftlist {{if $data.gift}}disabled{{/if}}">+ add to gift list</div>
+					<div class="addtobag">+ add to bag</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</script>
+
+<!-- TOP GIFTS -->
+<script id="topTenItemTemplate" type="text/x-jQuery-tmpl">
+	<a href="javascript:void(0);" productId="${String($data.properties.pfeed_id)}" entryId="${$data.entryId}" role="skavaInteropQuickView">
+		<img src="${$data.properties.pfeed_imageurl.replace('wid=250', 'wid=105')}" class="productImage" border="0" productId="${String($data.properties.pfeed_id)}" />
+	</a>
+	<a class="voterow">${Math.max(1,$data.votes)}</span> love{{if Math.max(1,$data.votes) < 2 }}s{{/if}} this gift!</a>
+</script>
+
+<script id="topGiftLanding" type="text/x-jQuery-tmpl">
+	<div class="gift topgift ${containerClass}" brand="${String($data.properties.pfeed_brand)}" productId="${String($data.properties.pfeed_id)}" entryId="${String($data.entryId)}" insertId="${insertIndex}">
+		<h2><img src="${sectionbanner}"/></h2>
+		<a href="javascript:void(0);" productId="${String($data.properties.pfeed_id)}" entryId="${String($data.entryId)}" role="skavaInteropQuickView"><img src="${String($data.properties.pfeed_imageurl).replace('wid=250', 'wid=105')}" class="productImage" border="0" role="skavaInteropQuickView" productId="${String($data.properties.pfeed_id)}" /></a>
+		<a class="voterow">${Math.max(1,votes)}&nbsp;&#8226;&nbsp;lovelove{{if Math.max(1,votes) < 2 }}s{{/if}} this gift!</a>
+		<a class="gototopten" href="#/landing/topgifts/${containerClass}"></a>
+	</div>
+</script>
+
+<script id="topgiftListing" type="text/x-jQuery-tmpl">
+	<div class="gift topgift p${$data.insertIndex}" brand="${$data.properties.pfeed_brand}" productId="${$data.properties.pfeed_id}" entryId="${$data.entryId}" insertId="${$data.insertIndex}">
+		<span class="number">${($data.insertIndex + 1)}</span>
+		{{if sectionbanner}}
+		<h3><img src="${sectionbanner}"/></h3>
+		{{/if}}
+		<div class="product_image">
+			<a href="javascript:void(0);" productId="${String($data.properties.pfeed_id)}" entryId="${String($data.entryId)}" role="skavaInteropQuickView"><img src="${String($data.properties.pfeed_imageurl).replace('wid=250', 'wid=285')}" class="productImage" border="0" role="skavaInteropQuickView" productId="${String($data.properties.pfeed_id)}"></a>
+		</div>	
+		<a class="voterow"><span class="num">${Math.max(1,votes)}</span> love{{if Math.max(1,votes) < 2 }}s{{/if}} this gift!</a>
+		{{if sectionbanner}}
+		<p><a href="${pfeed_url}" target="_blank">${title}</a></p>
+		{{/if}}
+	</div>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,220 @@
+.finderPage#suitQuiz {
+    height: 615px;
+    width: 898;
+    font-family: "Helvetica", sans-serif;
+    /*background: url(../images/suitQuiz/fpo.png);*/
+}
+
+/*=============================== HEADER ==========================*/
+
+.finderPage#suitQuiz #header{
+    /*position: absolute;*/
+    position: relative;
+    width:346px;
+    height: 145px;
+    top:37px;
+    left:46px;
+    background: transparent;
+}
+
+.finderPage#suitQuiz .title{
+    margin-bottom: 20px;
+}
+.finderPage#suitQuiz .checkall{
+    margin-bottom: 20px;
+    width:374px;
+    height:18px;
+    margin-left:45px;
+}
+
+/*=============================== MODELS ==========================*/
+
+.finderPage#suitQuiz #models{
+    width:434px;
+    height: 615px;
+    float:left;
+    background: transparent;
+}
+
+.finderPage#suitQuiz .model{
+    position:absolute;
+}
+
+.finderPage#suitQuiz .left{
+    left:0;
+    top:0;
+}
+
+.finderPage#suitQuiz .right{
+    left:238px;
+    top:15;
+}
+
+/*=============================== QUIZ ==========================*/
+
+.finderPage#suitQuiz #quiz{
+    width:460px;
+    height: 615px;
+    float:left;
+    margin: 0;
+    /*opacity: .5;*/
+    position:relative;
+}
+
+.finderPage#suitQuiz .section{
+    position: relative;
+    width:440px;
+    right:-30px;
+    left:50px;
+    padding-bottom: 20px;
+}
+
+.finderPage#suitQuiz .section .headline {
+    margin-bottom: 6px;
+}
+
+.finderPage#suitQuiz #top{
+    position:absolute;
+    right: -50px;
+    top: 160px;
+}
+
+.finderPage#suitQuiz #middle{
+    position:absolute;
+    right: -50px;
+    top: 329px;*/
+}
+
+.finderPage#suitQuiz #bottom {
+    position:absolute;
+    right: -50px;
+    top: 423px;
+}
+
+.finderPage#suitQuiz #submit {
+    color: #fff;
+    position: relative;
+    left: 50px;
+    padding: 8px 20px 8px 20px;
+    background-color: #00427a;
+    display: inline-block;
+
+    font-weight: 600;
+    position: absolute;
+    top: 540px;
+    
+    background: #00427a;
+}
+
+.finderPage#suitQuiz #submit .padding {
+    margin-left: 5px;
+}
+
+.finderPage#suitQuiz #copy{
+    position: absolute;
+    left: 450px;
+    top: 32px;
+}
+
+.finderPage#suitQuiz #copy{
+    position: absolute;
+    left: 450px;
+    top: 32px;
+}
+
+.finderPage#suitQuiz #copy{
+    position: absolute;
+    left: 450px;
+    top: 32px;
+}
+
+.finderPage#suiteQuiz, #model1 {
+    margin: 0px;
+    padding: 0px;
+    height: 590px;
+    width: 900px;
+}
+
+.finderPage#suitQuiz #menu div{
+    list-style: none;
+}
+
+.finderPage#suitQuiz #popImage img{
+    position: absolute;
+}
+
+.finderPage#suitQuiz .menuBotton {
+    position: relative;
+    cursor: pointer;
+    height: 26px;
+    width:374px;
+}
+
+.finderPage#suitQuiz .menuBotton.selected {
+}
+
+.finderPage#suitQuiz .menuBotton.selected label {
+    background:url('../images/suitQuiz/input_after.png') no-repeat;
+}
+
+.finderPage#suitQuiz .menuBotton label {
+    padding-left: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: bold;
+    font-family: "Helvetica", sans-serif;
+}
+
+.finderPage#suitQuiz .menuBotton label .smaller {
+    font-size: 75%;
+    font-weight: normal;
+}
+
+.finderPage#suitQuiz #popImage {
+    position: absolute;
+    z-index: 1000;
+}
+
+
+
+/*.finderPage#suitQuiz #menu input {
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  cursor: pointer;
+}*/
+
+.finderPage#suitQuiz input[type=radio] {
+    display: none;
+
+}
+
+.finderPage#suitQuiz input[type="radio"] + label {
+    display:inline-block;
+    width:417px;
+    height:22px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url('../images/suitQuiz/input_before.png') no-repeat;
+    cursor:pointer;
+}
+
+.finderPage#suitQuiz input[type="radio"]:checked + label {
+    background:url('../images/suitQuiz/input_after.png') no-repeat;
+}
+
+.finderPage#suitQuiz #popImage{
+  display: none;
+}
+
+/*.finderPage#suitQuiz input, input:before {
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    left: 16px;
+    content: "";
+    overflow: hidden;
+    height: 18px;
+    width: 18px;
+    margin: 5px 0 0 -16px;
+}  */

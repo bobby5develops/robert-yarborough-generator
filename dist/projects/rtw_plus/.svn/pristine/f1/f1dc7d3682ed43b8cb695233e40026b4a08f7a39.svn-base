@@ -1,0 +1,111 @@
+<div id="navContainer">
+	<div class="freeshipping">
+		<a href="http://www.macys.com/m/campaign/free-shipping/free-shipping-everyday" target="_blank"><img src="randomDirectory/images/nav/fall_free_shipping.png"/></a>
+	</div>
+	<div id="nav">
+		<ul>
+			<li id="home"><a href="#/home"><span class="invisible">Fall Trend Report 2013</span></a></li>
+			<li id="moderndresses"><a href="#/moderndresses">Modern Dresses</a></li>
+			<li id="blackandwhite"><a href="#/blackandwhite">Black &amp; White</a></li>
+			<li id="jacketspreferred"><a href="#/jacketspreferred">Jackets Preferred</a></li>
+			<li id="lookofleather"><a href="#/lookofleather">The Look of Leather</a></li>
+			<li id="accessories"><a href="#/accessories1">Accessories</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div id="bodyContainer">
+	<div class="loading" style="display: none;">
+		<div id="overlay"></div>
+		<div id="loadingMessage"><img src="randomDirectory/images/loading_anim.gif" border="0"></div>
+	</div>
+	<div id="pageContainer"></div>
+</div>
+<div class="clear"></div>
+<div id="footerContainer">
+	<div id="rolloverkey"></div>
+	<div id="footer">
+		<a class="pinterest" role="skavaInteropSharePinterest" config="currentPage"></a>
+		<a class="twitter" role="skavaInteropShareTwitter" config="currentPage"></a>
+		<a class="facebook" role="skavaInteropShareFacebook" config="currentPage"></a>
+	</div>
+	<div id="pagination">
+		<div class="pages">
+			<span class="currpage"></span>/<span class="totalpages"></span> PAGES
+		</div>
+		<div class="paging">
+			<a href="#/" class="previous">&#9668; PREVIOUS</a>
+			<a href="#/" class="next">NEXT &#9658;</a>
+		</div>
+	</div>
+</div>
+<p class="findStore">CHECK OUT FALL FASHION EVENTS NEAR YOU! <a href=" http://www1.macys.com/store/event/index.ognc?cm_sp=navigation-_-bottom_nav-_-store_events " target="_blank">FIND A STORE</a></p>
+<div id="pool_wrap">
+	<ul id="fake_facets">
+		<li><a href="#/accessories1">PUMPS</a></li>
+		<li><a href="#/accessories2">BAGS</a></li>
+		<li><a href="#/accessories3">BOOTS</a></li>
+		<li><a href="#/accessories4">JEWELRY</a></li>
+		<li><a href="#/accessories5">WATCHES</a></li>
+	</ul>
+	<div id="pool_itself"></div>
+	<div class="clear"></div>
+</div>
+
+<script id="productListing" type="text/html" class="poolHeaderRow">
+	<div class="productListing {{if hasPromotions}}hasPromotions{{/if}} {{if finder.skava.beenVotedOn(pfeed_id)}}voted{{/if}}" brand="${pfeed_brand}" productId="${pfeed_id}" entryId="${entryid}">
+		<div class="quickview">
+			<a href="javascript:void(0)" entryId="${entryid}" productId="${pfeed_id}" role="skavaInteropQuickView">Quick View</a>
+		</div>
+		<div class="image">
+			<a href="${pfeed_url}" target="_blank"><img src="${image_fullImage.replace('wid=250', 'wid=140')}" class="productImage" onload="finder.resizePage();finder.attachVotes(${entryid});" border="0"></a>
+		</div>
+		<div class="votingRow" role="skavaInteropVote">
+			<img src="randomDirectory/images/heart.png" border="0"> <span class="lovethis">
+				<span class="button">love it <img src="randomDirectory/images/rightarrow.gif" border="0">&nbsp;&nbsp;</span>
+				<span class="voteCount" style="border:none">
+					{{if parseInt(votes) == "1"}}
+						1 LOVES THIS
+					{{/if}}
+					{{if parseInt(votes) > 1}}
+						${votes} LOVE THIS
+					{{/if}}
+				</span>
+			</span>
+		</div>
+		<div class="label">
+			<a href="${pfeed_url}" target="_blank">
+				${label}
+			</a>
+		</div>
+
+		<div class="price1">${pfeed_price1}</div>
+		{{if pfeed_price2 != ""}}
+			<div class="price2">${pfeed_price2}</div>
+		{{/if}}
+		{{if pfeed_price3 != ""}}
+			<div class="price3">${pfeed_price3}</div>
+		{{/if}}
+		
+		
+		<!--
+		<div class="giftListRow" role="skavaInteropWishListAdder">
+			<img src="randomDirectory/images/pool/addtogiftlist.png" border="0" class='addToGiftList' entryId="${entryid}" productId="${pfeed_id}">
+		</div>
+		<div class="giftListRow2">
+			<img src="randomDirectory/images/pool/checkmark.png" border="0" align="absmiddle"> on my gift list
+		</div>
+		
+		<img src='randomDirectory/images/pool/addToBridalParty.png' border='0' class="addToBridalParty" role="skavaInteropBridalAdder">
+		-->
+		<div class="moreInfo">
+			<div class="colorSwatches">
+				{{each swatches}}
+					<img src="${this.swatchImage.replace('wid=57', 'wid=20')}" productImage="${this.productImage.replace('%width%', '137')}" class="swatch">
+				{{/each}}
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>    
+</script>

@@ -1,0 +1,36 @@
+.finderPage#moderndresses2{
+	background : url('../images/moderndresses2/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#moderndresses2 img#trendreport{
+	position:absolute;
+	top:25px;
+	left:15px;
+}
+.finderPage#moderndresses2 div.plusDot#plusDot1{
+	top:100px;
+	left:315px;
+}
+.finderPage#moderndresses2 div.plusDot#plusDot2{
+	top:220px;
+	left:552px;
+}
+.finderPage#moderndresses2 div.plusDot#plusDot3{
+	top:130px;
+	left:840px;
+}
+.finderPage#moderndresses2 div.plusDot#plusDot4{
+	top:202px;
+	left:666px;
+}
+
+
+.finderPage#moderndresses2 div#plusDot1.plusDot .dotContent{
+    min-width: 154px !important;
+}
+
+.finderPage#moderndresses2 div#plusDot2.plusDot .dotContent{
+    min-width: 174px !important;
+
+}

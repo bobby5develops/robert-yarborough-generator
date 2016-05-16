@@ -1,0 +1,17 @@
+.finderPage#accessories2 {
+	height:658px;
+	width:900px;
+	background-image:url('../images/accessories2/bg.jpg');
+	background-repeat:no-repeat;
+}
+
+
+.finderPage#accessories2 .section p{
+    position: absolute;
+    width: 288px !important;
+}
+
+.finderPage#accessories2 .section a{
+    position: relative;
+    top: 50px;
+}

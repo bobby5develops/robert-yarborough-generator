@@ -1,0 +1,53 @@
+<div id="trueblues2" class="finderPage">
+	<img id="trendreport" src="randomDirectory/images/trueblues2/trendreport.png"/>
+	<div class="plusDot" id="plusDot1">
+		<div class="dotSign" tracker="trueicon"></div>
+		<div class="dotContent">
+			<h4>TRUE ICON</h4>
+			<p>cuffed blue jeans with subtle distressing and a classic black sweater make an effortlessly chic combo. animal-print extras add feline flair.</p>
+			<a class="minusGetLook" tracker="trueicon_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040329'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="trueicon_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="trueblues">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="trueicon_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="trueblues" pinicon="randomDirectory/images/pinicons/trueicon.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot2">
+		<div class="dotSign" tracker="laidback"></div>
+		<div class="dotContent">
+			<h4>LAID-BACK LUXE</h4>
+			<p>slim indigo jeans feel fresh with the season's must-have Chelsea boots and a go-with-everything camel crewneck. a skinny belt and shiny silver-tone pendant pepper in a touch of texture.</p>
+			<a class="minusGetLook" tracker="laidback_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040340'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="laidback_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="trueblues">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="laidback_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="trueblues" pinicon="randomDirectory/images/pinicons/laidbackluxe.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot3">
+		<div class="dotSign" tracker="blueprint"></div>
+		<div class="dotContent flip">
+			<h4>BLUE PRINT</h4>
+			<p>walk on the wild side in skinny jeans with a tonal animal-print. tame them with a billowy white blouse and pointy patent flats.</p>
+			<a class="minusGetLook" tracker="blueprint_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040342'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="blueprint_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="trueblues">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="blueprint_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="trueblues" pinicon="randomDirectory/images/pinicons/blueprint.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot4">
+		<div class="dotSign" tracker="bluestar"></div>
+		<div class="dotContent flip">
+			<h4>BLUE STAR</h4>
+			<p>do a triple take in patchwork skinnies, a chambray shirt and a mixed-media jacket. elevate this weekend uniform with trendy wedge sneakers.</p>
+			<a class="minusGetLook" tracker="bluestar_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040325'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="bluestar_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="trueblues">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="bluestar_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="trueblues" pinicon="randomDirectory/images/pinicons/bluestar2.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<a href="#/trueblues" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/lookofleather" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+</div>

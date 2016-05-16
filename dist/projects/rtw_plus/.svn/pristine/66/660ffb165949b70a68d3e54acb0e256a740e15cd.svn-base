@@ -1,0 +1,30 @@
+<div id="trueblues" class="finderPage">
+	<img id="onestar" src="randomDirectory/images/trueblues/onestar.png"/>
+	<img id="trendreport" src="randomDirectory/images/trueblues/trendreport.png"/>
+	<div class="plusDot" id="plusDot1">
+		<div class="dotSign" tracker="bluestar"></div>
+		<div class="dotContent flip">
+			<h4>BLUE STAR</h4>
+			<p>do a triple take in patchwork skinnies, a chambray shirt and a mixed-media denim jacket. elevate this weekend uniform with trendy wedge sneakers.</p>
+			<a class="minusGetLook" tracker="bluestar_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040325'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="bluestar_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="trueblues">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="bluestar_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="trueblues" pinicon="randomDirectory/images/pinicons/bluestar.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot2">
+		<div class="dotSign" tracker="balancingact"></div>
+		<div class="dotContent flip">
+			<h4>BALANCING ACT</h4>
+			<p>team the skinniest ripped jeans with a draped pleather top. a floppy hat and studded peep-toe booties infuse it with an unfussy rock 'n' roll vibe.</p>
+			<a class="minusGetLook" tracker="balancingact_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040326'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="balancingact_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="trueblues">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="balancingact_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="trueblues" pinicon="randomDirectory/images/pinicons/balancingact.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<a href="#/jacketspreferred2" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/trueblues2" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+</div>

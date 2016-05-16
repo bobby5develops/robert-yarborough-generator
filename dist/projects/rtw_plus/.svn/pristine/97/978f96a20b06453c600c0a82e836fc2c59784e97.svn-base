@@ -1,0 +1,53 @@
+<div id="lookofleather2" class="finderPage">
+	<img id="trendreport" src="randomDirectory/images/lookofleather2/trendreport.png"/>
+	<div class="plusDot" id="plusDot1">
+		<div class="dotSign" tracker="sleeksleeves"></div>
+		<div class="dotContent">
+			<h4>SLEEK SLEEVES</h4>
+			<p>paneled black pants balance out a cozy cardigan. a smart tote and tuxedo flats bring out the work-friendly side of faux-leather.</p>
+			<a class="minusGetLook" tracker="sleeksleeves_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040363'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="sleeksleeves_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="lookofleather">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="sleeksleeves_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="lookofleather" pinicon="randomDirectory/images/pinicons/sleeksleeves.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot2">
+		<div class="dotSign" tracker="mixedmessages"></div>
+		<div class="dotContent">
+			<h4>MIXED MESSAGES</h4>
+			<p>prim tweed and faux leather make an unexpectedly fashionable team. ankle-strap black heels streamline the style even further.</p>
+			<a class="minusGetLook" tracker="mixedmessages_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040366'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="mixedmessages_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="lookofleather">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="mixedmessages_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="lookofleather" pinicon="randomDirectory/images/pinicons/mixedmessages.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot3">
+		<div class="dotSign" tracker="lasersharp"></div>
+		<div class="dotContent flip">
+			<h4>LASER SHARP</h4>
+			<p>pair a lacy printed top with an equally airy laser-cut skirt. peep-toe booties anchor the look for autumn.</p>
+			<a class="minusGetLook" tracker="lasersharp_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040373'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="lasersharp_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="lookofleather">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="lasersharp_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="lookofleather" pinicon="randomDirectory/images/pinicons/lasersharp.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot4">
+		<div class="dotSign" tracker="leatherlace"></div>
+		<div class="dotContent flip">
+			<h4>PLEATHER &AMP; LACE</h4>
+			<p>rocker meets movie star in a mixed-media dress. prime it for the spotlight with rich red pumps and a structured bag.</p>
+			<a class="minusGetLook" tracker="leatherlace_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040361'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="leatherlace_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="lookofleather">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="leatherlace_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="lookofleather" pinicon="randomDirectory/images/pinicons/pleatherlace2.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<a href="#/lookofleather" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/accessories1" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+</div>

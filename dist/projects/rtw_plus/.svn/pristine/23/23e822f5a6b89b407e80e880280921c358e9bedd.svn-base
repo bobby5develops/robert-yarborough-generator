@@ -1,0 +1,23 @@
+<div id="accessories4" class="finderPage acc">
+	<div id="additions">
+		<img src="randomDirectory/images/accessories1/additions.png"/>
+		<p>
+			<a href="#/accessories1">POINTY-TOE PUMPS</a>
+			<br/>
+			<a href="#/accessories2">MINI BAGS</a>
+			<br/>
+			<a href="#/accessories3">TALL BOOTS</a>
+			<br/>
+			<a href="#/accessories4">WILD JEWELRY</a>
+			<br/>
+			<a href="#/accessories5">TIMELESS WATCHES</a>
+		</p>
+	</div>
+	<div class="section">
+		<h3>WILD JEWELRY</h3>
+		<p>explore the exotic side of accessorizing with animal-inspired jewelry.</p>
+		<a class="shopnow" tracker="wildjewelry">SHOP NOW &#9658;</a>
+	</div>
+	<a href="#/accessories3" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/accessories5" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+</div>

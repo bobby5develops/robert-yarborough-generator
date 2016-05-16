@@ -23,13 +23,13 @@
             <!-- off-canvas menu -->
             <ul class="mobile-nav">
                 <li class="menu-item menu-item-has-children">
-                    <a href="#">About</a>
+                    <a href="#" data-title="Learn About Me."><i class="fa fa-book" aria-hidden="true"></i>Bio</a>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <a href="#" data-title="Apps I've Built."><i class="fa fa-rocket" aria-hidden="true"></i>Projects</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#" data-title="Hire Me."><i class="fa fa-paper-plane" aria-hidden="true"></i>Contact</a>
                 </li>
             </ul>
         </nav>
@@ -37,20 +37,17 @@
             <nav class="nav toggle-nav" role="navigation"><!--set logo as bg image and animate via css-->
                 <ul class="section group">
                     <li class="span_1_of_12 active">
-                        <a href="#">
+                        <a href="#" data-title="menu">
                             <img src="img/logo.png" alt="Logo">
                         </a>
                     </li>
-                    <!--<li class="yarboroughGrid col span_1_of_12">
-                        <a href="/">two</a>
-                    </li>
-                    <li class="yarboroughGrid col span_1_of_12">
-                        <a href="/">three</a>
-                    </li>-->
                 </ul>
             </nav>
 
             <div class="main">
+                <!-- bio -->
+                <section id="bio" data-value="bio-content" class="yarboroughGrid"></section>
+                <!-- end bio -->
                 <!-- portfolio -->
                 <section id="portfolio" data-value="portfolio-list" class="yarboroughGrid">
 
@@ -68,6 +65,11 @@
                     </div> <!-- end section-head -->
 
                     <div class="row group">
+                        <!-- portfolio-preview -->
+                       <!-- <div class='col span_12_of_12 preview-inactive'>
+
+                            <p>Preview Text</p>
+                        </div> -->
 
                         <!-- portfolio-wrapper -->
                         <div class="col span_12_of_12">
@@ -225,6 +227,11 @@
 
                 </section>
                 <!-- end portfolio -->
+                <!-- contact -->
+                <section id="contact" data-value="contact-form" class="yarboroughGrid"></section>
+                <!-- end contact -->
+
+                <!-- footer -->
                 <footer class="footer yarboroughGrid" role="contentinfo">
                     <div class="row group">
                         <div class="col span_12_of_12">
@@ -234,6 +241,8 @@
                         </div>
                     </div>
                 </footer>
+                <!-- end footer -->
+
             </div>
 
         </div>

@@ -1,0 +1,58 @@
+<div id="fitshirtclassic" class="finderPage">
+
+    <img usemap="#fitshirtclassicMap" class="mainimage" src="randomDirectory/images/fitshirtclassic/mainshirt_c.jpg">
+
+    <div class="nextNavButton">
+        <a href="#/fitjeans" track="fitjeans">
+            <img src="randomDirectory/images/next_blk.png" alt="next" border="0">
+        </a>
+    </div>
+
+    <div class="prevNavButton">
+        <a href="#/fitshirtfitted" track="fitshirtfitted">
+            <img src="randomDirectory/images/prev_blk.png" alt="previous" border="0">
+        </a>
+    </div>
+
+</div>
+<map name="fitshirtclassicMap" id="fitshirtclassicMap">
+
+
+    <area shape="rect" coords="589,135,639,157" track="shop" alt="Alfani"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DAlfani%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp" track="fitshirt"/>
+    <area shape="rect" coords="639,135,723,157" track="shop" alt="Calvin Klein"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DCalvin%20Klein%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="721,135,805,157" track="shop" alt="Club Room"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DClub%20Room%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="480,154,526,175" track="shop" alt="Eagle"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DEagle%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="525,155,631,173" track="shop" alt="Geoffrey Beene"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DGeoffrey%20Beene%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="629,157,788,173" track="shop" alt="Hugo Boss"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DHugo%20Boss%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="481,173,627,192" track="shop" alt="Ralph Lauren"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DLauren%20Ralph%20Lauren%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="620,172,776,191" track="shop" alt="Michael Kors"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DMichael%20Kors%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="773,171,835,191" track="shop" alt="Nautica"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DNautica%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="481,191,638,208" track="shop" alt="Kenneth Cole"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DKenneth%20Cole%20Reaction%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="637,190,716,207" track="shop" alt="Sean John"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DSean%20John%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="715,190,793,206" track="shop" alt="Tasso Elba"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DTasso%20Elba%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="480,206,589,226" track="shop" alt="Tommy Hilfiger"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DTommy%20Hilfiger%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="588,206,695,225" track="shop" alt="Donald Trump"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DDonald%20J.%20Trump%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="692,205,783,226" track="shop" alt="Van Heusen"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DVan%20Heusen%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="479,224,660,246" track="shop" alt="Vince Caumto"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=BRAND%3DVince%20Camuto%26SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="471,503,684,545" track="shop"
+    target="_blank" href="http://www1.macys.com/shop/mens-clothing/mens-dress-shirts?id=20635&edge=hybrid#!fn=SHIRT_FIT%3DClassic%20Fit%26sortBy%3DORIGINAL%26productsPerPage%3D40&!qvp=iqvp"/>
+    <area shape="rect" coords="692,505,823,541" track="viewallfits"
+    href="#/fitshirt"/>
+
+</map>

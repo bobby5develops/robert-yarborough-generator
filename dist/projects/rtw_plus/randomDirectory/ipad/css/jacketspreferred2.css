@@ -1,0 +1,18 @@
+.finderPage#jacketspreferred2{
+	background : url('../images/jacketspreferred2/bg.jpg') no-repeat;
+	height:659px!important;
+	position:relative;
+}
+.finderPage#jacketspreferred2 img#trendreport{
+	position:absolute;
+	top:25px;
+	left:15px;
+}
+.finderPage#jacketspreferred2 div.plusDot#plusDot1{
+	top:82px;
+	left:326px;
+}
+.finderPage#jacketspreferred2 div.plusDot#plusDot2{
+	top:122px;
+	left:564px;
+}

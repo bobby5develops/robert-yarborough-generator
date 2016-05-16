@@ -1,0 +1,116 @@
+<div id="htwhotspot" class="finderPage">
+
+    <div id="animewrapper">
+
+    <div class="animebucket blue">
+        <img class="redbackground" src="randomDirectory/images/htwhotspot/blue/blue_landing_bg.jpg">
+        <div class="childrenabsolute">
+            <img class="h1_title" anime="bottom" src="randomDirectory/images/htwhotspot/blue/h1_title.png" track="trendsetter"/>
+            <img class="h2_title pcopy" src="randomDirectory/images/htwhotspot/blue/h2_title.png" track="fitness"/>
+            <img class="man_left" src="randomDirectory/images/htwhotspot/blue/man_left.png" track="fitness"/>
+
+        </div>
+
+        <div class="nextNavButton"  track="next">
+            <a href="#/htwproducts/blue">
+                <img src="randomDirectory/images/next_blk.png" alt="next" border="0">
+            </a>
+        </div>
+        <div class="prevNavButton"  track="previous">
+            <a href="#/howtowearit">
+                <img src="randomDirectory/images/prev_blk.png" alt="previous" border="0">
+            </a>
+        </div>
+    </div>
+
+
+        <!--GRAY PAGE-->
+
+    <div class="animebucket gray">
+        <img class="redbackground" src="randomDirectory/images/htwhotspot/gray/gray_bg.jpg">
+        <div class="childrenabsolute">
+
+            <img class="h1_title" anime="bottom" src="randomDirectory/images/htwhotspot/gray/h1_title.png" track="trendsetter"/>
+            <img class="h2_title pcopy" src="randomDirectory/images/htwhotspot/gray/h2_title.png" track="fitness"/>
+
+
+        </div>
+        <div class="nextNavButton"  track="next">
+            <a href="#/htwproducts/gray">
+                <img src="randomDirectory/images/next_blk.png" alt="next" border="0">
+            </a>
+        </div>
+        <div class="prevNavButton"  track="previous">
+            <a href="#/htwproducts/blue">
+                <img src="randomDirectory/images/prev_blk.png" alt="previous" border="0">
+            </a>
+        </div>
+    </div>
+
+        <!--RUSTIC PAGE-->
+
+    <div class="animebucket rustic">
+        <img class="redbackground" src="randomDirectory/images/htwhotspot/rustic/rustic_landing_bg.jpg">
+        <div class="childrenabsolute">
+            <img class="h1_title" anime="bottom" src="randomDirectory/images/htwhotspot/rustic/h1_title.png" track="trendsetter"/>
+            <img class="h2_title pcopy" src="randomDirectory/images/htwhotspot/rustic/h2_title.png" track="fitness"/>
+        </div>
+
+        <div class="nextNavButton"  track="next">
+            <a href="#/htwproducts/rustic">
+                <img src="randomDirectory/images/next_blk.png" alt="next" border="0">
+            </a>
+        </div>
+        <div class="prevNavButton"  track="previous">
+            <a href="#/htwproducts/gray">
+                <img src="randomDirectory/images/prev_blk.png" alt="previous" border="0">
+            </a>
+        </div>
+    </div>
+
+
+        <!--STREET PAGE-->
+
+    <div class="animebucket street">
+        <img class="redbackground" src="randomDirectory/images/htwhotspot/street/street_landing_bg.jpg">
+        <div class="childrenabsolute">
+            <img class="h1_title" anime="bottom" src="randomDirectory/images/htwhotspot/street/h1_title.png" track="trendsetter"/>
+            <img class="h2_title pcopy" src="randomDirectory/images/htwhotspot/street/h2_title.png" track="fitness"/>
+        </div>
+
+        <div class="nextNavButton"  track="next">
+            <a href="#/htwproducts/street">
+                <img src="randomDirectory/images/next_blk.png" alt="next" border="0">
+            </a>
+        </div>
+        <div class="prevNavButton"  track="previous">
+            <a href="#/htwproducts/rustic">
+                <img src="randomDirectory/images/prev_blk.png" alt="previous" border="0">
+            </a>
+        </div>
+    </div>
+
+        <!--TAN PAGE-->
+
+    <div class="animebucket tan">
+        <img class="redbackground" src="randomDirectory/images/htwhotspot/tan/landing_recipient_bg.png">
+        <div class="childrenabsolute">
+            <a class="elementA" anime="left" href="#/shop/recipient/trendsetter"><img src="randomDirectory/images/rustic/landing_recipient_trendsetter.png" track="trendsetter"/></a>
+            <a class="elementB" anime="right" href="#/shop/recipient/fitness"><img src="randomDirectory/images/rustic/landing_recipient_fitness.png"  track="fitness"/></a>
+        </div>
+
+        <div class="nextNavButton"  track="next">
+            <a href="#/suitQuiz"  track="next">
+                <img src="randomDirectory/images/next_blk.png" alt="next" border="0">
+            </a>
+        </div>
+        <div class="prevNavButton">
+            <a href="#/htwproducts/street"  track="previous">
+                <img src="randomDirectory/images/prev_blk.png" alt="previous" border="0">
+            </a>
+        </div>
+    </div>
+
+
+    </div>
+</div>

@@ -1,0 +1,64 @@
+#footer {
+    background: #00427a url(../images/nav/footer.png) center center no-repeat;
+    vertical-align: middle;
+    height:37px;
+}
+
+#footer .bookadate {
+    width: 100px;
+    height: 100%;
+    float: left;
+    margin-left: 18px;
+    cursor: hand; cursor: pointer;
+    margin-right:3px;
+}
+
+#footer .twitter {
+    width: 23px;
+    height: 100%;
+    float: left;
+    cursor: hand; cursor: pointer;
+    margin-right:3px;
+}
+
+#footer .facebook {
+    width: 25px;
+    height: 100%;
+    float: left;
+    margin-left: 542px;
+    cursor: hand; cursor: pointer;
+}
+#subfooter{
+    display:none;
+    background: #00427a url(../images/nav/footerback.png) center center no-repeat;
+    vertical-align: middle;
+    height:18px;
+}
+#subfooter .rolloverbutton {
+    display: block;
+    border: 0;
+    left: 20px;
+    top:2px;
+    position: relative;
+    padding: 0;
+    width: 157px;
+    height: 12px;
+    background: url(../images/roll-over-button.png) 0 0 no-repeat;
+}
+#subfooter .twitter{
+    width: 25px;
+    height: 100%;
+    float: left;
+    margin-left: 473px;
+    cursor: hand; cursor: pointer;
+    position:relative;
+    top:-14px;
+}
+#subfooter .facebook{
+    width: 25px;
+    height: 100%;
+    float: left;
+    cursor: hand; cursor: pointer;
+    position:relative;
+    top:-14px;
+}

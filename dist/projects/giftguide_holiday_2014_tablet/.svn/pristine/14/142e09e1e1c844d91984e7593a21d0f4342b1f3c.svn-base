@@ -1,0 +1,130 @@
+
+
+
+<map name="mapnav_forher" id="mapnav_forher">
+    <area shape="rect" coords="5,53,104,186" href="#/landing/her" />
+    <area shape="rect" coords="106,53,208,187" href="#/shop/her/sweaters" />
+    <area shape="rect" coords="210,53,308,187" href="#/shop/her/accessories" />
+    <area shape="rect" coords="309,52,405,187" href="#/shop/her/jewelrywatches" />
+    <area shape="rect" coords="405,52,499,188" href="#/landing/beauty" />
+    <area shape="rect" coords="498,52,597,186" href="#/shop/her/pajamas" />
+    <area shape="rect" coords="597,52,696,184" href="#/shop/her/shoes" />
+    <area shape="rect" coords="696,52,789,187" href="#/shop/her/hatsglovesscarves" />
+    <area shape="rect" coords="790,50,888,187" href="#/shop/her/giftsets" />
+    <area shape="rect" coords="891,59,1016,116" href="#/shop/her/giftsunder" />
+    <area shape="rect" coords="893,118,1015,176" href="#/topgifts/her" />
+</map>
+
+<map name="mapnav_forhim" id="mapnav_forhim">
+    <area shape="rect" coords="6,46,112,189" href="#/landing/him" />
+    <area shape="rect" coords="113,46,208,189" href="#/shop/him/sweaters" />
+    <area shape="rect" coords="209,46,299,188" href="#/shop/him/shirts" />
+    <area shape="rect" coords="299,47,400,188" href="#/shop/him/accessories" />
+    <area shape="rect" coords="401,48,490,188" href="#/shop/beauty/cologne" />
+    <area shape="rect" coords="491,49,591,188" href="#/shop/him/watches" />
+    <area shape="rect" coords="592,49,690,189" href="#/shop/him/pajamas" />
+    <area shape="rect" coords="690,50,786,188" href="#/shop/him/shoes" />
+    <area shape="rect" coords="787,50,887,188" href="#/shop/him/outerwear" />
+    <area shape="rect" coords="891,64,1017,118" href="#/shop/him/giftsunder" />
+    <area shape="rect" coords="891,121,1016,170" href="#/topgifts/him" />
+</map>
+
+
+<map name="mapnav_forkids" id="mapnav_forkids">
+    <area shape="rect" coords="3,46,122,185" href="#/landing/kids" />
+    <area shape="rect" coords="123,47,252,185" href="#/shop/kids/baby" />
+    <area shape="rect" coords="252,48,375,186" href="#/shop/kids/girls" />
+    <area shape="rect" coords="375,49,502,185" href="#/shop/kids/boys" />
+    <area shape="rect" coords="501,49,631,183" href="#/shop/kids/shoes" />
+    <area shape="rect" coords="631,50,758,182" href="#/shop/kids/toys" />
+    <area shape="rect" coords="759,49,880,181" href="#/shop/kids/stocking" />
+    <area shape="rect" coords="894,63,1014,118" href="#/shop/kids/giftsunder" />
+    <area shape="rect" coords="895,120,1015,173" href="#/landing/topgifts/kids" />
+</map>
+
+
+<map name="mapnav_forteens" id="mapnav_forteens">
+    <area shape="rect" coords="3,45,116,185" href="#/landing/teens" />
+    <area shape="rect" coords="118,46,238,187" href="#/shop/teens/girlsclothing" />
+    <area shape="rect" coords="239,47,347,187" href="#/shop/teens/girlsaccessories" />
+    <area shape="rect" coords="347,48,451,187" href="#/shop/teens/guysclothing" />
+    <area shape="rect" coords="451,48,557,186" href="#/shop/teens/guysaccessories" />
+    <area shape="rect" coords="558,47,663,186" href="#/shop/teens/guysactive" />
+    <area shape="rect" coords="664,46,766,188" href="#/shop/teens/gadgets" />
+    <area shape="rect" coords="767,46,881,187" href="#/shop/teens/girlsbeauty" />
+    <area shape="rect" coords="893,48,1014,93" href="#/shop/teens/giftsunder" />
+    <area shape="rect" coords="893,97,1014,139" href="#/landing/topgifts/girls" />
+    <area shape="rect" coords="891,141,1014,186" href="#/landing/topgifts/guys" />
+</map>
+
+<map name="mapnav_forhome" id="mapnav_forhome">
+    <area shape="rect" coords="3,44,120,186" href="#/landing/homedecor" />
+    <area shape="rect" coords="120,45,237,186" href="#/shop/homedecor/kitchen" />
+    <area shape="rect" coords="238,45,344,188" href="#/shop/homedecor/coffee" />
+    <area shape="rect" coords="344,46,449,188" href="#/shop/homedecor/holiday" />
+    <area shape="rect" coords="450,47,556,186" href="#/shop/homedecor/homedecor" />
+    <area shape="rect" coords="556,47,664,187" href="#/shop/homedecor/barware" />
+    <area shape="rect" coords="665,48,768,186" href="#/shop/homedecor/gourmet" />
+    <area shape="rect" coords="767,50,884,186" href="#/shop/homedecor/giftsthatgivehope" />
+    <area shape="rect" coords="896,66,1017,114" href="#/shop/homedecor/giftsunder" />
+    <area shape="rect" coords="897,122,1013,170" href="#/landing/topgifts/homedecor" />
+</map>
+
+<map name="mapnav_beauty" id="mapnav_beauty">
+    <area shape="rect" coords="4,47,121,185" href="#/landing/beauty" />
+    <area shape="rect" coords="121,47,247,185" href="#/shop/beauty/perfume" />
+    <area shape="rect" coords="248,47,373,186" href="#/shop/beauty/fragrancegifts" />
+    <area shape="rect" coords="374,47,503,189" href="#/shop/beauty/makeupgifts" />
+    <area shape="rect" coords="504,46,630,190" href="#/shop/beauty/cologne" />
+    <area shape="rect" coords="630,47,756,190" href="#/shop/beauty/skincaregifts" />
+    <area shape="rect" coords="756,47,871,190" href="#/shop/beauty/stockingstuffers" />
+    <area shape="rect" coords="892,48,1014,91" href="#/shop/beauty/giftsunder" />
+    <area shape="rect" coords="893,93,1014,138" href="#/landing/topgifts/beauty" />
+    <area shape="rect" coords="892,141,1014,186" href="#/landing/topgifts/cologne" />
+</map>
+
+<map name="mapnav_top10" id="mapnav_top10">
+    <area shape="rect" coords="12,50,132,98" href="#/topgifts/her" />
+    <area shape="rect" coords="134,50,260,99" href="#/topgifts/him" />
+    <area shape="rect" coords="260,51,386,99" href="#/topgifts/kids" />
+    <area shape="rect" coords="387,51,510,100" href="#/topgifts/girls" />
+    <area shape="rect" coords="512,51,640,100" href="#/topgifts/guys" />
+    <area shape="rect" coords="642,52,758,99" href="#/topgifts/homedecor" />
+    <area shape="rect" coords="764,51,885,98" href="#/topgifts/beauty" />
+    <area shape="rect" coords="887,50,1018,98" href="#/topgifts/cologne" />
+</map>
+
+<map name="mapnav_stargifts" id="mapnav_stargifts">
+    <area shape="rect" coords="3,42,112,186" href="#/landing/stargifts" />
+    <area shape="rect" coords="113,43,214,187" href="#/stargifts/ralphlauren" />
+    <area shape="rect" coords="214,44,320,187" href="#/stargifts/tommyhilfiger" />
+    <area shape="rect" coords="320,45,428,187" href="#/stargifts/calvinklein" />
+    <area shape="rect" coords="428,45,538,186" href="#/stargifts/michaelkors" />
+    <area shape="rect" coords="537,46,644,186" href="#/stargifts/inc" />
+    <area shape="rect" coords="644,44,752,187" href="#/shop/stargifts/marthastewart" />
+    <area shape="rect" coords="779,57,887,94" href="#/shop/stargifts/her" />
+    <area shape="rect" coords="779,97,888,135" href="#/shop/stargifts/him" />
+    <area shape="rect" coords="777,137,888,178" href="#/shop/stargifts/kids" />
+    <area shape="rect" coords="893,56,1008,95" href="#/shop/stargifts/teens" />
+    <area shape="rect" coords="894,98,1008,136" href="#/shop/stargifts/homedecor" />
+    <area shape="rect" coords="895,137,1011,177" href="#/shop/stargifts/beauty" />
+</map>
+
+<map name="mapnav_giftsunder" id="mapnav_giftsunder">
+    <area shape="rect" coords="42,51,165,100" href="#/shop/her/giftsunder" />
+    <area shape="rect" coords="202,49,334,98" href="#/shop/him/giftsunder" />
+    <area shape="rect" coords="364,49,493,100" href="#/shop/kids/giftsunder" />
+    <area shape="rect" coords="525,52,655,101" href="#/shop/teens/giftsunder" />
+    <area shape="rect" coords="684,50,816,98" href="#/shop/homedecor/giftsunder" />
+    <area shape="rect" coords="846,50,981,103" href="#/shop/beauty/giftsunder" />
+</map>
+
+<map name="mapnav_recipient" id="mapnav_recipient">
+    <area shape="rect" coords="7,52,119,170" href="#/landing/recipient" />
+    <area shape="rect" coords="126,56,247,188" href="#/shop/recipient/trendsetter" />
+    <area shape="rect" coords="267,55,406,191" href="#/shop/recipient/fitness" />
+    <area shape="rect" coords="423,54,554,189" href="#/shop/recipient/traveller" />
+    <area shape="rect" coords="567,50,704,189" href="#/shop/recipient/sportsfan" />
+    <area shape="rect" coords="725,49,848,193" href="#/shop/recipient/partyhost" />
+    <area shape="rect" coords="871,46,1010,189" href="#/shop/recipient/coworker" />
+</map>

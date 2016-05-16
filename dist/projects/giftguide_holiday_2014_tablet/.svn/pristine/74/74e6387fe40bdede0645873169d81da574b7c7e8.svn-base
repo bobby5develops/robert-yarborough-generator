@@ -1,0 +1,103 @@
+
+
+SiteConfig.shoprl = {
+
+	her: {
+		headerImage: assetsDirectory + "images/forCMS/ralphlauren_headerImage_her.jpg",
+		poolName: "forher_missy",
+        navId: "",
+		filters: {
+			options: [
+				{
+					text: "Shop by:",
+					value: "DEFAULT"
+				},
+				{
+					text: "All",
+					value: "DEFAULT"
+				},
+				{
+					text: "Michael Kors",
+					pfeed: "pfeed_brand",
+					value: "Michael Kors"
+				},
+				{
+					text: "Lauren Ralph Lauren",
+					pfeed: "pfeed_brand",
+					value: "Lauren Ralph Lauren"
+				},
+				{
+					text: "Charter Club",
+					pfeed: "pfeed_brand",
+					value: "Charter Club"
+				},
+				{
+					text: "Style&co.",
+					pfeed: "pfeed_brand",
+					value: "Style&co."
+				},
+				{
+					text: "Vince Camuto",
+					pfeed: "pfeed_brand",
+					value: "Vince Camuto"
+				},
+				{
+					text: "INC International Concepts",
+					pfeed: "pfeed_brand",
+					value: "INC International Concepts"
+				},
+				{
+					text: "Alfani",
+					pfeed: "pfeed_brand",
+					value: "Alfani"
+				},
+				{
+					text: "Tommy Hilfiger",
+					pfeed: "pfeed_brand",
+					value: "Tommy Hilfiger"
+				}
+			]
+		},
+		videoData: {
+			videos: [
+				{
+					gridPosition:[0,0],
+					size:[2,2],
+					videoPathWebm: assetsDirectory + "videos/RL_WOMENS_DnS_v5.webm",
+					videoPath: assetsDirectory + "videos/RL_WOMENS_DnS_v5.mp4"
+					
+				},
+				{
+					gridPosition:[3,3],
+					size:[2,2],
+					videoPathWebm: assetsDirectory + "videos/RL_WOMENS_LAUREN_v6.webm",
+					videoPath: assetsDirectory + "videos/RL_WOMENS_LAUREN_v6.mp4"
+					
+				},
+				{
+					gridPosition:[0,6],
+					size:[2,2],
+					videoPathWebm: assetsDirectory + "videos/RL_WOMENS_Polo_v5.webm",
+					videoPath: assetsDirectory + "videos/RL_WOMENS_Polo_v5.mp4"
+					
+				}
+			]
+		}
+	},
+    him: {
+        headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_RALPH_MEN.png",
+        poolName: "forher_missy"
+    },
+    girls: {
+        headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_RALPH_GIRLS.png",
+        poolName: "forher_missy"
+    },
+    boys: {
+        headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_RALPH_BOYS.png",
+        poolName: "forher_missy"
+    },
+    baby: {
+        headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_RALPH_BABY.png",
+        poolName: "forher_missy"
+    }
+};

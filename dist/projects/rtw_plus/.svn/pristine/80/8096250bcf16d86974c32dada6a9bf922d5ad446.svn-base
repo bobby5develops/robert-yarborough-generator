@@ -1,0 +1,107 @@
+/* JASON */
+div.hotspot, div.hotspotPleated{
+	position : absolute; 
+	padding:5px;
+	width : 15px; 
+	height : 15px; 
+	background : url(../images/common/plus.png) center center no-repeat; 
+	z-index : 100; 	
+	cursor : pointer;
+}
+
+li.bigHeroes div.hotspot{
+	background : url(../images/common/minus.png) center center no-repeat; 
+}
+
+li.colPants div.hotspot{
+	background : url(../images/common/minus.png) center center no-repeat; 
+}
+
+.hotInside{
+	background : black;
+	margin : 10px 0 0 0px; 
+	z-index : 0; 	
+	display : block;
+	overflow : hidden;
+	height : 0;
+	width : 0;
+	min-height:150px;
+}
+
+.hotInside ul{
+	display : block;	
+	margin : 5px;
+
+}
+
+.hotInside ul li{
+	display : block;
+	position : relative; 
+	list-style : none; 
+	list-style-type : none; 	
+	font-family: helvetica, arial;
+	color : white; 
+	width : 130px; 
+	margin-left : -35px;
+	background : black;
+}
+
+.hotInside ul li h4{
+	font-family: 'ITCAvantGardeGothicStdMedium', Arial, verdana;
+	font-weight : normal; 
+	color : white; 
+	font-size : 14px; 
+	margin : 0;
+	background : black;
+}
+
+li.hotPar{
+	font-family: 'ITCAvantGardeGothicStdMedium', Arial, verdana;
+	font-size : 12px;
+	margin-bottom : 10px; 
+	width : 130px;	
+}
+
+li.hotLook{
+	font-family: 'ITCAvantGardeGothicStdMedium', Arial, verdana;
+	font-size : 12px;	
+}
+
+li.hotLook a{
+	font-family: 'ITCAvantGardeGothicStdMedium', Arial, verdana;
+	text-decoration : none; 
+	color : white; 	
+}
+
+li.headHotImage{
+	margin-bottom : -5px;
+}
+
+li.hotShare{
+	font-size : 12px;	
+	margin-top : 10px; 
+	padding :  2px 5px 5px 30px; 
+	background : url(../images/common/share.jpg) no-repeat; 
+}
+
+li.hotShare a{
+	font-family: 'ITCAvantGardeGothicStdMedium', Arial, verdana;
+	text-decoration : none; 
+	color : white; 	
+}
+
+div#backArrows{
+	position : absolute; 
+	margin : 260px; 0 0 0; 
+	z-index : 999;
+}
+
+div#backArrows div#rightArrow{
+	position : absolute; 
+	margin : 0px 0 0 600px; 
+}
+
+div#backArrows div#leftArrow{
+	position : absolute;
+	margin-left : -260px; 
+}

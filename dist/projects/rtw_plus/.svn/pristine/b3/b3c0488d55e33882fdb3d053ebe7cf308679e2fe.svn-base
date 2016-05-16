@@ -1,0 +1,29 @@
+<div id="jacketspreferred2" class="finderPage">
+	<img id="trendreport" src="randomDirectory/images/jacketspreferred2/trendreport.png"/>
+	<div class="plusDot" id="plusDot1">
+		<div class="dotSign" tracker="tweedit"></div>
+		<div class="dotContent">
+			<h4>TWEED IT</h4>
+			<p>dress up distressed jeans with a textured cropped jacket and studiously cool loafers. a structured patent bag adds a glossy flash of shine.</p>
+			<a class="minusGetLook" tracker="tweedit_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040293'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="tweedit_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="jacketspreferred">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="tweedit_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="jacketspreferred" pinicon="randomDirectory/images/pinicons/tweedit.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot2">
+		<div class="dotSign" tracker="chicweave"></div>
+		<div class="dotContent flip">
+			<h4>CHIC WEAVE</h4>
+			<p>go fashion-forward at the office in a jewel-toned nubby-knit topper with leather-look sleeves. pair it with basic black separates for standout style.</p>
+			<a class="minusGetLook" tracker="chicweave_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040294'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="chicweave_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="jacketspreferred">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="chicweave_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="jacketspreferred" pinicon="randomDirectory/images/pinicons/chicweave.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<a href="#/jacketspreferred" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/trueblues" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+</div>

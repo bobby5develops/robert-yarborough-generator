@@ -1,0 +1,183 @@
+var SlidingHeader = ( function() {
+	// flip to true if you want pools to be cached
+	// table of contents
+	// build the slider for the tablet
+	var headerTemplate;
+	var $container;
+
+	// add up the width of all images
+	var totalWidth;
+
+	var $image;
+
+	var $buttonContainer;
+	// timrout to set url independent of animation
+	var setUrlTimeout;
+
+	var isSliderBuilt = false;
+	// default current slide will be changed by processParams
+	var currentIndex = 0;
+	// store data objecrt for each slide here
+	var currentArray = [];
+	// total number of slides
+	var totalSlides;
+	// the image width, hopefully for each category they are the same .... looks like not
+	var imageWidth;
+
+	var $slider;
+
+	function init( o ) {
+		// if slider is not builkt in DOM, build it else just set the correct position
+		if ( isSliderBuilt === false ) {
+			buildSlider( o );
+		} else {
+			setCurrentSlide();
+		}
+	}
+
+	function buildSlider( o ) {
+		headerTemplate = "#shopHeaderTabletTemplate";
+		$container = $(".marquee");
+
+		currentArray = [];
+		$container.empty();
+		$container.addClass("tablet");
+		// temporary button contianer to get it working
+		$container.append("<div class='buttonContainer'></div><div class='slider'></div>");
+
+		$slider = $container.find(".slider");
+		$buttonContainer = $container.find(".buttonContainer");
+
+		console.log(o, "THE OBJECT ******************");
+
+		// bind swipe event to slider
+		$slider.swipe( {
+			swipeLeft:function(event, direction, distance, duration, fingerCount) {
+				nextIndex();
+			},
+			swipeRight:function(event, direction, distance, duration, fingerCount) {
+				prevIndex();
+			},
+		});
+
+		// when transition eneds fire this event
+		$slider.on( 'webkitTransitionEnd', function( event ) {
+			setUrlTimeout = setTimeout( function(){
+				var hash = currentArray[ currentIndex ].hash;
+						//alert( hash );
+					setUrl( hash );
+				}, 500
+			);
+		});
+
+		for ( var prop in o ) {
+			if( o.hasOwnProperty( prop ) ){
+				var clonedObject = jQuery.extend(true, {},  o[ prop ] );
+				clonedObject.hash = prop;
+				currentArray.push( clonedObject );
+				console.log( $( headerTemplate ).tmpl( o[ prop ] ) );
+				$( headerTemplate ).tmpl( o[ prop ] ).appendTo( $slider  );
+			}
+		}
+
+		totalWidth = 0;
+		var i = 0;
+		totalSlides = currentArray.length;
+		$images = $slider.find("img");
+
+		console.log( $images.length, "IMAGES");
+		$images.bind("load", function() {
+			//alert("loaded");
+			imageWidth = $(this).width();
+			totalWidth += imageWidth;
+			i ++;
+			if( i === $images.length ) {
+				setMarquee();
+			}
+		});
+
+		isSliderBuilt = true;
+
+	}
+
+	function setMarquee() {
+		// make the width the entire width of all images
+		$slider.width( totalWidth );
+		// append temp buttons to get it working
+		$images.each(function() {
+			$buttonContainer.append("<div class='button'></div>");
+		});
+
+		$buttons = $buttonContainer.find(".button");
+
+		$buttons.bind("click", function( event ) {
+			var index = $buttons.index( $(this) );
+			setIndex( index );
+		});
+
+		setCurrentSlide();
+	}
+
+	function nextIndex() {
+
+		var index = currentIndex;
+		if ( index + 1 < totalSlides ) {
+			index += 1;
+			if ( setUrlTimeout ) clearTimeout( setUrlTimeout );
+
+		} /*else {
+			index = 0;
+		}*/
+		setIndex( index );
+	}
+
+	function prevIndex() {
+		var index = currentIndex;
+		if ( index - 1 >= 0 ) {
+			index -= 1 ;
+			if ( setUrlTimeout ) clearTimeout( setUrlTimeout );
+		} /*else {
+			index = totalSlides - 1;
+		}*/
+		setIndex( index );
+	}
+
+	function setIndex( index ) {
+		currentIndex = index;
+		var xNew = (index * imageWidth) * -1;
+		$slider.css( "left", xNew );
+	}
+
+	function setCurrentSlide() {
+		// check hash and get corresponding data for slide
+		$slider = $container.find( ".slider" );
+
+		var i = 0;
+		while( i < currentArray.length ) {
+			var o = currentArray[ i ];
+			var hash = finder.currentPage.params.argc[ 1 ];
+			if ( hash === o.hash) {
+				currentIndex = i;
+				break;
+			}
+			i++;
+		}
+
+		setIndex( currentIndex );
+	}
+
+	function reset() {
+		isSliderBuilt = false;
+		$slider.off();
+	}
+
+	function setUrl( hash ) {
+		window.location = "#/" + finder.currentPage.navId + "/" + finder.currentPage.params.argc[ 0 ] + "/" + hash;
+	}
+
+	return {
+		init: init,
+		reset: reset
+	};
+
+} )();

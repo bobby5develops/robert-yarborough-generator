@@ -1,0 +1,26 @@
+.finderPage#trueblues2{
+	background : url('../images/trueblues2/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#trueblues2 img#trendreport{
+	position:absolute;
+	top:25px;
+	left:30px;
+}
+.finderPage#trueblues2 div.plusDot#plusDot1{
+	top:290px;
+	left:180px;
+}
+.finderPage#trueblues2 div.plusDot#plusDot2{
+	top:170px;
+	left:435px;
+}
+.finderPage#trueblues2 div.plusDot#plusDot3{
+	top:225px;
+	left:510px;
+}
+.finderPage#trueblues2 div.plusDot#plusDot4{
+	top:70px;
+	left:675px;
+}

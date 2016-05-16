@@ -1,0 +1,26 @@
+.finderPage#prepset2{
+	background : url('../images/prepset2/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#prepset2 img#trendreport{
+	position:absolute;
+	top:25px;
+	left:15px;
+}
+.finderPage#prepset2 div.plusDot#plusDot1{
+	top:128px;
+	left:251px;
+}
+.finderPage#prepset2 div.plusDot#plusDot2{
+	top:110px;
+	left:424px;
+}
+.finderPage#prepset2 div.plusDot#plusDot3{
+	top:84px;
+	left:606px;
+}
+.finderPage#prepset2 div.plusDot#plusDot4{
+	top:215px;
+	left:680px;
+}

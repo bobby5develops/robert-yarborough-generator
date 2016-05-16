@@ -1,0 +1,38 @@
+<div id="home" class="finderPage">
+
+
+    <img src="randomDirectory/images/forCMS/redbackground1024px.png">
+
+
+    <div class="childrenabsolute">
+        <a class="animeimage forher" anime="top" href="#/landing/her"><img src="randomDirectory/images/forCMS/home_tag_forher.png" track="her"></a>
+        <a class="animeimage forhim" anime="top" href="#/landing/him"><img src="randomDirectory/images/forCMS/home_tag_forhim.png" track="him"></a>
+        <a class="animeimage forthehome" anime="left" href="#/landing/homedecor"><img src="randomDirectory/images/forCMS/home_tag_forthehome.png" track="home"></a>
+        <a class="animeimage forteens" anime="left" href="#/landing/teens"><img src="randomDirectory/images/forCMS/home_tag_for_teens.png" track="teens"></a>
+        <a class="animeimage forkids" anime="right" href="#/landing/kids"><img src="randomDirectory/images/forCMS/home_tag_for_kids.png" track="kids"></a>
+        <a class="animeimage forbeauty" anime="right" href="#/landing/beauty"><img src="randomDirectory/images/forCMS/home_tag_beauty.png" track="beauty"></a>
+        <a class="animeimage forreciept" anime="right" href="#/landing/recipient"><img src="randomDirectory/images/forCMS/home_tag_shop_reciept.png" track="reciept"></a>
+        <a class="animeimage forstargifts"  href="#/landing/stargifts"><img src="randomDirectory/images/forCMS/home_tag_star_gifts.png" share="stargifts" track="stargifts"></a>
+        <a class="animeimage forralphlauren"  href="#/stargifts/ralphlauren"><img src="randomDirectory/images/forCMS/home_footer_from_ralphlauren.png" track="ralphlauren"></a>
+        <a class="animeimage footerfindoutmore"  href="http://www1.macys.com/internationalContext/index.ognc" target="_blank"><img src="randomDirectory/images/forCMS/home_footer_find_out_more.png" track="findmore"></a>
+        <a class="animeimage footergiftcards"  href="https://www1.macys.com/shop/gifts-gift-cards?id=1405" target="_blank"><img src="randomDirectory/images/forCMS/home_footer_gift_cards.png" track="giftscard"></a>
+        <a class="animeimage footersantamail"  href="https://www.macys.com/believe" target="_blank"><img src="randomDirectory/images/forCMS/home_footer_santa_mail.png" track="santamail"></a>
+        <a class="animeimage footerlettertosanta"  href="https://www.macys.com/believe" target="_blank"><img src="randomDirectory/images/forCMS/home_footer_letter_to_santa.png" track="santamail"></a>
+        <div class="animeimage headline">
+            <img class="headline-main" src="randomDirectory/images/forCMS/home_headline_main.png">
+            <img class="headline-week1" src="randomDirectory/images/forCMS/home_headline_week1.png">
+        </div>
+        <a class="home_top10" href="#/topgifts"><img src="randomDirectory/images/forCMS/home_top10.png"/></a>
+        <a class="home_gifts" href="#/shop/her/giftsunder"><img src="randomDirectory/images/forCMS/home_giftsunder.png"/></a>
+
+    </div>
+
+
+
+    <div class="sharing">
+        <img src="randomDirectory/images/shareFB.png" role="skavaInteropShareFacebook" track="sharefb"/>
+        <img src="randomDirectory/images/shareTWITTER.png" role="skavaInteropShareTwitter" track="sharetwitter"/>
+        <img src="randomDirectory/images/share_PINSTER.png" role="skavaInteropSharePinterest"track="sharepinster"/>
+    </div>
+
+</div>

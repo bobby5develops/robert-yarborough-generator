@@ -1,0 +1,6 @@
+.finderPage#accessories5 {
+	height:659px;
+	width:900px;
+	background-image:url('../images/accessories5/bg.jpg');
+	background-repeat:no-repeat;
+}

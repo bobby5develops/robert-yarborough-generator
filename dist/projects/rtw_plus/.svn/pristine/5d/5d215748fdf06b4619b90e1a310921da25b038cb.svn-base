@@ -1,0 +1,53 @@
+<div id="moderndresses2" class="finderPage">
+	<img id="trendreport" src="randomDirectory/images/moderndresses2/trendreport.png"/>
+	<div class="plusDot" id="plusDot1">
+		<div class="dotSign" tracker="shapeshift"></div>
+		<div class="dotContent">
+			<h4>SHAPE SHIFT</h4>
+			<p>a slim shift goes from basic to bold with colorblocking. knee-high boots and a structured bag take this look to the office.</p>
+			<a class="minusGetLook" tracker="shapeshift_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040090'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="shapeshift_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="moderndresses">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="shapeshift_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="moderndresses" pinicon="randomDirectory/images/pinicons/shapeshift.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot2">
+		<div class="dotSign" tracker="scarletstripes"></div>
+		<div class="dotContent">
+			<h4>SCARLET STRIPES</h4>
+			<p>red and black give sporty rugby stripes a grown-up makeover. a zippered tote and open-toe booties make playful counterparts.</p>
+			<a class="minusGetLook" tracker="scarletstripes_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040092'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="scarletstripes_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="moderndresses">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="scarletstripes_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="moderndresses" pinicon="randomDirectory/images/pinicons/scarletstripes.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot3">
+		<div class="dotSign" tracker="fineprint"></div>
+		<div class="dotContent flip">
+			<h4>FINE PRINT</h4>
+			<p>a patterned dress works for the boardroom or the dinner table with an envelope clutch and opaque tights. stand tall on tonal pumps.</p>
+			<a class="minusGetLook" tracker="fineprint_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040095'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="fineprint_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="moderndresses">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="fineprint_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="moderndresses" pinicon="randomDirectory/images/pinicons/fineprint.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<!--<div class="plusDot" id="plusDot4">
+		<div class="dotSign" tracker="redhot"></div>
+		<div class="dotContent flip">
+			<h4>RED HOT</h4>
+			<p>instant wow factor: cutouts, colorblocking and studs highlight a curve-hugging sheath. ankle strap sandals amp up the look.</p>
+			<a class="minusGetLook" tracker="redhot_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040088'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="redhot_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="moderndresses">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="redhot_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="moderndresses" pinicon="randomDirectory/images/pinicons/redhot2.jpg">pin it &#9658;</a>
+		</div>
+	</div>-->
+	<a href="#/moderndresses" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/blackandwhite" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+</div>

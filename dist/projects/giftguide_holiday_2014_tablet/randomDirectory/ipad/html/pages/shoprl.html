@@ -1,0 +1,74 @@
+<div id="shoprl" class="finderPage">
+    <div class="marquee"></div>
+    <nav class="rl_nav">
+        <ul class="rl_nav_container">
+            <li class="her"><a class="her_btn" href="#/shoprl/her" track="subnavher"><span>For Her</span></a> </li>
+            <li class="him"><a class="him_btn" href="#/shoprl/him" track="subnavhim"><span>For Him</span></a></li>
+            <li class="girls"><a class="girls_btn" href="#/shoprl/girls" track="subnavgirls"><span>For Girls</span></a></li>
+            <li class="boys"><a class="boys_btn" href="#/shoprl/boys" track="subnavboys"><span>For Boys</span></a></li>
+            <li class="baby"><a class="baby_btn" href="#shoprl/baby" track="subnavbaby"><span>For Baby</span></a></li>
+        </ul>
+    </nav>
+    <nav class="utilities">
+        <ul class="utility_bar">
+            <li class="left_block"><a class="favorite_btn" href="" track="favorite"><img src="randomDirectory/images/forCMS/ralphlauren_favorite_btn.jpg" alt="" /></a></li>
+            <li class="left_block"><a class="add_products_btn" href="" track="add"><img src="randomDirectory/images/forCMS/ralphlauren_addproducts_btn.jpg" alt="" /></a></li>
+            <li class="right_block"><a class="shop_for" href="" track="shop"><img src="randomDirectory/images/forCMS/ralphlauren_shop_for_btn.jpg" alt=""></a></li>
+            <li class="right_block"><a class="price" href="" track="price"><img src="randomDirectory/images/forCMS/ralphlauren_price_btn.jpg" alt=""></a></li>
+            <li class="right_block"><a class="most_loved" href="" track="mostloved"><img src="randomDirectory/images/forCMS/ralphlauren_most_loved_btn.jpg" alt=""></a></li>
+            <li class="right_block"><a class="loved_items" href="" track="loved"><img src="randomDirectory/images/forCMS/ralphlauren_loved_items.jpg" alt=""></a></li>
+        </ul>
+    </nav>
+
+	<div class="filterBar"></div>
+	<div class="products"></div>
+</div>
+
+<script id="shopHeaderTemplate" type="text/html">
+	<img src="${headerImage}" />
+	<a href="#" class="shareButton" track="share">SHARE</a>
+</script>
+
+<script id="shopHeaderTabletTemplate" type="text/html">
+	<img class="imageUnit" src="${headerImage}" />
+</script>
+
+<script id="sortTemplate" type="text/html">
+	<select id="sortby" class="poolSort">
+		<option value="DEFAULT">Sort by:</option>
+		<option value="DEFAULT">none</option>
+		<option tracking="shopbyprice" value="PRICE_HIGH_TO_LOW">price: high to low</option>
+		<option tracking="shopbyprice" value="PRICE_LOW_TO_HIGH">price: low to high</option>
+		<option tracking="mostloved" value="VOTES_HIGH_TO_LOW">most loved</option>
+	</select>
+</script>
+
+<script id="filterTemplate" type="text/html">
+	<select class="filter">
+		{{each options}}
+			<option value="${pfeed},${value}">${text}</option>
+		{{/each}}
+	</select>
+</script>
+
+<script id="videoTemplate" type="text/html">
+	<div class="videoBlock" style="background:transparent url( '${defaultImage}' ) no-repeat 0 0;">
+		<video autoplay loop>
+			<source src="${videoPath}" type="video/mp4">
+			<source src="${videoPathWebm}" type="video/webm">
+			Your browsr does not support video tag
+		</video>
+	</div>
+</script>
+
+<script id="gifTemplate" type="text/html">
+	<div class="videoBlock">
+		<img src="${gifPath}" >
+	</div>
+</script>
+
+<script id="imageTemplate" type="text/html">
+	<div class="videoBlock">
+		<img src="${imagePath}" >
+	</div>
+</script>

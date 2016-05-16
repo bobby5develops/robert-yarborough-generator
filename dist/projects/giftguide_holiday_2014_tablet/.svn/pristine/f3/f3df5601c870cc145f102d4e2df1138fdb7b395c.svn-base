@@ -1,0 +1,556 @@
+.finderPage#landing {
+
+}
+
+
+.finderPage#landing A,
+.finderPage#landing IMG {
+    display: block;
+}
+
+
+/***************  control to turn on and off anime buckets   *************/
+
+.finderPage#landing #animewrapper .animebucket { display: none; }
+
+
+
+
+/***************  TAGS and anything in the absolute div  *************/
+
+
+
+.finderPage#landing .childrenabsolute > * {
+    position: absolute;
+}
+
+
+
+
+/***************  HER coords for tags   *************/
+
+
+.finderPage#landing .landing_her_header {
+    top:30px;
+    left: 59px;
+}
+
+.finderPage#landing .her_hero {
+    top: 80px;
+    left: 46px;
+}
+
+.finderPage#landing .animebucket.her .sweaters {
+    top: 30px;
+    left: 349px;
+}
+
+.finderPage#landing .animebucket.her .handbags {
+    top: 30px;
+    left: 512px;
+}
+
+.finderPage#landing .animebucket.her .jewelry {
+    top: 30px;
+    left: 676px;
+}
+
+.finderPage#landing .animebucket.her .beauty {
+    top: 30px;
+    left: 839px;
+}
+
+.finderPage#landing .animebucket.her .pajamas {
+    top: 287px;
+    left: 349px;
+}
+
+.finderPage#landing .animebucket.her .shoes {
+    top: 287px;
+    left: 512px;
+}
+
+.finderPage#landing .animebucket.her .hats {
+    top: 287px;
+    left: 676px;
+}
+
+.finderPage#landing .animebucket.her .gift {
+    top: 287px;
+    left: 839px;
+}
+
+
+.finderPage#landing .animebucket.her .bottom_0 {
+    top: 561px;
+    left: 340px;
+}
+
+.finderPage#landing .animebucket.her .bottom_1 {
+    top: 561px;
+    left: 561px;
+}
+
+.finderPage#landing .animebucket.her .bottom_2 {
+    top: 561px;
+    left: 778px;
+}
+
+
+
+
+
+
+
+/***************  HIM coords for tags   *************/
+.finderPage#landing .landing_him_header{
+    top:30px;
+    left: 59px;
+}
+
+.finderPage#landing .animebucket.him .him_hero{
+    top: 84px;
+    left: 41px;
+}
+
+
+.finderPage#landing .animebucket.him .sweaters{
+    top: 30px;
+    left: 349px;
+}
+
+.finderPage#landing .animebucket.him .shirts{
+    top: 30px;
+    left: 512px;
+}
+
+.finderPage#landing .animebucket.him .bags{
+    top: 30px;
+    left: 676px;
+}
+
+.finderPage#landing .animebucket.him .cologne{
+    top: 30px;
+    left: 839px;
+}
+
+.finderPage#landing .animebucket.him .watches{
+    top: 287px;
+    left: 349px;
+}
+
+.finderPage#landing .animebucket.him .pajamas{
+    top: 287px;
+    left: 512px;
+}
+
+.finderPage#landing .animebucket.him .shoes{
+    top: 287px;
+    left: 676px;
+}
+
+.finderPage#landing .animebucket.him .coats{
+    top: 287px;
+    left: 839px;
+}
+
+.finderPage#landing .animebucket.him .bottom_him_0{
+    top: 561px;
+    left: 340px;
+}
+
+.finderPage#landing .animebucket.him .bottom_him_1{
+    top: 561px;
+    left: 561px;
+}
+
+.finderPage#landing .animebucket.him .bottom_him_2{
+    top: 561px;
+    left: 778px;
+}
+
+
+
+
+
+
+
+
+/***************  KIDS coords for tags   *************/
+.finderPage#landing .landing_kids_header{
+    top: 37px;
+    left: 152px;
+}
+
+.finderPage#landing .animebucket.kids .kids_hero{
+    top: 81px;
+    left: 0px;
+}
+
+.finderPage#landing .animebucket.kids .baby{
+    top: 30px;
+    left: 493px;
+}
+
+.finderPage#landing .animebucket.kids .girls{
+    top: 30px;
+    left: 657px;
+}
+
+.finderPage#landing .animebucket.kids .boys{
+    top: 30px;
+    left: 820px;
+}
+
+.finderPage#landing .animebucket.kids .shoes{
+    top: 287px;
+    left: 493px;
+}
+
+.finderPage#landing .animebucket.kids .toys{
+    top: 287px;
+    left: 657px;
+}
+
+.finderPage#landing .animebucket.kids .stocking{
+    top: 287px;
+    left: 820px;
+}
+
+
+
+.finderPage#landing .animebucket.kids .kids_top10{
+    top: 561px;
+    left: 497px;
+}
+
+.finderPage#landing .animebucket.kids .kids_giftsunder{
+    top: 561px;
+    left: 742px;
+}
+
+
+
+
+
+
+/***************  TEENS coords for tags   *************/
+.finderPage#landing .landing_teens_header{
+    top: 55px;
+    left: 31px;
+}
+
+.finderPage#landing .animebucket.teens .girls_clothing{
+    top: 27px;
+    left: 392px;
+}
+
+.finderPage#landing .animebucket.teens .girls_accessories{
+    top: 27px;
+    left: 549px;
+}
+
+.finderPage#landing .animebucket.teens .guys_clothing{
+    top: 27px;
+    left: 706px;
+}
+
+.finderPage#landing .animebucket.teens .guys_shoes{
+    top: 27px;
+    left: 862px;
+}
+
+.finderPage#landing .animebucket.teens .activewear{
+    top: 274px;
+    left: 391px;
+}
+
+.finderPage#landing .animebucket.teens .gadgets{
+    top: 275px;
+    left: 532px;
+}
+
+
+
+.finderPage#landing .animebucket.teens .beauty_fragrance{
+    top: 286px;
+    left: 674px;
+}
+
+.finderPage#landing .animebucket.teens .teens_top10_girls{
+    top: 301px;
+    left: 823px;
+}
+
+.finderPage#landing .animebucket.teens .teens_top10_guys{
+    top: 404px;
+    left: 823px;
+}
+
+.finderPage#landing .animebucket.teens .teens_giftsunder{
+    top: 550px;
+    left:461px;
+}
+
+.finderPage#landing .animebucket.teens .teens_shop{
+    top: 550px;
+    left: 692px;
+}
+
+
+
+/***************  HOMEDECOR coords for tags   *************/
+.finderPage#landing .landing_homedecor_header{
+    top: 30px;
+    left: 44px;
+}
+
+.finderPage#landing .animebucket.homedecor .kitchen{
+    top: 30px;
+    left: 359px;
+}
+
+.finderPage#landing .animebucket.homedecor .coffee{
+    top: 30px;
+    left: 522px;
+}
+
+.finderPage#landing .animebucket.homedecor .holiday_lane{
+    top: 30px;
+    left: 686px;
+}
+
+.finderPage#landing .animebucket.homedecor .home_decor{
+    top: 30px;
+    left: 849px;
+}
+
+.finderPage#landing .animebucket.homedecor .barware{
+    top: 287px;
+    left: 441px;
+}
+
+.finderPage#landing .animebucket.homedecor .gourmet{
+    top: 287px;
+    left: 604px;
+}
+
+
+
+.finderPage#landing .animebucket.homedecor .gifts_thatgivehope{
+    top: 287px;
+    left: 768px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_top10{
+    top: 561px;
+    left: 350px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_giftsunder{
+    top: 561px;
+    left: 571px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_shop{
+    top: 561px;
+    left:789px;
+}
+
+
+
+/***************  HOMEDECO coords for tags   *************/
+
+
+.finderPage#landing .animebucket.homedecor .homedecor_hero{
+    top: 189px;
+    left: 0;
+}
+
+.finderPage#landing .animebucket.homedecor .gifts_thatgivehope{
+    top: 287px;
+    left: 768px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_top10{
+    top: 561px;
+    left: 350px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_giftsunder{
+    top: 561px;
+    left: 571px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_shop{
+    top: 561px;
+    left:789px;
+}
+
+
+
+
+/***************  BEAUTY coords for tags   *************/
+.finderPage#landing .landing_beauty_header{
+    top: 38px;
+    left: 31px;
+}
+
+.finderPage#landing .beauty_hero{
+    top: 130px;
+    left: 31px;
+}
+
+.finderPage#landing .animebucket.beauty .perfume{
+    top: 17px;
+    left: 480px;
+}
+
+.finderPage#landing .animebucket.beauty .fragrance{
+    top: 17px;
+    left: 650px;
+}
+.finderPage#landing .animebucket.beauty .make_gifts{
+    top: 17px;
+    left: 820px;
+}
+.finderPage#landing .animebucket.beauty .make_cologne{
+    top: 290px;
+    left: 480px;
+}
+.finderPage#landing .animebucket.beauty .skin_care{
+    top: 280px;
+    left: 650px;
+}
+.finderPage#landing .animebucket.beauty .stocking{
+    top: 290px;
+    left: 820px;
+}
+.finderPage#landing .animebucket.beauty .stocking{
+    top: 290px;
+    left: 820px;
+}
+.finderPage#landing .animebucket.beauty .beauty_top_beauty{
+    top: 547px;
+    left: 300px;
+}
+.finderPage#landing .animebucket.beauty .beauty_top_cologne{
+    top: 547px;
+    left: 525px;
+}
+.finderPage#landing .animebucket.beauty .beauty_top_gifts{
+    top: 547px;
+    left: 750px;
+}
+
+
+
+/***************  STAR GIFTS *******************/
+
+.finderPage#landing .childrenabsolute a.tommy_hilfiger{
+    top:242px;
+    left:89px;
+}
+
+.finderPage#landing .childrenabsolute a.calvin_klein{
+    top: 247px;
+    left: 268px;
+}
+
+
+.finderPage#landing .childrenabsolute a.michael_kors{
+    top: 242px;
+    left: 440px;
+}
+
+.finderPage#landing .childrenabsolute a.inc{
+    top: 247px;
+    left: 617px;
+}
+
+.finderPage#landing .childrenabsolute a.martha_stewart{
+    top: 243px;
+    left: 789px;
+}
+
+.finderPage#landing .childrenabsolute a.her{
+    top: 556px;
+    left: 183px;
+}
+
+.finderPage#landing .childrenabsolute a.him{
+    top: 556px;
+    left: 297px;
+}
+
+.finderPage#landing .childrenabsolute a.home{
+    top: 554px;
+    left: 414px;
+}
+
+.finderPage#landing .childrenabsolute a.beauty{
+    top: 654px;
+    left: 414px;
+}
+
+.finderPage#landing .childrenabsolute a.teens{
+    top: 553px;
+    left: 599px;
+}
+
+.finderPage#landing .childrenabsolute a.kids{
+    top: 553px;
+    left: 714px;
+}
+
+
+
+
+
+
+
+
+
+/***************  RECIPIENT coords for tags   *************/
+
+
+.finderPage#landing .childrenabsolute a.trendsetter{
+    top: 173px;
+    left: 14px;
+}
+
+.finderPage#landing .childrenabsolute a.fitness{
+    top: 173px;
+    left: 344px;
+}
+
+.finderPage#landing .childrenabsolute a.traveler{
+    top:173px;
+    left: 673px;
+}
+
+.finderPage#landing .childrenabsolute a.sportsfan{
+    top: 502px;
+    left: 14px;
+}
+
+.finderPage#landing .childrenabsolute a.partyhost{
+    top: 502px;
+    left: 344px;
+}
+
+.finderPage#landing .childrenabsolute a.coworker{
+    top: 502px;
+    left: 673px;
+}
+
+
+
+
+
+
+
+
+
+
+

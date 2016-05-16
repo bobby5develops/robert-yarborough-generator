@@ -1,0 +1,128 @@
+.finderPage#home {
+}
+
+.finderPage#home A,
+.finderPage#home IMG {
+    display: block;
+}
+
+
+.finderPage#home .childrenabsolute > * {
+     position: absolute;
+ }
+
+.finderPage#home .forher {
+    top: 30px;
+    left: 72px;
+}
+.finderPage#home .forhim {
+    top: 51px;
+    left: 284px;
+}
+.finderPage#home .forthehome {
+    top: 373px;
+    left: 39px;
+}
+
+.finderPage#home .forteens{
+   top:596px;
+   left: 44px;
+}
+
+
+.finderPage#home .forkids{
+    top: 432px;
+    left: 390px;
+}
+
+.finderPage#home .forbeauty{
+    top: 456px;
+    left: 612px;
+}
+
+.finderPage#home .forreciept{
+    top: 452px;
+    left: 819px;
+}
+
+.finderPage#home .forstargifts{
+    top: 799px;
+    left: 70px;
+}
+
+.finderPage#home .forralphlauren{
+    top: 790px;
+    left: 560px;
+}
+
+.finderPage .footerfindoutmore{
+    top: 1091px;
+    left: 39px;
+}
+
+.finderPage .footergiftcards{
+    top: 1091px;
+    left: 296px;
+}
+
+.finderPage .footersantamail{
+    top: 1034px;
+    left: 560px;
+}
+
+.finderPage .footerlettertosanta{
+    top: 1069px;
+    left: 730px;
+}
+
+
+
+
+/* insert all the other animating tags here */
+
+
+
+
+
+.finderPage#home .headline {
+    top: 34px;
+    left: 476px;
+}
+
+.finderPage#home .headline .daysLeft{
+    color: #fff;
+    font-size: 29px;
+    position: absolute;
+    top: 8px;
+    right: 80px;
+    font-weight: bold;
+}
+
+
+.finderPage#home .headline-main {
+    display: none;
+}
+.finderPage#home .headline-week1 {
+    display: block;
+}
+
+.finderPage#home .home_top10{
+    top: 311px;
+    left: 494px;
+}
+
+.finderPage#home .home_gifts{
+    top: 311px;
+    left: 761px;
+}
+
+
+.finderPage#home .sharing{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+
+.finderPage#home .sharing img{
+    float: left;
+}

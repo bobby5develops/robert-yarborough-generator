@@ -1,0 +1,53 @@
+<div id="prepset2" class="finderPage">
+	<img id="trendreport" src="randomDirectory/images/prepset2/trendreport.png"/>
+	<div class="plusDot" id="plusDot1">
+		<div class="dotSign" tracker="printedition"></div>
+		<div class="dotContent">
+			<h4>PRINT EDITION</h4>
+			<p>a library-inspired print lends collegiate charm to a versatile shirtdress. wear it on chilly days with a quilted jacket and buttery-soft riding boots.</p>
+			<a class="minusGetLook" tracker="printedition_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040269'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="printedition_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="prepset">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="printedition_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="prepset" pinicon="randomDirectory/images/pinicons/printedition.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot2">
+		<div class="dotSign" tracker="boymeetsgirl"></div>
+		<div class="dotContent">
+			<h4>BOY MEETS GIRL</h4>
+			<p>showcase a cute shrunken vest and right-now mini handbag with a crisp white shirt and skinny jeans. a fedora and matching tie bring boyish cool to the mix.</p>
+			<a class="minusGetLook" tracker="boymeetsgirl_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040271'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="boymeetsgirl_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="prepset">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="boymeetsgirl_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="prepset" pinicon="randomDirectory/images/pinicons/boymeetsgirl.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot3">
+		<div class="dotSign" tracker="plaidpair"></div>
+		<div class="dotContent">
+			<h4>PLAID PAIR</h4>
+			<p>add interest to a solid sheath dress with a high-fashion fringe-trimmed jacket in sophisticated plaid. with sleek mary jane pumps, it's ready for a special lunch date.</p>
+			<a class="minusGetLook" tracker="plaidpair_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040280'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="plaidpair_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="prepset">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="plaidpair_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="prepset" pinicon="randomDirectory/images/pinicons/plaidpair.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot4">
+		<div class="dotSign" tracker="countrychic"></div>
+		<div class="dotContent flip">
+			<h4>COUNTRY CHIC</h4>
+			<p>channel sporting style in a plaid blazer with a waist-defining fit. leather riding boots and a large luxe bag keep it tailored.</p>
+			<a class="minusGetLook" tracker="countrychic_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040264'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="countrychic_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="prepset">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="countrychic_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="prepset" pinicon="randomDirectory/images/pinicons/countrychic2.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<a href="#/prepset" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/jacketspreferred" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+</div>

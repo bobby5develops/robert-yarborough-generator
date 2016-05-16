@@ -1,0 +1,33 @@
+.finderPage#blackandwhite2{
+	background : url('../images/blackandwhite2/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#blackandwhite2 img#trendreport{
+	position:absolute;
+	top:25px;
+	left:15px;
+}
+.finderPage#blackandwhite2 div.plusDot#plusDot1{
+	top:120px;
+	left:280px;
+}
+.finderPage#blackandwhite2 div.plusDot#plusDot2{
+	top:120px;
+	left:560px;
+}
+.finderPage#blackandwhite2 div.plusDot#plusDot3{
+	top:122px;
+	left:634px;
+}
+
+
+.finderPage#blackandwhite2 div.plusDot#plusDot1 .dotContent{
+    min-width: 170px !important;
+}
+
+
+.finderPage#blackandwhite2 div.plusDot#plusDot2 .dotContent{
+    min-width: 170px !important;
+}
+

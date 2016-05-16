@@ -1,0 +1,26 @@
+.finderPage#blackandwhite2{
+	background : url('../images/blackandwhite2/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#blackandwhite2 img#trendreport{
+	position:absolute;
+	top:25px;
+	left:15px;
+}
+.finderPage#blackandwhite2 div.plusDot#plusDot1{
+	top:90px;
+	left:255px;
+}
+.finderPage#blackandwhite2 div.plusDot#plusDot2{
+	top:100px;
+	left:456px;
+}
+.finderPage#blackandwhite2 div.plusDot#plusDot3{
+	top:95px;
+	left:644px;
+}
+.finderPage#blackandwhite2 div.plusDot#plusDot4{
+	top:220px;
+	left:675px;
+}

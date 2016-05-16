@@ -1,0 +1,30 @@
+<div id="moderndresses" class="finderPage">
+	<img id="onestar" src="randomDirectory/images/moderndresses/onestar.png"/>
+	<img id="trendreport" src="randomDirectory/images/moderndresses/trendreport.png"/>
+	<div class="plusDot" id="plusDot1">
+		<div class="dotSign" tracker="wellred"></div>
+		<div class="dotContent">
+			<h4>WELL RED</h4>
+			<p>faux leather and a skinny belt accentuate a peplum shape. animal-print pumps act as a neutral - but with more attitude.</p>
+			<a class="minusGetLook" tracker="wellred_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040084'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="wellred_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="moderndresses">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="wellred_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="moderndresses" pinicon="randomDirectory/images/pinicons/wellred.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<div class="plusDot" id="plusDot2">
+		<div class="dotSign" tracker="redhot"></div>
+		<div class="dotContent flip">
+			<h4>RED HOT</h4>
+			<p>instant wow factor: cutouts, colorblocking and studs highlight a curve-hugging sheath. ankle strap sandals amp up the look.</p>
+			<a class="minusGetLook" tracker="redhot_shop" href="javascript:void(0)" onclick="finder.getLook({productId:'1040088'});">SHOP THIS LOOK &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusShare" tracker="redhot_share" href="javascript:void(0)" role="skavaInteropShare" config="trend" trend="moderndresses">share this &#9658;</a>
+			<div class="spacer"></div>
+			<a class="minusSharePin" tracker="redhot_pin" href="javascript:void(0)" role="skavaInteropSharePinterest" config="trend" trend="moderndresses" pinicon="randomDirectory/images/pinicons/redhot.jpg">pin it &#9658;</a>
+		</div>
+	</div>
+	<a href="#/home" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/moderndresses2" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+</div>

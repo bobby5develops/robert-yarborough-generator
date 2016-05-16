@@ -1,0 +1,320 @@
+.finderPage#howtowearit {
+    width:898px;
+    font-family: 'helvetica','arial', san-serif;
+   }
+
+.finderPage#howtowearit .title.first {
+    position: absolute;
+    left: 52px;
+    top: 47px;
+}
+.finderPage#howtowearit .title.second {
+    position: absolute;
+    left: 52px;
+    top: 285px;
+}
+
+.finderPage#howtowearit .linkClick {
+    position: absolute;
+    top: 330px;
+}
+
+/*linkClick hover-state*/
+.finderPage#howtowearit .linkClick a{
+    position: absolute;
+    width: 105px;
+    height: 211px;
+}
+
+.finderPage#howtowearit .linkClick a:hover .hoverborder{
+    width: 101px;
+    height: 178px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:3px solid #000000;
+    z-index: 1;
+}
+
+.finderPage#howtowearit .gray a:hover .hoverborder {
+    width: 101.5px;
+}
+
+.finderPage#howtowearit .rustic  a:hover .hoverborder {
+    width: 100.5px;
+}
+
+.finderPage#howtowearit .street a:hover .hoverborder {
+    width: 102px;
+}
+
+.finderPage#howtowearit .blue {
+    left: 64px;
+    top: 353px;
+}
+.finderPage#howtowearit .gray {
+    left: 182px;
+    top: 353px;
+}
+.finderPage#howtowearit .rustic {
+    left: 302px;
+    top: 353px;
+}
+.finderPage#howtowearit .street {
+    left: 421px;
+    top: 353px;
+}
+.finderPage#howtowearit .tan {
+    left: 543px;
+    top: 353px;
+}
+
+
+
+
+/*.finderPage#howtowearit #top{*/
+    /*width:898px;*/
+    /*height: 490px;*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*.finderPage#howtowearit #right{*/
+    /*position: absolute;*/
+    /*right: 0px;*/
+    /*padding:0;*/
+    /*margin:0 2px 0 0; */
+/*}*/
+
+/*.finderPage#howtowearit #left{*/
+    /*float:left;*/
+    /*margin-top:100px;*/
+    /*margin-left: 0px;*/
+    /*position: absolute;*/
+    /*z-index:15;*/
+/*}*/
+
+/*.finderPage#howtowearit #bottom{*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*position: absolute;*/
+    /*z-index:15;*/
+    /*width:898px;*/
+    /*height:102px;*/
+    /*background:#fff;*/
+    /*border-top:1px solid #00427a;*/
+/*}*/
+
+/*============HERO==================*/
+
+/*.finderPage#howtowearit #hero{*/
+    /*position: absolute;*/
+    /*z-index:5;*/
+/*}*/
+
+/*.finderPage#howtowearit .heroimg{*/
+    /*position:absolute;*/
+    /*top:0;*/
+    /*right:0;*/
+/*}*/
+
+/*.finderPage#howtowearit #title{*/
+    /*position:absolute;*/
+    /*top:53px;*/
+    /*left:43px;*/
+    /*height:100px;*/
+    /*width: 553px;*/
+    /*background: transparent;*/
+    /*z-index:11;*/
+/*}*/
+
+/*.finderPage#howtowearit #title img{*/
+
+    /*z-index:1100;*/
+/*}*/
+
+/*.finderPage#howtowearit #sub{*/
+    /*position:absolute;*/
+    /*top: 118px;*/
+    /*height:32px;*/
+    /*width: 520px;*/
+    /*background: transparent;*/
+    /*z-index:12;*/
+    /*left:30px;*/
+/*}*/
+
+/*.finderPage#howtowearit #menuLinks{*/
+    /*position: absolute;*/
+    /*width: 545px;*/
+    /*height: 426px;*/
+    /*top:160px;*/
+    /*left:43px;*/
+    /*overflow: hidden;*/
+    /*z-index:10;*/
+/*}*/
+
+/*.finderPage#howtowearit #menuLinks img { display: block; border:0; margin: 0; padding: 0; }*/
+
+/*.finderPage#howtowearit #menuLinks a{*/
+    /*margin:0;*/
+    /*padding:0;*/
+    /*display: block;*/
+    /*width: 150px;*/
+    /*height: 195px;*/
+    /*overflow: hidden;*/
+    /*border:5px solid #e7e5e6;*/
+/*}*/
+/*.finderPage#howtowearit #menuLinks a:hover{*/
+    /*margin:0;*/
+    /*padding:0;*/
+    /*display: block;*/
+    /*width: 150px;*/
+    /*height: 195px;*/
+    /*overflow: hidden;*/
+    /*border:5px solid #00427a;*/
+/*}*/
+/*.finderPage#howtowearit #menuLinks a:hover {     border: 2px solid #b7153d; }*/
+
+/*.finderPage#howtowearit .linkClick {*/
+    /*padding:0;*/
+    /*overflow: hidden;*/
+    /*background: transparent;*/
+    /*float:left;*/
+    /*margin: 0 20px 13px 0;*/
+/*}*/
+
+/*.finderPage#howtowearit .linkClick p{*/
+    /*padding: 0;*/
+    /*margin-top:22px;*/
+    /*height:30px;*/
+    /*width:100%;*/
+/*}*/
+
+/*.finderPage#howtowearit p.linktxt{*/
+    /*text-align: center;*/
+    /*text-transform: uppercase;*/
+    /*border-right: 1px solid black;*/
+    /*font-size: 11px;*/
+    /*text-decoration: underline;*/
+    /*color: black;*/
+/*}*/
+
+/*.finderPage#howtowearit p.linktxt:hover {*/
+    /*color: #3399ff;*/
+    /*text-decoration: underline;*/
+/*}*/
+
+/*============================THUMB 1===================*/
+/*.finderPage#howtowearit #t1 {*/
+    /*width: 161px;*/
+/*}*/
+/*.finderPage#howtowearit #t1 a p {*/
+    /**margin-top:9px;*/
+    /*width: 200px;*/
+/*}*/
+/*============================THUMB 2===================*/
+
+/*.finderPage#howtowearit #t2{*/
+    /*width:161px;*/
+/*}*/
+
+/*.finderPage#howtowearit #t2 a p{*/
+    /*width:161px;*/
+/*}*/
+
+/*============================THUMB 3===================*/
+
+/*.finderPage#howtowearit #t3{*/
+    /*width:161px;*/
+/*}*/
+/*.finderPage#howtowearit #t3 a p{*/
+    /*width:161px;*/
+/*}*/
+/*============================ THUMB 4 ===================*/
+
+/*.finderPage#howtowearit #t4{*/
+    /*width:161px;*/
+/*}*/
+/*.finderPage#howtowearit #t4 p{*/
+    /*width:161px;*/
+/*}*/
+
+/*============================ THUMB 5 ===================*/
+
+/*.finderPage#howtowearit #t5{*/
+    /*width:161px;*/
+/*}*/
+/*.finderPage#howtowearit #t5 p {*/
+    /*width:161px;*/
+    /*border-right: none;*/
+/*}*/
+
+/*============================ THUMB 6 ===================*/
+
+/*.finderPage#howtowearit #t6{*/
+    /*width:161px;*/
+/*}*/
+/*.finderPage#howtowearit #t6 p {*/
+    /*width:161px;*/
+    /*border-right: none;*/
+/*}*/
+
+/*============================ SUB NAV ===================*/
+
+/*.finderPage#howtowearit #closesubNav{*/
+    /*position: absolute;*/
+    /*top:-20px;*/
+    /*left:0px;*/
+    /*display: none;*/
+    /*height:155px;*/
+    /*width:898px;*/
+    /*padding-left:12px;*/
+    /*background: none;*/
+/*}*/
+
+/*.finderPage#howtowearit #subNav{*/
+    /*position: absolute;*/
+    /*top:0px;*/
+    /*left:98px;*/
+    /*display: none;*/
+    /*height:27px;*/
+    /*width:697px;*/
+    /*padding-left:12px;*/
+    /*background: none;*/
+    /*border:1px solid #d3d3d3\9;*/
+    /*-moz-border-radius : 0px; *//* Firefox */
+    /*-webkit-border-radius : 0px; *//* Safari & Chrome */
+    /*-khtml-border-radius : 0px; *//* Linux browsers */
+    /*border-radius : 0px; *//* CSS3 compatible browsers */
+    /*-moz-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;*/
+    /*-webkit-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;*/
+    /*box-shadow: 0 2px 4px #949494, 0 0 0 #949494;*/
+/*}*/
+
+/*.finderPage#howtowearit #subNav.active{*/
+    /*display: block;*/
+/*}*/
+
+/*.finderPage#howtowearit #subNav .imgholder{*/
+    /*position: absolute;*/
+    /*height:27px;*/
+    /*width:697px;*/
+    /*padding-left:-15px;*/
+    /*background: none;*/
+    /*-moz-border-radius : 0px; *//* Firefox */
+    /*-webkit-border-radius : 0px; *//* Safari & Chrome */
+    /*-khtml-border-radius : 0px; *//* Linux browsers */
+    /*border-radius : 0px; *//* CSS3 compatible browsers */
+    /*-moz-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;*/
+    /*-webkit-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;*/
+    /*box-shadow: 0 2px 4px #949494, 0 0 0 #949494;*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*.finderPage#howtowearit .subcopy {*/
+    /*position: absolute;*/
+    /*z-index: 10;*/
+    /*right: 15px;*/
+    /*bottom: 137px;*/
+
+/*}*/
+

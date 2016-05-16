@@ -1,0 +1,41 @@
+<div id="home" class="finderPage">
+	<img id="onestar" src="randomDirectory/images/home/fall_onestar.png"/>
+	<img id="trendreport" src="randomDirectory/images/home/fall_trendreport.png"/>
+	<ul class="sections">
+		<li>
+			<a href="#/moderndresses">
+				<img src="randomDirectory/images/home/fall_thumbs/moderndresses.png"/>
+				<p>Modern Dresses</p>
+			</a>
+		</li>
+		<li>
+			<a href="#/blackandwhite">
+				<img src="randomDirectory/images/home/fall_thumbs/blackandwhite.png"/>
+				<p>Black and White</p>
+			</a>
+		</li>
+		<li>
+			<a href="#/jacketspreferred">
+				<img src="randomDirectory/images/home/fall_thumbs/jacketspreferred.png"/>
+				<p>Jackets Preferred</p>
+			</a>
+		</li>
+		<li>
+			<a href="#/lookofleather">
+				<img src="randomDirectory/images/home/fall_thumbs/lookofleather.png"/>
+				<p>The Look of Leather</p>
+			</a>
+		</li>
+		<li>
+			<a href="#/accessories1">
+				<img src="randomDirectory/images/home/fall_thumbs/accessories.png"/>
+				<p>Accessories</p>
+			</a>
+		</li>
+		<div class="clear"></div>
+	</ul>
+	
+    <a href="#/accessories5" class="back_arrow"><img src="randomDirectory/images/nav/back.png"/></a>
+	<a href="#/moderndresses" class="next_arrow"><img src="randomDirectory/images/nav/next.png"/></a>
+	
+</div>

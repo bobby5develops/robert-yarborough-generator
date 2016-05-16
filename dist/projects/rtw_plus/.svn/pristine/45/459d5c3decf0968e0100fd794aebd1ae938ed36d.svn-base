@@ -1,0 +1,23 @@
+.finderPage#lookofleather{
+	background : url('../images/lookofleather/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#lookofleather img#onestar{
+	position:absolute;
+	top:455px;
+	left:115px;
+}
+.finderPage#lookofleather img#trendreport{
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+.finderPage#lookofleather div.plusDot#plusDot1{
+	top:100px;
+	left:350px;
+}
+.finderPage#lookofleather div.plusDot#plusDot2{
+	top:150px;
+	left:535px;
+}

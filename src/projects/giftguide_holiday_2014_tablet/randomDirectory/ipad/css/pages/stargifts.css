@@ -1,0 +1,297 @@
+.finderPage#stargifts {
+
+}
+
+/***************  control to turn on and off anime buckets   *************/
+
+.finderPage#stargifts #animewrapper .animebucket { display: none; }
+
+
+/***************  ralphlauren  *************/
+/**navigation**/
+.finderPage#stargifts div.stargifts_ralph_lauren a.her_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 74px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.her_btn span{
+    position: absolute;
+    top: 8px;
+    left: 53px;
+}
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.him_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 251px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.him_btn span{
+    position: absolute;
+    top: 8px;
+    left: 53px;
+}
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.girls_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 427px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.girls_btn span{
+    position: absolute;
+    top: 8px;
+    left: 46px;
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.boys_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 603px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.boys_btn span{
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.baby_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 781px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.baby_btn span{
+    position: absolute;
+    top: 8px;
+    left: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_her{
+    position: absolute;
+    top: 168px;
+    left: 61px;
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_him{
+    position: absolute;
+    top: 168px;
+    left: 515px;
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_girls{
+    position: absolute;
+    top: 591px;
+    left: 62px;
+}
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_boys{
+    position: absolute;
+    top: 591px;
+    left: 369px;
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_baby{
+    position: absolute;
+    top: 591px;
+    left: 660px;
+}
+
+
+
+
+
+
+/***************  tommyhilfiger  *************/
+
+.finderPage#stargifts .tommyhilfiger .stargifts_tommy_header{
+    position: absolute;
+    top: 30px;
+    left: 313px;
+}
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_gifts{
+    position: absolute;
+    top: 24px;
+    left: 15px;
+}
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_her{
+    position: absolute;
+    top: 40px;
+    left: 575px;
+}
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_him{
+    position: absolute;
+    top: 30px;
+    left: 790px;
+}
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_kids{
+    position: absolute;
+    top: 340px;
+    left: 570px;
+}
+
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_home{
+    position: absolute;
+    top: 340px;
+    left: 790px;
+}
+
+
+/***************  calvinklein  *************/
+
+.finderPage#stargifts .calvinklein .stargifts_ck_header{
+    position: absolute;
+    top: 35px;
+    left: 375px;
+}
+
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_gifts{
+    position: absolute;
+    top: 24px;
+    left: 15px;
+}
+
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_her{
+    top: 40px;
+    left: 605px;
+    position: absolute;
+
+}
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_him{
+    position: absolute;
+    top: 40px;
+    left: 815px;
+}
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_kids{
+    position: absolute;
+    top: 337px;
+    left: 605px;
+}
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_home{
+    position: absolute;
+    top: 337px;
+    left: 815px;
+}
+
+
+
+
+/***************  michaelkors  *************/
+
+.finderPage#stargifts .michaelkors .stargifts_header{
+    position: absolute;
+    top:100px;
+    left:330px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_gifts{
+    position: absolute;
+    top:14px;
+    left:275px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_watch{
+    position: absolute;
+    top:220px;
+    left:330px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_bags{
+    position: absolute;
+    top:220px;
+    left:577px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_beauty{
+    position: absolute;
+    top:230px;
+    left:813px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_forher{
+    position: absolute;
+    top:230px;
+    left:480px;
+}
+
+
+
+
+/* position the images in the bucket for stargifts INC */
+.finderPage#stargifts .animebucket.inc .tags .gifts {
+    position: absolute;
+    top: 16px;
+    left: 270px;
+}
+.finderPage#stargifts .animebucket.inc .tags .her {
+    position: absolute;
+    top: 206px;
+    left: 327px;
+}
+.finderPage#stargifts .animebucket.inc .tags .home {
+    position: absolute;
+    top: 220px;
+    left: 806px;
+}

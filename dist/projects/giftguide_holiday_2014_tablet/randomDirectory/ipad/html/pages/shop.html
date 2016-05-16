@@ -1,0 +1,34 @@
+<div id="shop" class="finderPage">
+
+	<div class="marquee"></div>
+	<div class="filterBar"></div>
+	<div class="products"></div>
+</div>
+
+
+<script id="shopHeaderTemplate" type="text/html">
+	<img src="${headerImage}" />
+	<a href="#" class="shareButton">SHARE</a>
+</script>
+
+<script id="shopHeaderTabletTemplate" type="text/html">
+	<img class="imageUnit" src="${headerImage}" />
+</script>
+
+<script id="sortTemplate" type="text/html">
+	<select id="sortby" class="poolSort">
+		<option value="DEFAULT">Sort by:</option>
+		<option value="DEFAULT">none</option>
+		<option tracking="shopbyprice" value="PRICE_HIGH_TO_LOW">price: high to low</option>
+		<option tracking="shopbyprice" value="PRICE_LOW_TO_HIGH">price: low to high</option>
+		<option tracking="mostloved" value="VOTES_HIGH_TO_LOW">most loved</option>
+	</select>
+</script>
+
+<script id="filterTemplate" type="text/html">
+	<select class="filter">
+		{{each options}}
+			<option value="${pfeed},${value}">${text}</option>
+		{{/each}}
+	</select>
+</script>

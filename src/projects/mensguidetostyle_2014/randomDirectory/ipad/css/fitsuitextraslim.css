@@ -1,0 +1,10 @@
+.finderPage#fitsuitextraslim {
+    height:616px;
+}
+
+.finderPage#fitsuitextraslim .mainimage {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding:0;
+}

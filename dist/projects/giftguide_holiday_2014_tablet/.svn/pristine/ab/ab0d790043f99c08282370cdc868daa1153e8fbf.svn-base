@@ -1,0 +1,516 @@
+.finderPage#topgifts {
+
+}
+
+.finderPage#topgifts A,
+.finderPage#topgifts IMG {
+    display: block;
+}
+
+/***************  control to turn on and off anime buckets   *************/
+
+.finderPage#topgifts #animewrapper .animebucket { display: none; }
+
+
+
+
+/***************  TAGS and anything in the absolute div  *************/
+
+
+
+.finderPage#topgifts .childrenabsolute > * {
+    position: absolute;
+}
+
+
+
+
+/***************  LANDING coords for tags   *************/
+
+/**overwrite the previous rules for landing page**/
+
+div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren{
+    width: 137px !important;
+    position:static !important ;
+}
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren  .product_image{
+    position: static !important;
+}
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren .product_image a img.image{
+    width: 113px !important;
+
+}
+
+
+.finderPage#topgifts .topgiftlandingcontainer .product{
+    /*margin-left: -230px;*/
+}
+
+.finderPage#topgifts a.her.topgiftlandingcontainer .product{
+    position: absolute;
+    top: 52px !important;
+
+}
+
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren .num_container div.indexcount{
+    display: none;
+
+}
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren p.votes{
+    position: relative;
+    top: -208px;
+    height: 27px;
+
+
+}
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren p.votes img{
+    float: left;
+    display: inline-block;
+    padding-left: 17px;
+
+}
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren p.votes span.votes_text{
+    top: 10px;
+    font-size: 10px;
+    color: #ff0000;
+    padding-left: 5px;
+}
+
+
+/*overwrite .childrenabsolute img*/
+.finderPage#topgifts #animewrapper .childrenabsolute img.image{
+    top: 67px !important;
+    left: 25px !important;
+}
+
+
+
+
+.finderPage#topgifts .topgifts_landing_title{
+    top:37px;
+    left: 83px;
+}
+
+.finderPage#topgifts .animebucket.topgifts .her{
+    top:35px;
+    left: 427px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .him{
+    top:35px;
+    left: 610px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .kids{
+    top:35px;
+    left: 795px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .girls{
+    top:335px;
+    left: 62px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .guys{
+    top:335px;
+    left: 246px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .home{
+    top:335px;
+    left: 427px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .beauty{
+    top:335px;
+    left: 610px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .cologne{
+    top:335px;
+    left: 795px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+
+
+/***************  HER coords for tags   *************/
+
+
+.finderPage#topgifts .animebucket.her .topgifts_title_her,
+.finderPage#topgifts .animebucket.him .topgifts_title_him,
+.finderPage#topgifts .animebucket.kids .topgifts_title_him,
+.finderPage#topgifts .animebucket.girls .topgifts_title_girls,
+.finderPage#topgifts .animebucket.guys .topgifts_title_guys,
+.finderPage#topgifts .animebucket.homedecor .topgifts_title_home,
+.finderPage#topgifts .animebucket.beauty .topgifts_title_beauty,
+.finderPage#topgifts .animebucket.cologne .topgifts_title_cologne
+{
+    top:37px;
+    left: 83px;
+}
+
+
+/*********************** Landing Page Rules for Product Pools *************************/
+.finderPage#topgifts .product.notralphlauren .image{
+    border: none !important;
+}
+.finderPage#topgifts .products{
+    position: absolute;
+    top: 127px;
+    left: 80px;
+    width: 800px;
+
+}
+
+.finderPage#topgifts .products .product{
+    position: relative;
+    display: inline-block;
+    vertical-align:top;
+    /*width:150px;*/
+    /*height:210px;*/
+    /*overflow: hidden;*/
+    margin-left: 3px;
+    margin-top: 19px;
+    margin-bottom: 18px;
+    left:61px;
+    width: 130px;
+    height: 136px;
+}
+
+.finderPage#topgifts .products .product:first-child{
+    position: relative;
+    width: 291px;
+    height: 500px;
+    display: block;
+    /*overflow: hidden;*/
+    float: left;
+
+    left: 61px !important;
+    margin-top: 16px !important;
+    margin-left: -1px !important;
+
+}
+
+
+
+
+
+
+
+.finderPage#topgifts .products .product:first-child .image{
+    width: 291px;
+    height: 356px;
+    overflow: hidden;
+}
+
+.finderPage#topgifts .products .product .image{
+    width: 113px;
+    height: 134px;
+    overflow: hidden;
+    /*float: right;*/
+
+}
+
+
+.finderPage#topgifts .products .num_container{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+
+.finderPage#topgifts .products .num_container .indexcount{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    left: -15px;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: grey 1px 1px 1px;
+    top: -14px;
+}
+
+.finderPage#topgifts #animewrapper .childrenabsolute img {
+   top: 20px;
+   left: 52px;
+}
+
+
+
+
+.finderPage#topgifts .products .product .votes {
+   color: #ffffff;
+   text-transform: uppercase;
+   font-weight: bold;
+   display: inline-block;
+
+}
+
+.finderPage#topgifts .products .product .votes img{
+  display: inline-block !important;
+
+}
+
+.finderPage#topgifts .products .product:first-child .votes {
+    display: block;
+
+}
+
+
+
+
+.finderPage#topgifts .products .product:first-child .product_image{
+    padding-bottom: 0 !important;
+    border: none !important;
+    height: 370px;
+    overflow: hidden;
+
+}
+
+
+.finderPage#topgifts .product .product_image {
+    padding-bottom: 0 !important;
+    border: none !important;
+    height: 127px;
+    overflow: hidden;
+
+}
+
+.finderPage#topgifts .products .product:nth-child(1n+2){
+   position: relative;
+   left: 84px;
+}
+
+.bigloveit{
+    background-color: #cc0000;
+    position: absolute;
+    top: 20px;
+}
+
+
+
+
+/*Targets index of product images and pool section via the indexcount variable defined in the global template*/
+
+.finderPage#topgifts .products .product.product1 div.voting_container{
+    background-image: url("../images/forCMS/BIG_loveit.png");
+    width:32px;
+    height: 32px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product1 div.voting_container p.votes{
+    position: absolute;
+    left: 45px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product1 div.indexcount{
+    font-size: 25px;
+}
+
+
+.finderPage#topgifts .products .product.product2 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product2 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product2 div.indexcount{
+    font-size: 15px;
+}
+
+
+.finderPage#topgifts .products .product.product3 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product3 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product3 div.indexcount{
+    font-size: 15px;
+}
+
+
+
+.finderPage#topgifts .products .product.product4 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product4 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product4 div.indexcount{
+    font-size: 15px;
+}
+
+
+
+
+.finderPage#topgifts .products .product.product5 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+
+}
+.finderPage#topgifts .products .product.product5 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product5 div.indexcount{
+    font-size: 15px;
+}
+
+
+
+.finderPage#topgifts .products .product.product6 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product6 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product6 div.indexcount{
+    font-size: 15px;
+}
+
+
+.finderPage#topgifts .products .product.product7 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product7 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product7 div.indexcount{
+    font-size: 15px;
+}
+
+
+.finderPage#topgifts .products .product.product8 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product8 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product8 div.indexcount{
+    font-size: 15px;
+}
+
+
+.finderPage#topgifts .products .product.product9 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product9 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product9 div.indexcount{
+    font-size: 15px;
+}
+
+
+
+.finderPage#topgifts .products .product.product10 div.voting_container{
+    background-image: url("../images/forCMS/SMALL_loveit.png");
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 4px;
+}
+.finderPage#topgifts .products .product.product10 div.voting_container p.votes{
+    position: absolute;
+    left: 14px;
+    width: 104px;
+    font-size: 9px;
+    font-weight: 200;
+}
+.finderPage#topgifts .products .product.product10 div.indexcount{
+    font-size: 16px;
+}
+
+
+

@@ -1,0 +1,35 @@
+<div id="dressing101" class="finderPage fitbackground">
+
+    <div id="main">
+       <img src="randomDirectory/images/dressing101/h1_title.png" id="title" alt="Dressing 101">
+        <img src="randomDirectory/images/dressing101/sub.png" id="sub"
+             alt="make the cut with tools, tips and techniques every well-dressed guy needs">
+        <a href="#/fitsuit" track="fitsuit"><img src="randomDirectory/images/dressing101/main-1.png" class="click chowto" alt="HOW TO TIE THE PERFECT KNOT"></a>
+        <a href="#/fitsuit" class="main-link" track="fitsuit"><img src="randomDirectory/images/dressing101/main1_link.png" class="click chowto" alt="HOW TO TIE THE PERFECT KNOT"></a>
+
+        <a href="#/fitshirt" track="fitsuit"><img src="randomDirectory/images/dressing101/main-2.png" class="click ccheckList" alt="THE CHECKLIST"></a>
+        <a href="#/fitshirt" class="main-link" track="fitsuit"><img src="randomDirectory/images/dressing101/main2_link.png" class="click ccheckList" alt="THE CHECKLIST"></a>
+
+        <a href="#/fitjeans" track="fitsuit"><img src="randomDirectory/images/dressing101/main-3.png" class="click cfitGuide" alt="FIT GUIDE"></a>
+        <a href="#/fitjeans" class="main-link" track="fitsuit"><img src="randomDirectory/images/dressing101/main3_link.png" class="click cfitGuide" alt="FIT GUIDE"></a>
+
+    </div>
+
+
+
+
+    <div class="nextNavButton">
+        <a href="#/fitsuit" track="fitsuit">
+            <img src="randomDirectory/images/next_blk.png" alt="" border="0" track="next">
+        </a>
+    </div>
+
+    <div class="prevNavButton">
+        <a href="#/shirtTieMixer" track="fitsuit">
+            <img src="randomDirectory/images/prev_blk.png" alt="" border="0" track="prev">
+        </a>
+    </div>
+
+
+
+</div>

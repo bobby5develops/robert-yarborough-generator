@@ -1,0 +1,64 @@
+
+#poolResults {
+	clear: both;
+	-webkit-transform: translate(0px, 0px, 0px);
+	position: relative;
+	overflow: hidden;
+	width: 590px;
+	height: 600px;
+}
+
+.products {
+	width: 1005px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#poolHeader {
+
+	width: 300px;
+	height: 20px;	
+	font-family: Conv_ITCAvantGardeStd-Md, arial;
+	font-size: 12px;
+}
+
+#poolHeader DIV {
+	float: left;
+}
+
+#poolHeader DIV#filterDiv {
+	margin-left: 20px;
+	
+}
+
+.poolPagination {
+	text-align: right;
+	font: 14px Arial;
+	color: #333333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.poolPagination .itemsFound {
+
+	float: left;
+}
+
+.poolPagination .pageNumbers {
+	float: right;
+	text-align:right;
+}
+
+.poolPagination .pageNumbers A {
+	color: #333333;
+	text-decoration: none;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.poolPagination .pageNumbers A:hover, .poolPagination .pageNumbers A.selected {
+	color: #CC0000;
+	text-decoration: underline !important;
+}
+
+

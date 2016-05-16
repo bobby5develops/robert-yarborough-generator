@@ -1,0 +1,91 @@
+<div id="suitQuiz" class="finderPage">
+    <div id="models">
+        <div class="model left"><img src="randomDirectory/images/suitQuiz/suits_landing.jpg" border="0"></div>
+        <!--<div class="model right"><img src="randomDirectory/images/suitQuiz/modelRight.jpg" border="0"></div>-->
+    </div>
+    <div id="quiz">
+        <div class="item" id="header">
+            <div class="title"><img src="randomDirectory/images/suitQuiz/h1_title.png" border="0"></div>
+            <!--<div class="checkall"><img src="randomDirectory/images/suitQuiz/checkall.jpg" width="374" height="18" border="0"></div>-->
+        </div>
+        <div class="section" id="top">
+            <div id="answers_0" class="item headline"><img src="randomDirectory/images/suitQuiz/fit_h2.png" align="" border="0"></div>
+            <div class="menuBotton item" id="regular">
+                <input  type="radio" class="checkbox styled" Name="answer0" Value="qs00" />
+                <label>EXTRA SLIM <span class="smaller">(Super-slim and narrow sleeves)</span></label>
+            </div>
+            <div class="menuBotton item" id="athletic">
+                <input type="radio" Name="answer0" Value="qs01" />
+                <label>SLIM <span class="smaller">(Narrow in the shoulders, waist and legs)</span></label>
+            </div>
+            <div class="menuBotton item" id="slim">
+                <input type="radio" Name="answer0" Value="qs02" />
+                <label>TRIM <span class="smaller">(Structured shoulders and slimmer lapel)</span></label>
+            </div>
+            <div class="menuBotton item" id="classic">
+                <input type="radio" Name="answer0" Value="qs03" />
+                <label>CLASSIC <span class="smaller">(Built with standard shoulder and waist proportions)</span></label>
+            </div>
+            <div class="menuBotton item" id="bigandtall">
+                <input type="radio" Name="answer0" Value="qs04" />
+                <label>BIG & TALL <span class="smaller">(A build with broad shoulders or long legs)</span></label>
+            </div>
+        </div>
+
+        <div class="section" id="middle">
+            <div id="sub2title" class="item headline"><img src="randomDirectory/images/suitQuiz/style_h2.png" align="" border="0"></div>
+            <div class="menuBotton pop answer1 item" id="qs10">
+                <input type="radio" Name="answer1" Value="qs10" >
+                <label>TRADITIONAL</label>
+            </div>
+            <div class="menuBotton pop answer1 item" id="qs11">
+                <input type="radio" Name="answer1" Value="qs11">
+                <label>MODERN</label>
+            </div>
+        </div>
+        <div class="section" id="bottom">
+            <div id="sub3title" class="item headline"><img src="randomDirectory/images/suitQuiz/for_h2.png" align="" border="0"></div>
+            <div class="menuBotton pop answer2 item" id="qs20">
+                <input type="radio" Name="answer2" Value="qs20" >
+                <label>WORK</label>
+            </div>
+            <div class="menuBotton pop answer2 item" id="qs21">
+                <input type="radio" Name="answer2" Value="qs21">
+                <label>SOCIAL EVENT</label>
+            </div>
+            <div class="menuBotton pop answer2 item" id="qs22">
+                <input type="radio" Name="answer2" Value="qs22">
+                <label>FORMAL EVENT</label>
+            </div>
+        </div>
+        <div id="submit" class="item">FIND YOUR SUIT<img src="randomDirectory/images/suitQuiz/arrow.png" class="padding" /></div>
+    </div>
+    <div id="popImage">
+        <img src="randomDirectory/images/suitQuiz/bubble-formalEventClassic.png" id="q22q10" border="0">
+        <img src="randomDirectory/images/suitQuiz/bubble-modern.png" id="~q11" border="0">
+        <img src="randomDirectory/images/suitQuiz/bubble-socialEventClassic.png" id="q21q10" border="0">
+        <img src="randomDirectory/images/suitQuiz/bubble-socialEventModern.png" id="q21q11" border="0">
+        <img src="randomDirectory/images/suitQuiz/bubble-workForClassic.png" id="q20q10" border="0">
+        <img src="randomDirectory/images/suitQuiz/bubble-workForModern.png" id="q20q11" border="0">
+        <img src="randomDirectory/images/suitQuiz/bubble-formalEventModern.png" id="q22q11" border="0">
+    </div>
+    <div id="copy">
+        <div id="menu">
+
+            <br>
+
+        </div>
+    </div>
+
+    <div class="prevNavButton">
+        <a href="#/htwproducts/tan">
+            <img src="randomDirectory/images/prev_blk.png" alt="next" border="0">
+        </a>
+    </div>
+    <div class="nextNavButton">
+        <a href="#/suitQuizPool" track="suitQuizPool">
+            <img src="randomDirectory/images/next_blk.png" alt="previous" border="0">
+        </a>
+    </div>
+
+</div>

@@ -1,0 +1,46 @@
+	<div id="navContainer">
+		<img class="mainimage" src="randomDirectory/images/forCMS/topnav.png">
+        <img class="dropdownimage her" src="randomDirectory/images/forCMS/topnav_forher.png" usemap="#mapnav_forher">
+        <img class="dropdownimage him" src="randomDirectory/images/forCMS/topnav_forhim.png" usemap="#mapnav_forhim">
+        <img class="dropdownimage kids" src="randomDirectory/images/forCMS/topnav_forkids.png" usemap="#mapnav_forkids">
+        <img class="dropdownimage teens" src="randomDirectory/images/forCMS/topnav_forteens.png" usemap="#mapnav_forteens">
+        <img class="dropdownimage homedecor" src="randomDirectory/images/forCMS/topnav_forhome.png" usemap="#mapnav_forhome">
+        <img class="dropdownimage beauty" src="randomDirectory/images/forCMS/topnav_beauty.png" usemap="#mapnav_beauty">
+        <img class="dropdownimage top10gifts" src="randomDirectory/images/forCMS/topnav_top10.png" usemap="#mapnav_top10">
+        <img class="dropdownimage stargifts" src="randomDirectory/images/forCMS/topnav_stargifts.png" usemap="#mapnav_stargifts">
+        <img class="dropdownimage giftsunder" src="randomDirectory/images/forCMS/topnav_giftsunder.png" usemap="#mapnav_giftsunder">
+        <img class="dropdownimage shopbyrecipient" src="randomDirectory/images/forCMS/topnav_shopbyrecipient.png" usemap="#mapnav_recipient">
+        <!-- add all other nav dropdown images in here -->
+        <div class="buttonbucket">
+            <a class="navitem" href="#/" style="width: 98px"></a>
+            <div class="navitem hasdropdown" desc="her" style="width: 64px"></div>
+            <div class="navitem hasdropdown" desc="him" style="width: 64px"></div>
+            <div class="navitem hasdropdown" desc="kids" style="width: 70px"></div>
+            <div class="navitem hasdropdown" desc="teens" style="width: 82px"></div>
+            <div class="navitem hasdropdown" desc="homedecor" style="width: 105px"></div>
+            <div class="navitem hasdropdown" desc="beauty" style="width: 65px"></div>
+            <div class="navitem hasdropdown" desc="top10gifts" style="width: 91px"></div>
+            <div class="navitem hasdropdown" desc="stargifts" style="width: 86px"></div>
+            <div class="navitem hasdropdown" desc="giftsunder" style="width: 94px"></div>
+            <div class="navitem hasdropdown" desc="shopbyrecipient" style="width: 100px"></div>
+            <a class="navitem" href="#" style="width: 100px"></a><!--  shopping bag, where does this one go ?? -->
+        </div>
+    </div>
+
+
+    <div id="bodyContainer">
+    	<div class="loading" style="display: none;">
+        	<div id="overlay"></div>
+			<div id="loadingMessage"><img src="randomDirectory/images/loading_anim.gif" border="0"></div>
+        </div>
+        <div id="pageContainer">
+        
+        </div>
+    	
+    </div>
+
+
+	<!--div id="footerContainer">
+		<div id="footer">
+		</div>
+	</div-->

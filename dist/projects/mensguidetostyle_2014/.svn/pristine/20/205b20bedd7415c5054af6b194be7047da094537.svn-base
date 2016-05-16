@@ -1,0 +1,41 @@
+<div id="wearsweaterlp" class="finderPage">
+
+
+    <div>
+        <div id="panelHolder">
+            <div class="panel p1">
+                <img src="randomDirectory/images/wearsweaterlp/1.png">
+            </div>
+            <div class="panel p2">
+                <img src="randomDirectory/images/wearsweaterlp/2.png">
+            </div>
+            <div class="panel p3">
+                <img src="randomDirectory/images/wearsweaterlp/3.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="title">
+        <img src="randomDirectory/images/wearsweaterlp/title.png" alt="">
+        <div id="shopall"></div>
+    </div>
+    <div class="nextNavButton">
+        <a href="#/wearsweater">
+            <img src="randomDirectory/images/next-button.png" alt="" border="0">
+        </a>
+    </div>
+
+    <div class="prevNavButton">
+        <a href="#/wearsuit">
+            <img src="randomDirectory/images/prev.png" alt="" border="0">
+        </a>
+    </div>
+
+    <div id="poolBackground">
+        <div id="classic_poolContainer"></div>
+        <img src="randomDirectory/images/close.png" id="close" alt="close">
+    </div>
+
+    <div id="closesubNav"></div>
+
+
+</div>

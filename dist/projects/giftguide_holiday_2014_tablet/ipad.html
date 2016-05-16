@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gift Guide</title>
+
+
+
+<link rel="stylesheet" href="randomDirectory/ipad/prod/start.css" type="text/css" />
+
+<script>
+	var VERSION_DIR = 'randomDirectory/';
+	var DEEPLINK_DIR = "http://apps.mcstage.atfingertips.com/watchfinder/?bundle_entryPath=";
+
+    var isProduction = false;
+    //var isTablet = true;
+
+    //var poolRoot = "http://mcstage.atfingertips.com/social/entry/getSimplePoolEntries?campaignId=261&offset=0&limit=1000&stats=true&poolName=";
+    //var poolRootQuiz = "http://mcstage.atfingertips.com/social/entry/getComplexPoolEntries?campaignId=261&offset=0&limit=1000&stats=true&poolName=";
+    //var poolRoot = "http://mcstage.atfingertips.com/social/entry/getSimplePoolEntries?campaignId=171&offset=0&limit=1000&stats=true&poolName=";
+    var poolRoot = "http://mcstage.atfingertips.com/social/entry/getSimplePoolEntries?campaignId=326&offset=0&limit=1000&stats=true&poolName=";
+</script>
+
+<!-- if you include jquery already.. take this line out... -->
+<script src="randomDirectory/ipad/js/lib/jquery.js"></script>
+
+</head>
+
+<body>
+
+
+<div id="finderContainer" style="margin: auto;">
+	<div id="navContainer">
+		
+    </div>
+    <div id="bodyContainer">
+    	<div class="loading">
+        	<div id="overlay"></div>
+			<div id="loadingMessage"></div>
+        </div>
+        <div id="pageContainer">
+        
+        </div>
+    </div>
+	<div id="footerContainer">
+		<div id="footer">
+			
+		</div>
+	</div>
+</div>
+
+<script>
+	jQuery("#loadingMessage").append("<img src='" + VERSION_DIR + "ipad/images/loading_anim.gif' border='0'>");
+</script>
+
+<div id="poolDebug"></div>
+
+<script language="JavaScript" src="randomDirectory/ipad/prod/start.js"></script>
+
+
+</body>
+</html>

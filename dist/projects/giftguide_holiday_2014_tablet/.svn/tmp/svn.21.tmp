@@ -1,0 +1,3009 @@
+/* CSS Document */
+
+BODY {
+	margin: 0px !important;
+	padding: 0px !important;
+	font-family: arial, verdana, sans-serif;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+#finderContainer {
+	width: 1024px;
+
+	position: relative;
+
+}
+
+.finderPage {
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	z-index:1;
+	visibility: hidden;
+}
+
+#pageContainer {
+	width: 100%;
+	min-height: 537px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.image_replacement, .ir {
+	text-indent: -9000px;
+	outline: 0px;
+	border: 0px;
+	overflow: hidden;
+}
+
+A.image_replacement:hover {
+	background-position: bottom !important;
+}
+
+#finderContainer #bodyContainer {
+	position: relative;
+	overflow: hidden;
+    z-index: 0;
+}
+
+#finderContainer #bodyContainer .loading {
+	position: absolute;
+	background: #efefef;
+	top: 0px;
+	left: 0px;
+	z-index: 595;
+	width: 100%;
+}
+
+#finderContainer #bodyContainer #overlay {
+	position: absolute;
+	left: 0px;
+	z-index: 595;
+	width: 100%;
+	height: 1200px;
+	background: white;
+	-moz-opacity: 0;
+	-webkit-opacity: 0;
+	-o-opacity: 0;
+	opacity: 0;
+	filter: alpha(opacity=70);
+	zoom:1;
+}
+
+
+
+.finderPage #pageOverlay {
+	position: absolute;
+	left: 0px;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	background: white;
+	-moz-opacity: .7;
+	-webkit-opacity: .7;
+	-o-opacity: .7;
+	opacity: .7;
+	filter: alpha(opacity=70);
+	zoom:1;
+}
+
+
+#finderContainer #bodyContainer .loading #loadingMessage {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	background: url("../images/loading.png");
+	color: white;
+	z-index: 999;
+	width: 288px;
+	height: 168px;
+	margin-left: -144px;
+	text-align: center;
+}
+
+#finderContainer #bodyContainer .loading #loadingMessage IMG {
+	margin-top: 100px;
+}
+
+#finderContainer #footer {
+
+
+}
+
+
+
+
+.being_animated * {
+	visibility: inherit;
+}
+
+.poolContainer {
+	position: relative;
+	width: 1007px;
+	margin: 0 auto;
+}
+
+.videobox {
+	position: relative;
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	border: 10px solid #000;
+}
+
+
+A {
+	outline: 0px;
+}
+
+
+
+
+
+
+#navContainer {
+    position: relative;
+    z-index: 1;
+}
+
+#navContainer img {
+    display: block;
+}
+
+#navContainer .dropdownimage {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+#navContainer .dropdownimage.active {
+    display: block;
+}
+
+
+
+
+/* buttonbucket is for the buttons in the black bar top nav */
+#navContainer .buttonbucket {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 1024px;
+}
+#navContainer .buttonbucket .navitem {
+    display: block;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    background-color: #cc0000;
+    filter: alpha(opacity = 0);
+    opacity: 0.0;
+}
+
+
+
+
+
+#footer {
+
+}
+
+
+
+
+#poolResults {
+	clear: both;
+	-webkit-transform: translate(0px, 0px, 0px);
+	position: relative;
+	overflow: hidden;
+	width: 590px;
+	height: 600px;
+}
+
+.products {
+	width: 1005px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#poolHeader {
+
+	width: 300px;
+	height: 20px;	
+	font-family: Conv_ITCAvantGardeStd-Md, arial;
+	font-size: 12px;
+}
+
+#poolHeader DIV {
+	float: left;
+}
+
+#poolHeader DIV#filterDiv {
+	margin-left: 20px;
+	
+}
+
+.poolPagination {
+	text-align: right;
+	font: 14px Arial;
+	color: #333333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.poolPagination .itemsFound {
+
+	float: left;
+}
+
+.poolPagination .pageNumbers {
+	float: right;
+	text-align:right;
+}
+
+.poolPagination .pageNumbers A {
+	color: #333333;
+	text-decoration: none;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.poolPagination .pageNumbers A:hover, .poolPagination .pageNumbers A.selected {
+	color: #CC0000;
+	text-decoration: underline !important;
+}
+
+
+
+
+
+.product.notralphlauren {
+	
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	margin: 12px;	
+	width: 172px;
+	font: 11px Verdana, Arial;
+	position: relative;
+	line-height: 1.3;
+
+	box-sizing: border-box;
+	_webkit-box-sizing: border-box;
+
+	-webkit-transition: opacity 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.5s;
+}
+
+.product.notralphlauren .addToBridalParty {
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.product.notralphlauren .colorSwatches {
+	margin-top: 10px;
+}
+
+.product.notralphlauren.hasPromotions .bonusOffers {
+	display: block;	
+}
+
+.product.notralphlauren .bonusOffers {
+	padding-top: 10px;
+	background: #ffffff;
+	color: #cc0000;
+	font-weight: bold;
+	border-top: 1px solid #efefef;
+	margin-top: 10px;
+	position: relative;
+	display: none;
+	cursor: pointer
+}
+
+.product.notralphlauren .bonusOffers .offer {
+	font-weight: normal;
+	color: #cc0000;
+	cursor: auto;
+	padding: 5px;
+}
+
+.product.notralphlauren .price {
+	margin: 3px 0;
+}
+
+.product.notralphlauren .votes {
+	margin: 3px 0;
+}
+
+.product.notralphlauren .giftListRow {
+	cursor: pointer;
+}
+
+.product.notralphlauren.inWishlist .giftListRow {
+	display: none;
+}
+
+.product.notralphlauren .giftListRow2 {
+	display: none;
+	color: #999;
+}
+
+.product.notralphlauren.inWishlist .giftListRow2 {
+	display: block;
+}
+
+.product.notralphlauren .giftListRow, .product.notralphlauren .giftListRow2 {
+	font-weight: bold;
+}
+
+.product.notralphlauren .quickview {
+	position: absolute;
+	background-color: #fff;
+	opacity: .7;
+	height: 26px;
+	line-height: 26px;
+	left: 50%;
+	bottom: 8px;
+	margin-left: -44px;
+	width: 88px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px; 
+	border-radius: 12px;
+
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.product.notralphlauren .quickview.hover {
+	opacity: 1 !important;
+}
+
+.touch .product.notralphlauren .quickview {
+	display: block !important;
+}
+
+.product.notralphlauren .quickview A {
+	display: block;
+	background: url('../images/qv-button.png');
+	width: 88px;
+	height: 26px;
+	text-indent: -9000px;
+}
+
+ .product.notralphlauren.hover .quickview {
+ 	display: block;
+ }
+
+.product.notralphlauren .quickview A:hover {
+	background-position: 0px -26px;
+}
+
+.product.notralphlauren .quickview A.clicked {
+	background-position: 0px -52px !important;
+}
+
+
+.product.notralphlauren .product_image {
+	padding-bottom: 122.63%;
+	border: 1px solid #cecece;
+	position: relative;
+}
+
+
+.product.notralphlauren .image {
+	width: 170px;
+	overflow: hidden;
+	position: absolute;
+	display: block;
+}
+
+.product.notralphlauren .moreColors {
+	text-align: center;
+	background: black;
+	color: white;
+	font: 10px Arial;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: bold;
+}
+
+.product.notralphlauren A {
+	text-decoration: none;
+}
+
+.product.notralphlauren .product.notralphlaurenImage {
+	width: 171px;	
+	height: 211px;
+}
+
+
+
+.product.notralphlauren .votingRow {
+	padding-top: 5px;
+	font-family: Conv_ITCAvantGardeStd-Md, Arial;
+	position: relative;
+	cursor: pointer;
+}
+
+.product.notralphlauren .votingRow{
+	color: #000000;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.product.notralphlauren.voted .votingRow .button {
+	color: #999999;
+}
+
+.product.notralphlauren.voted .votingRow {
+	cursor: default;
+}
+
+.product.notralphlauren .voteCount{
+	color: #000000;
+	font-size: 9px;
+	white-space: nowrap;
+	position: absolute;
+	top: 7px;
+	font-family: verdana, arial;
+	font-weight: normal;
+}
+
+.product.notralphlauren .loveit{
+
+}
+
+
+.product.notralphlauren .label {
+	clear:both;
+	padding-top: 8px;
+}
+
+.product.notralphlauren .label A {
+	color: black;
+	text-decoration: none;
+}
+
+.product.notralphlauren .price1 {
+	font-weight: bold;
+}
+
+.product.notralphlauren .price2 {
+	font-weight: bold;
+}
+
+.product.notralphlauren .price3 {
+	font-weight: bold;
+	color: red;
+}
+
+.product.notralphlauren:HOVER {
+
+}
+
+.product.notralphlauren .voteButton {
+	cursor: pointer;
+}
+
+.product.notralphlauren .buttons {
+	margin: 6px 0 0 0;
+}
+
+/* top gifted styles start here */
+
+.product.topgifted {
+	width: 176px;
+	height: 371px;
+	background-color: #cc0000;
+	background: url('../images/forCMS/topgifted.png');
+	padding: 96px 15px 15px 15px;
+}
+
+.product.topgifted .image{
+	width: 150px;
+}
+
+.product.topgifted .price{
+	display: none;
+}
+
+.product.topgifted .votes{
+	display: none;
+}
+
+.product.topgifted .label{
+	height: 40px;
+	overflow: hidden;
+}
+
+.product.topgifted .buttons {
+	padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product.ralphlauren {
+	zoom: 1;
+	vertical-align: top;	
+	width: 172px;
+	font: 11px Verdana, Arial;
+	position: absolute;
+	max-height: 310px;
+	min-height: 310px;
+	height: 310px;
+	overflow: hidden;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	-webkit-transition: opacity 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.5s;
+}
+
+.product.ralphlauren .addToBridalParty {
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.product.ralphlauren .colorSwatches {
+	margin-top: 10px;
+}
+
+.product.ralphlauren.hasPromotions .bonusOffers {
+	display: block;	
+}
+
+.product.ralphlauren .bonusOffers {
+	padding-top: 10px;
+	background: #ffffff;
+	color: #cc0000;
+	font-weight: bold;
+	border-top: 1px solid #efefef;
+	margin-top: 10px;
+	position: relative;
+	display: none;
+	cursor: pointer
+}
+
+.product.ralphlauren .bonusOffers .offer {
+	font-weight: normal;
+	color: #cc0000;
+	cursor: auto;
+	padding: 5px;
+}
+
+
+.product.ralphlauren .giftListRow {
+	cursor: pointer;
+}
+
+.product.ralphlauren.inWishlist .giftListRow {
+	display: none;
+}
+
+.product.ralphlauren .giftListRow2 {
+	display: none;
+	color: #999;
+}
+
+.product.ralphlauren.inWishlist .giftListRow2 {
+	display: block;
+}
+
+.product.ralphlauren .giftListRow, .product.ralphlauren .giftListRow2 {
+	font-weight: bold;
+}
+
+.product.ralphlauren .quickview {
+	position: absolute;
+	background-color: #fff;
+	opacity: .7;
+	height: 26px;
+	line-height: 26px;
+	left: 50%;
+	bottom: 8px;
+	margin-left: -44px;
+	width: 88px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.product.ralphlauren .quickview.hover {
+	opacity: 1 !important;
+}
+
+.touch .product.ralphlauren .quickview {
+	display: block !important;
+}
+
+.product.ralphlauren .quickview A {
+	display: block;
+	background: url('../images/qv-button.png');
+	width: 88px;
+	height: 26px;
+	text-indent: -9000px;
+}
+
+ .product.ralphlauren.hover .quickview {
+ 	display: block;
+ }
+
+.product.ralphlauren .quickview A:hover {
+	background-position: 0px -26px;
+}
+
+.product.ralphlauren .quickview A.clicked {
+	background-position: 0px -52px !important;
+}
+
+
+.product.ralphlauren .product_image {
+	padding-bottom: 122.63%;
+	border: 1px solid #cecece;
+	position: relative;
+}
+
+
+.product.ralphlauren .image {
+	position: absolute;
+	width: 170px;
+	height: auto;
+	overflow: hidden;
+	display: block;
+}
+
+.product.ralphlauren .moreColors {
+	text-align: center;
+	background: black;
+	color: white;
+	font: 10px Arial;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: bold;
+}
+
+.product.ralphlauren A {
+	text-decoration: none;
+}
+
+.product.ralphlauren .product.ralphlaurenImage {
+	width: 171px;	
+	height: 211px;
+}
+
+
+
+.product.ralphlauren .votingRow {
+	padding-top: 5px;
+	font-family: Conv_ITCAvantGardeStd-Md, Arial;
+	position: relative;
+	cursor: pointer;
+}
+
+.product.ralphlauren .votingRow{
+	color: #000000;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.product.ralphlauren.voted .votingRow .button {
+	color: #999999;
+}
+
+.product.ralphlauren.voted .votingRow {
+	cursor: default;
+}
+
+.product.ralphlauren .voteCount{
+	color: #000000;
+	font-size: 9px;
+	white-space: nowrap;
+	position: absolute;
+	top: 7px;
+	font-family: verdana, arial;
+	font-weight: normal;
+}
+
+.product.ralphlauren .loveit{
+
+}
+
+
+.product.ralphlauren .label {
+	clear:both;
+	padding-top: 8px;
+}
+
+.product.ralphlauren .label A {
+	color: black;
+	text-decoration: none;
+}
+
+.product.ralphlauren .price {
+}
+
+.product.ralphlauren p {
+	margin: 4px 0;
+}
+
+.product.ralphlauren .price1 {
+	font-weight: bold;
+}
+
+.product.ralphlauren .price2 {
+	font-weight: bold;
+}
+
+.product.ralphlauren .price3 {
+	font-weight: bold;
+	color: red;
+}
+
+.product.ralphlauren:HOVER {
+
+}
+
+.product.ralphlauren .voteButton {
+	cursor: pointer;
+}
+
+.product.ralphlauren .buttons {
+	margin: 6px 0 0 0;
+}
+
+.videoBlock {
+	position: absolute;
+	padding: 0;
+	border: 0;
+	border: 1px solid #cecece;
+	-moz-box-sizing:    border-box;   /* Firefox 1, probably can drop this */
+	-webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
+    box-sizing:        border-box;   /* Everything else */
+	overflow: hidden;
+	line-height: 0;
+	font-size: 0;
+}
+
+.videoBlock video {
+	width: 100%;
+	height: auto;
+	display: block;
+	line-height: 0;
+	font-size: 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	transition: opacity 0.5s ease-out;
+	-webkit-transition: opacity 0.5 ease-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.product.ralphlauren.fix1 {
+	zoom: 1;
+	vertical-align: top;	
+	width: 172px;
+	font: 11px Verdana, Arial;
+	position: absolute;
+	max-height: 310px;
+	min-height: 310px;
+	height: 310px;
+	overflow: hidden;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	-webkit-transition: opacity 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.5s;
+}
+
+.product.ralphlauren.fix1 .addToBridalParty {
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.product.ralphlauren.fix1 .colorSwatches {
+	margin-top: 10px;
+}
+
+.product.ralphlauren.fix1.hasPromotions .bonusOffers {
+	display: block;	
+}
+
+.product.ralphlauren.fix1 .bonusOffers {
+	padding-top: 10px;
+	background: #ffffff;
+	color: #cc0000;
+	font-weight: bold;
+	border-top: 1px solid #efefef;
+	margin-top: 10px;
+	position: relative;
+	display: none;
+	cursor: pointer
+}
+
+.product.ralphlauren.fix1 .bonusOffers .offer {
+	font-weight: normal;
+	color: #cc0000;
+	cursor: auto;
+	padding: 5px;
+}
+
+
+.product.ralphlauren.fix1 .giftListRow {
+	cursor: pointer;
+}
+
+.product.ralphlauren.fix1.inWishlist .giftListRow {
+	display: none;
+}
+
+.product.ralphlauren.fix1 .giftListRow2 {
+	display: none;
+	color: #999;
+}
+
+.product.ralphlauren.fix1.inWishlist .giftListRow2 {
+	display: block;
+}
+
+.product.ralphlauren.fix1 .giftListRow, .product.ralphlauren.fix1 .giftListRow2 {
+	font-weight: bold;
+}
+
+.product.ralphlauren.fix1 .quickview {
+	position: absolute;
+	top: 185px;
+	right: 4px;
+	opacity: .7;
+	height: 26px;
+	width: 88px;
+	overflow: hidden;
+	display: none;
+}
+
+.product.ralphlauren.fix1 .quickview.hover {
+	opacity: 1 !important;
+}
+
+.touch .product.ralphlauren.fix1 .quickview {
+	display: block !important;
+}
+
+.product.ralphlauren.fix1 .quickview A {
+	display: block;
+	background: url('../images/qv-button.png');
+	width: 88px;
+	height: 26px;
+	text-indent: -9000px;
+}
+
+ .product.ralphlauren.fix1.hover .quickview {
+ 	display: block;
+ }
+
+.product.ralphlauren.fix1 .quickview A:hover {
+	background-position: 0px -26px;
+}
+
+.product.ralphlauren.fix1 .quickview A.clicked {
+	background-position: 0px -52px !important;
+}
+
+
+
+.product.ralphlauren.fix1 .product_image {
+	border: 1px solid #cccccc;
+}
+
+.product.ralphlauren.fix1 .image {
+	width: 130px;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	border: none;
+	margin: 0 auto;
+}
+
+.product.ralphlauren.fix1 .moreColors {
+	text-align: center;
+	background: black;
+	color: white;
+	font: 10px Arial;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: bold;
+}
+
+.product.ralphlauren.fix1 A {
+	text-decoration: none;
+}
+
+.product.ralphlauren.fix1 .product.ralphlauren.fix1Image {
+	width: 171px;	
+	height: 211px;
+}
+
+
+
+.product.ralphlauren.fix1 .votingRow {
+	padding-top: 5px;
+	font-family: Conv_ITCAvantGardeStd-Md, Arial;
+	position: relative;
+	cursor: pointer;
+}
+
+.product.ralphlauren.fix1 .votingRow{
+	color: #000000;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.product.ralphlauren.fix1.voted .votingRow .button {
+	color: #999999;
+}
+
+.product.ralphlauren.fix1.voted .votingRow {
+	cursor: default;
+}
+
+.product.ralphlauren.fix1 .voteCount{
+	color: #000000;
+	font-size: 9px;
+	white-space: nowrap;
+	position: absolute;
+	top: 7px;
+	font-family: verdana, arial;
+	font-weight: normal;
+}
+
+.product.ralphlauren.fix1 .loveit{
+
+}
+
+
+.product.ralphlauren.fix1 .label {
+	clear:both;
+	padding-top: 8px;
+	display: block;
+}
+
+.product.ralphlauren.fix1 .label A {
+	color: black;
+	text-decoration: none;
+}
+
+.product.ralphlauren.fix1 .price {
+}
+
+.product.ralphlauren.fix1 p {
+	margin: 4px 0;
+}
+
+.product.ralphlauren.fix1 .price1 {
+	font-weight: bold;
+}
+
+.product.ralphlauren.fix1 .price2 {
+	font-weight: bold;
+}
+
+.product.ralphlauren.fix1 .price3 {
+	font-weight: bold;
+	color: red;
+}
+
+.product.ralphlauren.fix1:HOVER {
+
+}
+
+.product.ralphlauren.fix1 .voteButton {
+	cursor: pointer;
+}
+
+.product.ralphlauren.fix1 .buttons {
+	margin: 6px 0 0 0;
+}
+
+.videoBlock {
+	position: absolute;
+	padding: 0;
+	border: 0;
+	border: 1px solid #cecece;
+	-moz-box-sizing:    border-box;   /* Firefox 1, probably can drop this */
+	-webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
+    box-sizing:        border-box;   /* Everything else */
+	overflow: hidden;
+	line-height: 0;
+	font-size: 0;
+}
+
+.videoBlock video {
+	width: 100%;
+	height: auto;
+	display: block;
+	line-height: 0;
+	font-size: 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+.facet.checkboxField SPAN {
+	color: #000000;
+	text-transform: uppercase;
+	font: 14px Arial;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.facet.checkboxField.color {
+	width: 362px;
+}
+.facet.checkboxField.color LI {
+	float: left;
+}
+
+
+
+.facet.checkboxField LI INPUT {
+	display: none;
+}
+
+.facet.checkboxField LI {
+	height: 14px;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-image: url("../images/pool/colorScale.png");
+	margin-bottom: 5px;
+
+	line-height: 14px;
+	width: 100px;
+
+}
+
+.facet.checkboxField LI.white {
+	background-position: 0px -14px;
+}
+.facet.checkboxField LI.brownbeige {
+	background-position: 0px -28px;
+}
+.facet.checkboxField LI.black {
+	background-position: 0px -42px;
+}
+.facet.checkboxField LI.graysilver {
+	background-position: 0px -56px;
+}
+.facet.checkboxField LI.green {
+	background-position: 0px -70px;
+}
+.facet.checkboxField LI.red {
+	background-position: 0px -84px;
+}
+.facet.checkboxField LI.purple {
+	background-position: 0px -98px;
+}
+.facet.checkboxField LI.pink {
+	background-position: 0px -112px;
+}
+.facet.checkboxField LI.yelloworange {
+	background-position: 0px -126px;
+}
+.facet.checkboxField LI.blue {
+	background-position: 0px -140px;
+}
+.facet.checkboxField LI.multiprint {
+	background-position: 0px -154px;
+}
+
+.facet.checkboxField LI.white.toggled {
+	background-position: -214px -14px;
+}
+.facet.checkboxField LI.brownbeige.toggled {
+	background-position: -214px -28px;
+}
+.facet.checkboxField LI.black.toggled {
+	background-position: -214px -42px;
+}
+.facet.checkboxField LI.graysilver.toggled {
+	background-position: -214px -56px;
+}
+.facet.checkboxField LI.green.toggled {
+	background-position: -214px -70px;
+}
+.facet.checkboxField LI.red.toggled {
+	background-position: -214px -84px;
+}
+.facet.checkboxField LI.purple.toggled {
+	background-position: -214px -98px;
+}
+.facet.checkboxField LI.pink.toggled {
+	background-position: -214px -112px;
+}
+.facet.checkboxField LI.yelloworange.toggled {
+	background-position: -214px -126px;
+}
+.facet.checkboxField LI.blue.toggled {
+	background-position: -214px -140px;
+}
+.facet.checkboxField LI.multiprint.toggled {
+	background-position: -214px -154px;
+}
+
+.facet.checkboxField LI.toggled {
+	background-position: -214px 0px;
+}
+
+
+
+
+
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15px;
+	height: 100%;
+	
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	height: 1px;
+	background: #666666;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: url('../images/scroll/scrollbarContainer.png');
+	background-position:-1px 0px;
+	position: relative;
+	
+}
+
+.jspDrag
+{
+
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	background: url('../images/scroll/scrollbar.png');
+	height: 44px;
+	width: 16px;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+	.scrollerTransition {
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 200ms ease-out;
+		-o-transition: all 200ms ease-out;
+	}
+	
+	.scrollme {
+		
+	}
+	
+	.scrollerBarContainer {
+		background: url('../images/scroll/scrollbarContainer.png');
+		background-repeat: repeat-y;
+		background-position: right;
+	}
+	.scrollerScrollbar {
+		background: red;
+		height: 45px;
+		width: 16px;
+		background: url('../images/scroll/scrollbar.png');
+		cursor: pointer;
+	}
+	
+	.scrollerTopFade {
+		background: url('../images/scroll/topfade.png');
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 40px;
+		display: none;
+	}
+	
+	.scrollerBottomFade {
+		background: url('../images/scroll/bottomfade.png');
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		height: 40px;
+	}
+	
+	.scrollingContent {
+		-moz-transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+		-o-transform-origin: 0 0;
+	}
+
+
+.touchScroll {
+	position: relative;
+}
+
+.touchScrollBars {
+	display: -webkit-box;
+	padding: 3px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2147483647;
+	-webkit-box-align: end;
+	-webkit-box-pack: end;
+	-webkit-box-sizing: border-box;
+}
+
+.touchScrollTrack {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.touchScrollTrackX {
+	height: 6px;
+}
+
+.touchScrollTrackY {
+	float: right;
+	width: 6px;
+}
+
+.touchScrollBarsBoth {
+	padding-bottom: 12px;
+	padding-right: 12px;
+}
+
+.touchScrollBarsBoth .touchScrollTrackX {
+	-webkit-transform: translateY(9px);
+}
+
+.touchScrollBarsBoth .touchScrollTrackY {
+	-webkit-transform: translateX(3px);
+}
+
+.touchScrollHandle {
+	border: 1px solid;
+	min-height: 4px;
+	min-width: 4px;
+	-webkit-transition-property: -webkit-transform, height, width;
+	-webkit-border-radius: 3px;
+
+	/* COLOR VARIANTS */
+/* Default */
+	border-color: rgba(255, 255, 255, 0.15);
+	background: rgba(0, 0, 0, 0.5);
+/**/
+
+/* White
+	border-color: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.5);
+/**/
+
+/* Black
+	border-color: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.5);
+/**/
+}
+
+.touchScrollTopFade {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	background: -webkit-gradient(linear, 0% -3,0% 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+	}
+	
+.touchScrollBottomFade {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background: -webkit-gradient(linear, 0% -3,0% 100%, from(rgba(255,255,255,0)), to(rgba(255,255,255,1)));
+	}
+	
+
+
+img {
+
+	-ms-interpolation-mode: bicubic;
+	border: 0;
+
+}
+
+.finderPage#home {
+}
+
+.finderPage#home A,
+.finderPage#home IMG {
+    display: block;
+}
+
+
+.finderPage#home .childrenabsolute > * {
+     position: absolute;
+ }
+
+.finderPage#home .forher {
+    top: 30px;
+    left: 72px;
+}
+.finderPage#home .forhim {
+    top: 51px;
+    left: 284px;
+}
+.finderPage#home .forthehome {
+    top: 373px;
+    left: 39px;
+}
+
+.finderPage#home .forteens{
+   top:596px;
+   left: 44px;
+}
+
+
+.finderPage#home .forkids{
+    top: 432px;
+    left: 390px;
+}
+
+.finderPage#home .forbeauty{
+    top: 456px;
+    left: 612px;
+}
+
+.finderPage#home .forreciept{
+    top: 452px;
+    left: 819px;
+}
+
+.finderPage#home .forstargifts{
+    top: 799px;
+    left: 70px;
+}
+
+.finderPage#home .forralphlauren{
+    top: 790px;
+    left: 560px;
+}
+
+.finderPage .footerfindoutmore{
+    top: 1091px;
+    left: 39px;
+}
+
+.finderPage .footergiftcards{
+    top: 1091px;
+    left: 296px;
+}
+
+.finderPage .footersantamail{
+    top: 1034px;
+    left: 560px;
+}
+
+.finderPage .footerlettertosanta{
+    top: 1069px;
+    left: 730px;
+}
+
+
+/* insert all the other animating tags here */
+
+
+
+
+
+.finderPage#home .headline {
+    top: 34px;
+    left: 476px;
+}
+.finderPage#home .headline-main {
+    display: none;
+}
+.finderPage#home .headline-week1 {
+    display: block;
+}
+
+.finderPage#home .home_top10{
+    top: 311px;
+    left: 494px;
+}
+
+.finderPage#home .home_gifts{
+    top: 311px;
+    left: 761px;
+}
+
+
+
+
+.finderPage#landing {
+
+}
+
+
+.finderPage#landing A,
+.finderPage#landing IMG {
+    display: block;
+}
+
+
+/***************  control to turn on and off anime buckets   *************/
+
+.finderPage#landing #animewrapper .animebucket { display: none; }
+
+
+
+
+/***************  TAGS and anything in the absolute div  *************/
+
+
+
+.finderPage#landing .childrenabsolute > * {
+    position: absolute;
+}
+
+
+
+
+/***************  HER coords for tags   *************/
+
+
+.finderPage#landing .landing_her_header {
+    top:30px;
+    left: 59px;
+}
+
+.finderPage#landing .her_hero {
+    top: 80px;
+    left: 46px;
+}
+
+.finderPage#landing .animebucket.her .sweaters {
+    top: 30px;
+    left: 349px;
+}
+
+.finderPage#landing .animebucket.her .handbags {
+    top: 30px;
+    left: 512px;
+}
+
+.finderPage#landing .animebucket.her .jewelry {
+    top: 30px;
+    left: 676px;
+}
+
+.finderPage#landing .animebucket.her .beauty {
+    top: 30px;
+    left: 839px;
+}
+
+.finderPage#landing .animebucket.her .pajamas {
+    top: 287px;
+    left: 349px;
+}
+
+.finderPage#landing .animebucket.her .shoes {
+    top: 287px;
+    left: 512px;
+}
+
+.finderPage#landing .animebucket.her .hats {
+    top: 287px;
+    left: 676px;
+}
+
+.finderPage#landing .animebucket.her .gift {
+    top: 287px;
+    left: 839px;
+}
+
+
+.finderPage#landing .animebucket.her .bottom_0 {
+    top: 561px;
+    left: 340px;
+}
+
+.finderPage#landing .animebucket.her .bottom_1 {
+    top: 561px;
+    left: 561px;
+}
+
+.finderPage#landing .animebucket.her .bottom_2 {
+    top: 561px;
+    left: 778px;
+}
+
+
+
+
+
+
+
+/***************  HIM coords for tags   *************/
+.finderPage#landing .landing_him_header{
+    top:30px;
+    left: 59px;
+}
+
+.finderPage#landing .animebucket.him .him_hero{
+    top: 84px;
+    left: 41px;
+}
+
+
+.finderPage#landing .animebucket.him .sweaters{
+    top: 30px;
+    left: 349px;
+}
+
+.finderPage#landing .animebucket.him .shirts{
+    top: 30px;
+    left: 512px;
+}
+
+.finderPage#landing .animebucket.him .bags{
+    top: 30px;
+    left: 676px;
+}
+
+.finderPage#landing .animebucket.him .cologne{
+    top: 30px;
+    left: 839px;
+}
+
+.finderPage#landing .animebucket.him .watches{
+    top: 287px;
+    left: 349px;
+}
+
+.finderPage#landing .animebucket.him .pajamas{
+    top: 287px;
+    left: 512px;
+}
+
+.finderPage#landing .animebucket.him .shoes{
+    top: 287px;
+    left: 676px;
+}
+
+.finderPage#landing .animebucket.him .coats{
+    top: 287px;
+    left: 839px;
+}
+
+.finderPage#landing .animebucket.him .bottom_him_0{
+    top: 561px;
+    left: 340px;
+}
+
+.finderPage#landing .animebucket.him .bottom_him_1{
+    top: 561px;
+    left: 561px;
+}
+
+.finderPage#landing .animebucket.him .bottom_him_2{
+    top: 561px;
+    left: 778px;
+}
+
+
+
+
+
+
+
+
+/***************  KIDS coords for tags   *************/
+.finderPage#landing .landing_kids_header{
+    top: 37px;
+    left: 152px;
+}
+
+.finderPage#landing .animebucket.kids .kids_hero{
+    top: 81px;
+    left: 0px;
+}
+
+.finderPage#landing .animebucket.kids .baby{
+    top: 30px;
+    left: 493px;
+}
+
+.finderPage#landing .animebucket.kids .girls{
+    top: 30px;
+    left: 657px;
+}
+
+.finderPage#landing .animebucket.kids .boys{
+    top: 30px;
+    left: 820px;
+}
+
+.finderPage#landing .animebucket.kids .shoes{
+    top: 287px;
+    left: 493px;
+}
+
+.finderPage#landing .animebucket.kids .toys{
+    top: 287px;
+    left: 657px;
+}
+
+.finderPage#landing .animebucket.kids .stocking{
+    top: 287px;
+    left: 820px;
+}
+
+
+
+.finderPage#landing .animebucket.kids .kids_top10{
+    top: 561px;
+    left: 497px;
+}
+
+.finderPage#landing .animebucket.kids .kids_giftsunder{
+    top: 561px;
+    left: 742px;
+}
+
+
+
+
+
+
+/***************  TEENS coords for tags   *************/
+.finderPage#landing .landing_teens_header{
+    top: 55px;
+    left: 31px;
+}
+
+.finderPage#landing .animebucket.teens .girls_clothing{
+    top: 27px;
+    left: 392px;
+}
+
+.finderPage#landing .animebucket.teens .girls_accessories{
+    top: 27px;
+    left: 549px;
+}
+
+.finderPage#landing .animebucket.teens .guys_clothing{
+    top: 27px;
+    left: 706px;
+}
+
+.finderPage#landing .animebucket.teens .guys_shoes{
+    top: 27px;
+    left: 862px;
+}
+
+.finderPage#landing .animebucket.teens .activewear{
+    top: 274px;
+    left: 391px;
+}
+
+.finderPage#landing .animebucket.teens .gadgets{
+    top: 275px;
+    left: 532px;
+}
+
+
+
+.finderPage#landing .animebucket.teens .beauty_fragrance{
+    top: 286px;
+    left: 674px;
+}
+
+.finderPage#landing .animebucket.teens .teens_top10_girls{
+    top: 301px;
+    left: 823px;
+}
+
+.finderPage#landing .animebucket.teens .teens_top10_guys{
+    top: 404px;
+    left: 823px;
+}
+
+.finderPage#landing .animebucket.teens .teens_giftsunder{
+    top: 550px;
+    left:461px;
+}
+
+.finderPage#landing .animebucket.teens .teens_shop{
+    top: 550px;
+    left: 692px;
+}
+
+
+
+/***************  HOMEDECOR coords for tags   *************/
+.finderPage#landing .landing_homedecor_header{
+    top: 30px;
+    left: 44px;
+}
+
+.finderPage#landing .animebucket.homedecor .kitchen{
+    top: 30px;
+    left: 359px;
+}
+
+.finderPage#landing .animebucket.homedecor .coffee{
+    top: 30px;
+    left: 522px;
+}
+
+.finderPage#landing .animebucket.homedecor .holiday_lane{
+    top: 30px;
+    left: 686px;
+}
+
+.finderPage#landing .animebucket.homedecor .home_decor{
+    top: 30px;
+    left: 849px;
+}
+
+.finderPage#landing .animebucket.homedecor .barware{
+    top: 287px;
+    left: 441px;
+}
+
+.finderPage#landing .animebucket.homedecor .gourmet{
+    top: 287px;
+    left: 604px;
+}
+
+
+
+.finderPage#landing .animebucket.homedecor .gifts_thatgivehope{
+    top: 287px;
+    left: 768px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_top10{
+    top: 561px;
+    left: 350px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_giftsunder{
+    top: 561px;
+    left: 571px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_shop{
+    top: 561px;
+    left:789px;
+}
+
+
+
+/***************  HOMEDECO coords for tags   *************/
+
+
+.finderPage#landing .animebucket.homedecor .homedecor_hero{
+    top: 189px;
+    left: 0;
+}
+
+.finderPage#landing .animebucket.homedecor .gifts_thatgivehope{
+    top: 287px;
+    left: 768px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_top10{
+    top: 561px;
+    left: 350px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_giftsunder{
+    top: 561px;
+    left: 571px;
+}
+
+.finderPage#landing .animebucket.homedecor .homedecor_shop{
+    top: 561px;
+    left:789px;
+}
+
+
+
+
+/***************  BEAUTY coords for tags   *************/
+.finderPage#landing .landing_beauty_header{
+    top: 38px;
+    left: 31px;
+}
+
+.finderPage#landing .beauty_hero{
+    top: 130px;
+    left: 31px;
+}
+
+.finderPage#landing .animebucket.beauty .perfume{
+    top: 17px;
+    left: 480px;
+}
+
+.finderPage#landing .animebucket.beauty .fragrance{
+    top: 17px;
+    left: 650px;
+}
+.finderPage#landing .animebucket.beauty .make_gifts{
+    top: 17px;
+    left: 820px;
+}
+.finderPage#landing .animebucket.beauty .make_cologne{
+    top: 290px;
+    left: 480px;
+}
+.finderPage#landing .animebucket.beauty .skin_care{
+    top: 280px;
+    left: 650px;
+}
+.finderPage#landing .animebucket.beauty .stocking{
+    top: 290px;
+    left: 820px;
+}
+.finderPage#landing .animebucket.beauty .stocking{
+    top: 290px;
+    left: 820px;
+}
+.finderPage#landing .animebucket.beauty .beauty_top_beauty{
+    top: 547px;
+    left: 300px;
+}
+.finderPage#landing .animebucket.beauty .beauty_top_cologne{
+    top: 547px;
+    left: 525px;
+}
+.finderPage#landing .animebucket.beauty .beauty_top_gifts{
+    top: 547px;
+    left: 750px;
+}
+
+
+
+/***************  STAR GIFTS *******************/
+
+.finderPage#landing .childrenabsolute a.tommy_hilfiger{
+    top:242px;
+    left:89px;
+}
+
+.finderPage#landing .childrenabsolute a.calvin_klein{
+    top: 247px;
+    left: 268px;
+}
+
+
+.finderPage#landing .childrenabsolute a.michael_kors{
+    top: 242px;
+    left: 440px;
+}
+
+.finderPage#landing .childrenabsolute a.inc{
+    top: 247px;
+    left: 617px;
+}
+
+.finderPage#landing .childrenabsolute a.martha_stewart{
+    top: 243px;
+    left: 789px;
+}
+
+.finderPage#landing .childrenabsolute a.her{
+    top: 556px;
+    left: 183px;
+}
+
+.finderPage#landing .childrenabsolute a.him{
+    top: 556px;
+    left: 297px;
+}
+
+.finderPage#landing .childrenabsolute a.home{
+    top: 554px;
+    left: 414px;
+}
+
+.finderPage#landing .childrenabsolute a.beauty{
+    top: 654px;
+    left: 414px;
+}
+
+.finderPage#landing .childrenabsolute a.teens{
+    top: 553px;
+    left: 599px;
+}
+
+.finderPage#landing .childrenabsolute a.kids{
+    top: 553px;
+    left: 714px;
+}
+
+
+
+
+
+
+
+
+
+/***************  RECIPIENT coords for tags   *************/
+
+
+.finderPage#landing .childrenabsolute a.trendsetter{
+    top: 173px;
+    left: 14px;
+}
+
+.finderPage#landing .childrenabsolute a.fitness{
+    top: 173px;
+    left: 344px;
+}
+
+.finderPage#landing .childrenabsolute a.traveler{
+    top:173px;
+    left: 673px;
+}
+
+.finderPage#landing .childrenabsolute a.sportsfan{
+    top: 502px;
+    left: 14px;
+}
+
+.finderPage#landing .childrenabsolute a.partyhost{
+    top: 502px;
+    left: 344px;
+}
+
+.finderPage#landing .childrenabsolute a.coworker{
+    top: 502px;
+    left: 673px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.finderPage#shop {
+
+}
+
+.marquee {
+	position: relative;
+	display: block;
+	border: 1px solid #c8c8c8;
+	overflow: hidden;
+	margin: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.marquee img {
+	display: block;
+}
+
+.shareButton {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	color: #919191;
+	padding: 5px 9px 5px 9px;
+	font-size: 11px;
+	background-color: #f0efef;
+	text-decoration: none;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+}
+
+.filterBar {
+}
+
+.finderPage#shoprl {
+
+}
+
+.finderPage#shoprl .products {
+    margin: 63px auto 0 auto;
+    width: 930px;
+}
+
+
+
+/*rl_navigation*/
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container{
+    list-style-type: none;
+}
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.her_btn{
+    width: 190px;
+    height: 34px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 324px;
+    left: 23px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.her_btn span{
+    position: absolute;
+    top: 10px;
+    left: 63px;
+    font-weight: bold;
+}
+
+
+
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.him_btn{
+       width: 190px;
+       height: 34px;
+       border: 1px solid #b7b5b3;
+       color: #000000;
+
+       position: absolute;
+       top: 324px;
+       left: 219px;
+       text-align: center;
+       font-size: 14px;
+       text-transform: uppercase;
+       text-decoration: none;
+
+   }
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.him_btn span{
+    position: absolute;
+    top: 8px;
+    left: 67px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.girls_btn{
+    width: 190px;
+    height: 34px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 324px;
+    left: 416px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.girls_btn span{
+    position: absolute;
+    top: 8px;
+    left: 58px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.boys_btn{
+    width: 190px;
+    height: 34px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 324px;
+    left: 612px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.boys_btn span{
+    position: absolute;
+    top: 8px;
+    left: 58px;
+    font-weight: bold;
+}
+
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.baby_btn{
+    width: 190px;
+    height: 34px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 324px;
+    left: 808px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#shoprl nav.rl_nav ul.rl_nav_container li a.baby_btn span{
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    font-weight: bold;
+}
+
+
+
+
+.finderPage#shoprl .shareButton {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	color: #919191;
+	padding: 5px 9px 5px 9px;
+	font-size: 11px;
+	background-color: #f0efef;
+	text-decoration: none;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+}
+
+.finderPage#shoprl .filterBar {
+	background-color: #cc0000;
+    display: none;
+}
+
+
+/*utility navigation for pools*/
+.finderPage#shoprl .rl_nav_container .selected > * {
+    background: #000000;
+    color: #fff;
+
+}
+
+.finderPage#shoprl .rl_nav_container .selected a span{
+    color: #fff;
+}
+
+.finderPage#shoprl .right_block {
+    position: relative;
+    left: 47px;
+}
+
+.finderPage#shoprl .left_block {
+    position: relative;
+    right: 28px;
+}
+
+
+
+.finderPage#shoprl nav.utilities {
+ position: relative;
+ top: 50px;
+}
+
+.finderPage#shoprl nav.utilities a
+
+.finderPage#shoprl nav.utilities a.favorite_btn ul.utility_bar{
+    float: left;
+    width: 100%;
+    padding: 0;
+    marging: 0;
+    list-style-type: none;
+}
+
+
+
+.finderPage#shoprl nav.utilities li a{
+    padding: 0.2em 0.7em;
+}
+
+.finderPage#shoprl nav.utilities li a:hover{
+    background-color: ;
+}
+
+.finderPage#shoprl li{
+    display: inline;
+}
+
+.finderPage#stargifts {
+
+}
+
+/***************  control to turn on and off anime buckets   *************/
+
+.finderPage#stargifts #animewrapper .animebucket { display: none; }
+
+
+/***************  ralphlauren  *************/
+/**navigation**/
+.finderPage#stargifts div.stargifts_ralph_lauren a.her_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 74px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.her_btn span{
+    position: absolute;
+    top: 8px;
+    left: 53px;
+}
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.him_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 251px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.him_btn span{
+    position: absolute;
+    top: 8px;
+    left: 53px;
+}
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.girls_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 427px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.girls_btn span{
+    position: absolute;
+    top: 8px;
+    left: 46px;
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.boys_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 603px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.boys_btn span{
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.baby_btn{
+    width: 166px;
+    height: 29px;
+    border: 1px solid #b7b5b3;
+    color: #000000;
+
+    position: absolute;
+    top: 131px;
+    left: 781px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.baby_btn span{
+    position: absolute;
+    top: 8px;
+    left: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_her{
+    position: absolute;
+    top: 168px;
+    left: 61px;
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_him{
+    position: absolute;
+    top: 168px;
+    left: 515px;
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_girls{
+    position: absolute;
+    top: 591px;
+    left: 62px;
+}
+
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_boys{
+    position: absolute;
+    top: 591px;
+    left: 369px;
+}
+
+.finderPage#stargifts div.stargifts_ralph_lauren a.stargifts_rl_baby{
+    position: absolute;
+    top: 591px;
+    left: 660px;
+}
+
+
+
+
+
+
+/***************  tommyhilfiger  *************/
+
+.finderPage#stargifts .tommyhilfiger .stargifts_tommy_header{
+    position: absolute;
+    top: 30px;
+    left: 313px;
+}
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_gifts{
+    position: absolute;
+    top: 24px;
+    left: 15px;
+}
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_her{
+    position: absolute;
+    top: 40px;
+    left: 575px;
+}
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_him{
+    position: absolute;
+    top: 30px;
+    left: 790px;
+}
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_kids{
+    position: absolute;
+    top: 340px;
+    left: 570px;
+}
+
+.finderPage#stargifts .tommyhilfiger .stargifts_tommyhilfiger_tags img.stargifts_home{
+    position: absolute;
+    top: 340px;
+    left: 790px;
+}
+
+
+/***************  calvinklein  *************/
+
+.finderPage#stargifts .calvinklein .stargifts_ck_header{
+    position: absolute;
+    top: 35px;
+    left: 375px;
+}
+
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_gifts{
+    position: absolute;
+    top: 24px;
+    left: 15px;
+}
+
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_her{
+    top: 40px;
+    left: 605px;
+    position: absolute;
+
+}
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_him{
+    position: absolute;
+    top: 40px;
+    left: 815px;
+}
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_kids{
+    position: absolute;
+    top: 337px;
+    left: 605px;
+}
+.finderPage#stargifts .calvinklein .stargifts_calvinklein_tags img.stargifts_home{
+    position: absolute;
+    top: 337px;
+    left: 815px;
+}
+
+
+
+
+/***************  michaelkors  *************/
+
+.finderPage#stargifts .michaelkors .stargifts_header{
+    position: absolute;
+    top:100px;
+    left:330px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_gifts{
+    position: absolute;
+    top:14px;
+    left:275px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_watch{
+    position: absolute;
+    top:220px;
+    left:330px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_bags{
+    position: absolute;
+    top:220px;
+    left:577px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_beauty{
+    position: absolute;
+    top:230px;
+    left:813px;
+}
+.finderPage#stargifts .michaelkors .stargifts_mk_tags .stargifts_forher{
+    position: absolute;
+    top:230px;
+    left:480px;
+}
+
+
+
+
+/* position the images in the bucket for stargifts INC */
+.finderPage#stargifts .animebucket.inc .tags .gifts {
+    position: absolute;
+    top: 16px;
+    left: 270px;
+}
+.finderPage#stargifts .animebucket.inc .tags .her {
+    position: absolute;
+    top: 206px;
+    left: 327px;
+}
+.finderPage#stargifts .animebucket.inc .tags .home {
+    position: absolute;
+    top: 220px;
+    left: 806px;
+}
+
+.finderPage#topgifts {
+
+}
+
+.finderPage#topgifts A,
+.finderPage#topgifts IMG {
+    display: block;
+}
+
+/***************  control to turn on and off anime buckets   *************/
+
+.finderPage#topgifts #animewrapper .animebucket { display: none; }
+
+
+
+
+/***************  TAGS and anything in the absolute div  *************/
+
+
+
+.finderPage#topgifts .childrenabsolute > * {
+    position: absolute;
+}
+
+
+
+
+/***************  LANDING coords for tags   *************/
+
+/**overwrite the previous rules for landing page**/
+
+div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren{
+    width: 137px !important;
+    position:static !important ;
+}
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren  .product_image{
+    position: static !important;
+}
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren .product_image a img.image{
+    width: 113px !important;
+
+}
+
+
+.finderPage#topgifts .topgiftlandingcontainer .product{
+    /*margin-left: -230px;*/
+}
+
+.finderPage#topgifts a.her.topgiftlandingcontainer .product{
+    position: absolute;
+    top: 52px !important;
+
+}
+
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren .num_container div.indexcount{
+    display: none;
+
+}
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren p.votes{
+    position: relative;
+    top: -218px;
+
+
+}
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren p.votes img{
+    float: left;
+
+}
+
+.finderPage#topgifts div.childrenabsolute a.topgiftlandingcontainer .product.notralphlauren p.votes span.votes_text{
+    position: relative;
+    top: 10px;
+    font-size: 10px;
+}
+
+
+/*overwrite .childrenabsolute img*/
+.finderPage#topgifts #animewrapper .childrenabsolute img.image{
+    top: 67px !important;
+    left: 25px !important;
+}
+
+
+
+
+.finderPage#topgifts .topgifts_landing_title{
+    top:37px;
+    left: 83px;
+}
+
+.finderPage#topgifts .animebucket.topgifts .her{
+    top:35px;
+    left: 427px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .him{
+    top:35px;
+    left: 610px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .kids{
+    top:35px;
+    left: 795px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .girls{
+    top:335px;
+    left: 62px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .guys{
+    top:335px;
+    left: 246px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .home{
+    top:335px;
+    left: 427px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .beauty{
+    top:335px;
+    left: 610px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+.finderPage#topgifts .animebucket.topgifts .cologne{
+    top:335px;
+    left: 795px;
+    width: 162px;
+    height: 279px;
+    overflow: hidden;
+}
+
+
+/***************  HER coords for tags   *************/
+
+
+.finderPage#topgifts .animebucket.her .topgifts_title_her,
+.finderPage#topgifts .animebucket.him .topgifts_title_him,
+.finderPage#topgifts .animebucket.kids .topgifts_title_him,
+.finderPage#topgifts .animebucket.girls .topgifts_title_girls,
+.finderPage#topgifts .animebucket.guys .topgifts_title_guys,
+.finderPage#topgifts .animebucket.homedecor .topgifts_title_home,
+.finderPage#topgifts .animebucket.beauty .topgifts_title_beauty,
+.finderPage#topgifts .animebucket.cologne .topgifts_title_cologne
+{
+    top:37px;
+    left: 83px;
+}
+
+
+/*********************** Landing Page Rules for Product Pools *************************/
+.finderPage#topgifts .product.notralphlauren .image{
+    border: none !important;
+}
+.finderPage#topgifts .products{
+    position: absolute;
+    top: 127px;
+    left: 80px;
+    width: 800px;
+
+}
+
+.finderPage#topgifts .products .product{
+    position: relative;
+    display: inline-block;
+    vertical-align:top;
+    /*width:150px;*/
+    /*height:210px;*/
+    /*overflow: hidden;*/
+    margin-left: 3px;
+    margin-top: 19px;
+    margin-bottom: 18px;
+    left:61px;
+    width: 130px;
+    height: 136px;
+}
+
+.finderPage#topgifts .products .product:first-child{
+    position: relative;
+    width: 291px;
+    height: 500px;
+    display: block;
+    /*overflow: hidden;*/
+    float: left;
+
+    left: 61px !important;
+    margin-top: 16px !important;
+    margin-left: -1px !important;
+
+}
+
+
+.finderPage#topgifts .products .product p.votes{
+    position: absolute;
+}
+
+
+.finderPage#topgifts .products .product:first-child .image{
+    width: 291px;
+    height: 356px;
+    overflow: hidden;
+}
+
+.finderPage#topgifts .products .product .image{
+    width: 113px;
+    height: 134px;
+    overflow: hidden;
+    /*float: right;*/
+
+}
+
+
+.finderPage#topgifts .products .num_container{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+
+.finderPage#topgifts .products .num_container .indexcount{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    left: -15px;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: grey 1px 1px 1px;
+    top: -14px;
+}
+
+.bigtab{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+.finderPage#topgifts #animewrapper .childrenabsolute img {
+   top: 20px;
+   left: 52px;
+}
+
+
+
+
+.finderPage#topgifts .products .product .votes {
+   color: #ffffff;
+   text-transform: uppercase;
+   font-weight: bold;
+   display: inline-block;
+
+}
+
+.finderPage#topgifts .products .product .votes img{
+  display: inline-block !important;
+
+}
+
+.finderPage#topgifts .products .product:first-child .votes {
+    display: block;
+
+}
+
+
+
+
+.finderPage#topgifts .products .product:first-child .product_image{
+    padding-bottom: 0 !important;
+    border: none !important;
+    height: 370px;
+    overflow: hidden;
+
+}
+
+
+.finderPage#topgifts .product .product_image {
+    padding-bottom: 0 !important;
+    border: none !important;
+    height: 127px;
+    overflow: hidden;
+
+}
+
+.finderPage#topgifts .products .product:nth-child(1n+2){
+   position: relative;
+   left: 84px;
+}
+
+
+

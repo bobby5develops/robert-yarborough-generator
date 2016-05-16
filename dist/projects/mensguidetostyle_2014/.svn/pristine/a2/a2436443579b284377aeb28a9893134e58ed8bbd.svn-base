@@ -1,0 +1,162 @@
+<div id="navContainer">
+<!--
+    <div id="shipping"><a href="http://www.macys.com/m/campaign/free-shipping/free-shipping-everyday" target="_blank"><img src="randomDirectory/images/nav/shipping2.png" border="0" alt="FREE SHIPPING EVERY DAY detailes"></a></div><br>
+-->
+    <!--<div id="navBack"></div>-->
+    <ul id="navBar">
+        <li id="home"><a href="#/home" track="home"></a></li>
+        <li id="howtowearit"><a href="#/howtowearit" track="howtowearit"></a></li>
+        <li id="suitQuiz"><a href="#/suitQuiz" track="suitQuiz"></a></li>
+        <li id="shirtTieMixer"><a href="#/shirtTieMixer" track="shirtTieMixer"></a></li>
+        <li id="dressing101"><a href="#/dressing101" track="dressing101"></a>
+            <ul id="subnav">
+                <li class="fitsuit"><a href="#/fitsuit" track="fitsuit">link</a></li>
+                <li class="fitshirt"><a href="#/fitshirt" track="fitshirt">link</a></li>
+                <li class="fitjeans"><a href="#/fitjeans" track="fitjeans">link</a></li>
+                <li class="fitsize"><a href="#/fitsize" track="fitsize">link</a></li>
+                <li class="fitknots"><a href="#/fitknots" track="fitknots">link</a></li>
+                <li class="arrowdown"></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+
+<div id="bodyContainer">
+    <div class="loading" style="display: none;">
+        <div id="overlay"></div>
+        <div id="loadingMessage"><img src="randomDirectory/images/loading_anim.gif" border="0"></div>
+    </div>
+    <div id="pageContainer">
+
+    </div>
+
+</div>
+<div id="footerContainer">
+    <div id="footer">
+        <a class="bookadate" role="skavaInteropBookaDate" config="site" href="http://www.macys.com/store/service/mba.jsp" target="_blank" track="bookadate"></a>
+        <div class="facebook" role="skavaInteropShareFacebook" config="site"></div>
+        <div class="twitter" role="skavaInteropShareTwitter" config="site"></div>
+    </div>
+    <div id="products">
+
+    </div>
+</div>
+
+<script id="productListing" type="text/html">
+    <div class="productListing {{if hasPromotions}}hasPromotions{{/if}} {{if finder.skava.beenVotedOn(pfeed_id)}}voted{{/if}}"
+         brand="${pfeed_brand}" productId="${pfeed_id}" entryId="${entryid}">
+        <div class="quickview">
+            <a href="javascript:void(0)" entryId="${entryid}" productId="${pfeed_id}" role="skavaInteropQuickView">Quick
+                View</a>
+        </div>
+        <div class="image">
+            <a href="${pfeed_url}" target="_blank"><img src="${image_fullImage}" class="productImage" border="0"></a>
+        </div>
+
+        <div class="label">
+            <a href="${pfeed_url}" target="_blank">
+                ${label}
+            </a>
+        </div>
+
+        <div class="price1">${pfeed_price1}</div>
+        {{if pfeed_price2 != ""}}
+        <div class="price2">${pfeed_price2}</div>
+        {{/if}}
+        {{if pfeed_price3 != ""}}
+        <div class="price3">${pfeed_price3}</div>
+        {{/if}}
+
+        <div class="votingRow" role="skavaInteropVote">
+            <img src="randomDirectory/images/heart.png" border="0"> <span class="lovethis">
+				<span class="button">love it <img src="randomDirectory/images/rightarrow.gif" border="0"></span>
+				<span class="voteCount">
+					{{if votes == "1"}}
+						1 LOVES THIS
+					{{/if}}
+					{{if votes > 1}}
+						${votes} LOVE THIS
+					{{/if}}
+
+				</span>
+			</span>
+        </div>
+
+        <div class="giftListRow" role="skavaInteropWishListAdder">
+            <img src="randomDirectory/images/pool/addtogiftlist.png" border="0" class='addToGiftList'
+                 entryId="${entryid}" productId="${pfeed_id}">
+        </div>
+        <div class="giftListRow2">
+            <img src="randomDirectory/images/pool/checkmark.png" border="0" align="absmiddle"> on my gift list
+        </div>
+
+        <img src='randomDirectory/images/pool/addToBridalParty.png' border='0' class="addToBridalParty"
+             role="skavaInteropBridalAdder">
+
+        <div class="moreInfo">
+            <div class="colorSwatches">
+                {{each swatches}}
+                <img src="${this.swatchImage.replace('wid=57', 'wid=20')}"
+                     productImage="${this.productImage.replace('%width%', '137')}" class="swatch">
+                {{/each}}
+            </div>
+
+
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</script>
+
+<script id="horizontalproductListing" type="text/html">
+    <div class="productListing {{if hasPromotions}}hasPromotions{{/if}} {{if finder.skava.beenVotedOn(pfeed_id)}}voted{{/if}}"
+         brand="${pfeed_brand}" productId="${pfeed_id}" entryId="${entryid}">
+        <div class="quickview">
+            <a href="javascript:void(0)" entryId="${entryid}" productId="${pfeed_id}" role="skavaInteropQuickView">Quick
+                View</a>
+        </div>
+        <div class="image">
+            <a href="${pfeed_url}" target="_blank"><img src="${image_fullImage}" class="productImage" border="0"/></a>
+        </div>
+
+        <div class="textWrapper">
+
+            <a href="${pfeed_url}" target="_blank">
+                ${label}
+            </a>
+
+
+            <div class="price1">${pfeed_price1}</div>
+            {{if pfeed_price2 != ""}}
+            <div class="price2">${pfeed_price2}</div>
+            {{/if}}
+            {{if pfeed_price3 != ""}}
+            <div class="price3">${pfeed_price3}</div>
+            {{/if}}
+        </div>
+        <div class="label">
+
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</script>
+
+<script id="mixerPoolShirt" type="text/html">
+    <div class="productListing " brand="${pfeed_brand}" productId="${pfeed_id}" entryId="${entryid}">
+        <div class="image">
+            <img src="${image_fullImage}" class="productImage shirt" id="${pfeed_id}" border="0">
+        </div>
+    </div>
+</script>
+
+<script id="mixerPoolTie" type="text/html">
+    <div class="productListing " brand="${pfeed_brand}" productId="${pfeed_id}" entryId="${entryid}">
+        <div class="image">
+            <img src="${image_fullImage}" class="productImage ${pfeed_class}" id="${pfeed_id}" border="0">
+        </div>
+    </div>
+</script>
+
+<script id="poolFilters" type="text/html">
+    <div class="filter" data-pool="${pool}">${label}</div>
+</script>

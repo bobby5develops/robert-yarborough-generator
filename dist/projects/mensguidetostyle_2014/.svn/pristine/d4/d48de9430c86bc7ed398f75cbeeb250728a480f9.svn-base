@@ -1,0 +1,425 @@
+#finderContainer #navContainer {
+    background: transparent;
+    height: 36px;
+    color: #00427a;
+    display: block;
+	position: relative;
+	z-index: 200;
+}
+#finderContainer #navContainer #navBack{
+    background-position: 0px 0px;
+    width: 898px;
+    height: 36px;
+}
+#finderContainer #navContainer ul#navBar {
+    width: 898px;
+    height: 36px;
+    margin: 0px;
+    padding: 0px;
+    background: #000;
+}
+
+#finderContainer #navContainer ul#navBar li{
+    text-indent: -9999px;
+    height: 35px;
+    background: url('../images/nav/nav.png') no-repeat;
+    float: left;
+    display:block;
+}
+
+#finderContainer #navContainer ul#navBar li a{
+    width:100%;
+    height:100%;
+    list-style: none;
+    display: block;
+}
+
+#finderContainer #navContainer ul#navBar li.highlighted > a {
+    cursor:default;
+}
+
+
+#finderContainer #navContainer ul#navBar li#home a{
+    width:336px;
+    height:36px;
+    display: block;
+}
+
+/*=================== HOW TO WEAR IT ==============================*/
+
+#finderContainer #navContainer ul#navBar li#howtowearit{
+    background-position: -336px 0;
+    width:144px;
+    height:36px;
+    display: block;
+}
+
+#finderContainer #navContainer ul#navBar li#howtowearit:hover,
+#finderContainer #navContainer ul#navBar li#howtowearit.highlighted{
+    background-position: -336px -36px;
+}
+
+/*====================== HOW TO WEAR IT SUBNAV ===============================*/
+
+#finderContainer #navContainer ul#navBar li#howtowearit:hover > ul{
+    display:block;
+}
+
+#finderContainer #navContainer ul#navBar li#howtowearit ul{
+    position: absolute;
+    top: 37px;
+    left: 245px;
+    margin: 0px;
+    padding: 0px 10px;
+    background: url(../images/nav/subnavbak.png) left bottom no-repeat;
+    list-style-type: none;
+    display:none;
+    padding-top: 0;
+    border:1px solid #d3d3d3;
+    color:#ffffff;
+}
+
+#finderContainer #navContainer ul#navBar li#howtowearit li.arrowdown {
+    width: 19px !important;
+    height: 12px !important;
+    background: url(../images/nav/sub_arrowDown.png) 0 0px no-repeat !important;
+    display: block !important;
+    margin: 0 !important;
+    border: 0 !important;
+    padding: 0 !important;
+    position:absolute !important;
+    top: -3px !important;
+}
+
+#finderContainer #navContainer ul#navBar li#howtowearit ul li{
+    height:20px;
+    background: url(../images/nav/subnavbak.png) no-repeat;
+    margin-left:1px;
+    margin-top: 6px;
+}
+
+/*========== changes the cursor for the highlighted item in the subnav*/
+#finderContainer #navContainer ul#navBar li#howtowearit ul .highlighted a{
+    cursor: default;
+}
+/*=====================SUBNAV ONE ===========================*/
+
+
+#finderContainer #navContainer ul#navBar li#howtowearit ul li.blue{
+    width:77px;
+    background-position: -10px -9px;
+}
+#finderContainer #navContainer ul#navBar li#howtowearit ul .blue:hover,
+#finderContainer #navContainer ul#navBar li#howtowearit ul .blue.highlighted {
+background-position: -10px -30px;
+}
+
+#finderContainer #navContainer ul#navBar li#howtowearit ul li.gray{
+    width:104px;
+    background-position: -95px -9px;
+}
+#finderContainer #navContainer ul#navBar li#howtowearit ul .gray:hover,
+#finderContainer #navContainer ul#navBar li#howtowearit ul .gray.highlighted {
+    background-position: -95px -30px;
+}
+
+#finderContainer #navContainer ul#navBar li#howtowearit ul li.rustic{
+    width:104px;
+    background-position: -194px -9px;
+}
+#finderContainer #navContainer ul#navBar li#howtowearit ul .rustic:hover,
+#finderContainer #navContainer ul#navBar li#howtowearit ul .rustic.highlighted {
+    background-position: -194px -30px;
+}
+
+#finderContainer #navContainer ul#navBar li#howtowearit ul li.street{
+    width:104px;
+    background-position: -300px -9px;
+}
+#finderContainer #navContainer ul#navBar li#howtowearit ul .street:hover,
+#finderContainer #navContainer ul#navBar li#howtowearit ul .street.highlighted {
+    background-position: -300px -30px;
+}
+
+#finderContainer #navContainer ul#navBar li#howtowearit ul li.tan{
+    width:104px;
+    background-position: -400px -9px;
+}
+#finderContainer #navContainer ul#navBar li#howtowearit ul .tan:hover,
+#finderContainer #navContainer ul#navBar li#howtowearit ul .tan.highlighted {
+    background-position: -400px -30px;
+}
+
+
+
+/*=====================SUBNAV TWO wearsuitlp ===========================*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearsuitlp{*/
+    /*width:115px;*/
+    /*background-position: 10px -3px;*/
+    /*margin-left: 15px;*/
+/*}*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearsuitlp:hover,*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearsuitlp.highlighted {*/
+    /*background-position: 10px -22px;*/
+/*}*/
+/*=====================SUBNAV THREE wearsweaterlp ===========================*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearsweaterlp{*/
+    /*width:75px;*/
+    /*background-position: -281px -3px;*/
+/*}*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearsweaterlp:hover{*/
+    /*background-position: -281px -22px;*/
+/*}*/
+
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearsweaterlp.highlighted{*/
+    /*background-position: -281px -22px;*/
+/*}*/
+/*=====================SUBNAV FOUR wearcasualshirtlp ===========================*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearcasualshirtlp{*/
+    /*width:106px;*/
+    /*background-position: -105px -3px;*/
+/*}*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearcasualshirtlp:hover{*/
+    /*background-position: -105px -22px;*/
+/*}*/
+
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearcasualshirtlp.highlighted{*/
+    /*background-position: -105px -22px;*/
+/*}*/
+/*=====================SUBNAV FIVE wearpants ===========================*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpants{*/
+    /*width:113px;*/
+    /*background-position: -210px -3px;*/
+/*}*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpants:hover{*/
+    /*background-position: -210px -22px;*/
+/*}*/
+
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpants.highlighted{*/
+    /*background-position: -210px -22px;*/
+/*}*/
+
+/*=====================SUBNAV SIX wearpoloslp ===========================*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpoloslp{*/
+    /*width:72px;*/
+    /*background-position: -569px -3px;*/
+/*}*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpoloslp:hover{*/
+    /*background-position: -569px -22px;*/
+/*}*/
+
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpoloslp.highlighted{*/
+    /*background-position: -569px -22px;*/
+/*}*/
+/*=====================SUBNAV SEVEN weargear ===========================*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .weargear{*/
+    /*width:50px;*/
+    /*background-position: -326px -3px;*/
+/*}*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .weargear:hover{*/
+    /*background-position: -326px -22px;*/
+/*}*/
+
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .weargear.highlighted{*/
+    /*background-position: -326px -22px;*/
+/*}*/
+/*=====================SUBNAV EIGHT wearpolos ===========================*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpolos{*/
+    /*width:56px;*/
+    /*background-position: -380px -3px;*/
+/*}*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpolos:hover{*/
+    /*background-position: -380px -22px;*/
+/*}*/
+
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearpolos.highlighted{*/
+    /*background-position: -380px -22px;*/
+/*}*/
+/*=====================SUBNAV NINE wearshoes ===========================*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearshoes{*/
+    /*width:50px;*/
+    /*background-position: -440px -3px;*/
+/*}*/
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearshoes:hover{*/
+    /*background-position: -440px -22px;*/
+/*}*/
+
+/*#finderContainer #navContainer ul#navBar li#howtowearit ul .wearshoes.highlighted{*/
+    /*background-position: -440px -22px;*/
+/*}*/
+/*=================== SUIT QUIZ ==============================*/
+#finderContainer #navContainer ul#navBar li#suitQuiz{
+    background-position: -485px 0px;
+    width:106px;
+    height:36px;
+    display: block;
+}
+#finderContainer #navContainer ul#navBar li#suitQuiz:hover,
+#finderContainer #navContainer ul#navBar li#suitQuiz.highlighted{
+    background-position: -485px -34px;
+}
+
+/*=================== SHIRT TIE MIXER ==============================*/
+#finderContainer #navContainer ul#navBar li#shirtTieMixer{
+    background-position: -600px 0px;
+    width:158px;
+    height:36px;
+    display: block;
+}
+#finderContainer #navContainer ul#navBar li#shirtTieMixer:hover,
+#finderContainer #navContainer ul#navBar li#shirtTieMixer.highlighted{
+    background-position: -600px -34px;
+}
+
+/*=================== DRESSING 101 ==============================*/
+
+#finderContainer #navContainer ul#navBar li#dressing101 {
+    background-position: -775px 0px;
+    width:106px;
+    height:36px;
+    display: block;
+}
+#finderContainer #navContainer ul#navBar li#dressing101:hover,
+#finderContainer #navContainer ul#navBar li#dressing101.highlighted{
+    background-position: -775px -34px;
+}
+
+#finderContainer #navContainer #shipping IMG{
+    position: relative;
+    top:6px;
+    right:25px;
+    float: right;
+}
+
+#finderContainer #navContainer #shipping{
+    background-color: white;
+    height:25px;
+    width:900px;
+}
+
+#finderContainer #subNavHowto{
+    position: absolute;
+    top:30px;
+    left:310px;
+    width:130px;
+    height: 30px;
+    z-index: 50;
+}
+
+/*===================      DRESSING 101 subnav      ==============================*/
+
+#finderContainer #navContainer ul#navBar li#dressing101:hover > ul{
+    display:block;
+}
+
+#finderContainer #navContainer ul#navBar li#dressing101 ul{
+    position: absolute;
+    right: 2px;
+    margin: 0px;
+    padding: 0px;
+    width:688px;
+    height:32px;
+    background: url(../images/nav/subnavbak3.png) left bottom no-repeat;
+    list-style-type: none;
+    display:none;
+    padding-top: 0;
+    top:37px;
+}
+
+#finderContainer #navContainer ul#navBar li#dressing101 li.arrowdown {
+    width: 19px !important;
+    height: 12px !important;
+    background: url(../images/nav/sub_arrowDown.png) 0px -1px no-repeat !important;
+    display: block !important;
+    margin: 0 !important;
+    border: 0 !important;
+    padding: 0 !important;
+    position:absolute !important;
+    top:-2px !important;
+    right:45px !important;
+}
+
+#finderContainer #navContainer ul#navBar li#dressing101 ul li{
+    height:16px;
+    background: url(../images/nav/subnav3.png) no-repeat;
+    margin-top:10px;
+}
+
+/*========== changes the cursor for the highlighted item in the subnav*/
+#finderContainer #navContainer ul#navBar li#dressing101 ul .highlighted a{
+    cursor: default;
+}
+
+/*===================== DRESSING 101 fitsuit ===========================*/
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitsuit {
+    width:120px;
+    background-position: 0px 0px;
+}
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitsuit:hover,
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitsuit.highlighted {
+    background-position: 0px -16px;
+}
+
+
+/*===================== DRESSING 101 fitshirt  ===========================*/
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitshirt {
+    width:105px;
+    background-position: -116px 0px;
+}
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitshirt:hover,
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitshirt.highlighted {
+    background-position: -116px -16px;
+}
+
+
+/*===================== DRESSING 101 fitjeans  ===========================*/
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitjeans {
+    width:110px;
+    background-position: -222px 0px;
+}
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitjeans:hover,
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitjeans.highlighted {
+    background-position: -222px -16px;
+}
+
+/*===================== DRESSING 101 fitsize  ===========================*/
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitsize {
+   /* background: url(../images/nav/subnav_extra.png) no-repeat;*/
+    width:126px;
+    background-position: -332px 0px;
+}
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitsize:hover,
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitsize.highlighted {
+    background-position: -332px -16px;
+}
+
+
+/*===================== DRESSING 101 fitknots  ===========================*/
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitknots {
+    width:200px;
+    background-position: -460px 0px;
+}
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitknots:hover,
+#finderContainer #navContainer ul#navBar li#dressing101 ul .fitknots.highlighted {
+    background-position: -460px -16px;
+}
+
+
+
+
+
+
+
+
+/*=================== nextNavButton and prevNavButton ==============================*/
+
+.finderPage .prevNavButton,
+.finderPage .nextNavButton {
+    position: absolute;
+    top: 247px;
+    cursor: pointer;
+    z-index: 20;
+    opacity: 0;
+}
+.finderPage .prevNavButton { left: 0; }
+.finderPage .nextNavButton { right: 0; }

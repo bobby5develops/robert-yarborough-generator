@@ -1,0 +1,23 @@
+.finderPage#prepset{
+	background : url('../images/prepset/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#prepset img#onestar{
+	position:absolute;
+	top:520px;
+	left:20px;
+}
+.finderPage#prepset img#trendreport{
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+.finderPage#prepset div.plusDot#plusDot1{
+	top:120px;
+	left:372px;
+}
+.finderPage#prepset div.plusDot#plusDot2{
+	top:182px;
+	left:615px;
+}

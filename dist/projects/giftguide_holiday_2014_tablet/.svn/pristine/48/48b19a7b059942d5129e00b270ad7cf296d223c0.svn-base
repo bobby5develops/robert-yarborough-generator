@@ -1,0 +1,441 @@
+
+
+SiteConfig.shop = {
+
+	her: {
+		sweaters: {
+			headerImage: assetsDirectory + "images/forCMS/shop_her_sweaters.jpg",
+			poolName: "forher_missy",
+			filters: {
+				options: [
+					{
+						text: "Shop by:",
+						value: "DEFAULT"
+					},
+					{
+						text: "All",
+						value: "DEFAULT"
+					},
+					{
+						text: "Michael Kors",
+						pfeed: "pfeed_brand",
+						value: "Michael Kors"
+					},
+					{
+						text: "Lauren Ralph Lauren",
+						pfeed: "pfeed_brand",
+						value: "Lauren Ralph Lauren"
+					},
+					{
+						text: "Charter Club",
+						pfeed: "pfeed_brand",
+						value: "Charter Club"
+					},
+					{
+						text: "Style&co.",
+						pfeed: "pfeed_brand",
+						value: "Style&co."
+					},
+					{
+						text: "Vince Camuto",
+						pfeed: "pfeed_brand",
+						value: "Vince Camuto"
+					},
+					{
+						text: "INC International Concepts",
+						pfeed: "pfeed_brand",
+						value: "INC International Concepts"
+					},
+					{
+						text: "Alfani",
+						pfeed: "pfeed_brand",
+						value: "Alfani"
+					},
+					{
+						text: "Tommy Hilfiger",
+						pfeed: "pfeed_brand",
+						value: "Tommy Hilfiger"
+					}
+				]
+			}
+		},
+		accessories: {
+            headerImage: assetsDirectory + "images/forCMS/shop_her_accessories.jpg",
+            poolName: "forher_handbags"
+        },
+		jewelrywatches: {
+			headerImage: assetsDirectory + "images/forCMS/shop_her_jewelrywatches.jpg",
+			poolName: "forher_jewelry"
+		},
+		beauty: {
+			headerImage: assetsDirectory + "images/forCMS/shop_her_jewelry.jpg",
+			poolName: "forher_beauty"
+		},
+		pajamas: {
+			headerImage: assetsDirectory + "images/forCMS/shop_her_pajamas.jpg",
+			poolName: "forher_robes"
+		},
+		shoes: {
+			headerImage: assetsDirectory + "images/forCMS/shop_her_shoes.jpg",
+			poolName: "forher_watches"
+		},
+		hatsglovesscarves: {
+			headerImage: assetsDirectory + "images/forCMS/shop_her_hatsglovesscarves.jpg",
+			poolName: "forher_clothing"
+		},
+		giftsets: {
+			headerImage: assetsDirectory + "images/forCMS/shop_her_giftsets.jpg",
+			poolName: "forher_missy"
+		},
+		giftsunder: {
+			headerImage: assetsDirectory + "images/forCMS/shop_her_giftsunder.jpg",
+			poolName: "forher_gifts100"
+		}
+	},
+	him: {
+		sweaters: {
+			headerImage: assetsDirectory + "images/forCMS/shop_him_sweaters.jpg",
+			poolName: "forhim_clothing",
+				filters: {
+				options: [
+					{
+						text: "Shop by:",
+						value: "DEFAULT"
+					},
+					{
+						text: "All",
+						value: "DEFAULT"
+					},
+					{
+						text: "Calvin Klein",
+						pfeed: "pfeed_brand",
+						value: "Calvin Klein"
+					},
+					{
+						text: "Lauren Ralph Lauren",
+						pfeed: "pfeed_brand",
+						value: "Lauren Ralph Lauren"
+					},
+					{
+						text: "Hugo Boss",
+						pfeed: "pfeed_brand",
+						value: "Hugo Boss"
+					},
+					{
+						text: "Tommy Hilfiger",
+						pfeed: "pfeed_brand",
+						value: "Tommy Hilfiger"
+					},
+					{
+						text: "Levi's",
+						pfeed: "pfeed_brand",
+						value: "Levi's"
+					},
+					{
+						text: "Alfani",
+						pfeed: "pfeed_brand",
+						value: "Alfani"
+					},
+					{
+						text: "Sperry Top-Sider",
+						pfeed: "pfeed_brand",
+						value: "Sperry Top-Sider"
+					},
+					{
+						text: "Geoffrey Beene",
+						pfeed: "pfeed_brand",
+						value: "Geoffrey Beene"
+					},
+					{
+						text: "Michael Kors",
+						pfeed: "pfeed_brand",
+						value: "Michael Kors"
+					},
+					{
+						text: "Speedo",
+						pfeed: "pfeed_brand",
+						value: "Speedo"
+					},
+					{
+						text: "Dockers",
+						pfeed: "pfeed_brand",
+						value: "Dockers"
+					}
+				]
+			}
+
+			//["Calvin Klein", "Polo Ralph Lauren", "Hugo Boss", "Tommy Hilfiger", "Levi's", "Alfani", "Sperry Top-Sider", "Geoffrey Beene", "Michael Kors", "Speedo", "Dockers", "Perry Ellis", "Jockey", "Club Room", "Kenneth Cole Reaction", "Cole Haan", "Lacoste", "Nautica", "Timberland", "Nike", "adidas", "Armani Jeans", "Lauren Ralph Lauren", "Sean John", "Stacy Adams", "Denim & Supply Ralph Lauren", "Tommy Bahama"]
+		},
+		shirts: {
+			headerImage: assetsDirectory + "images/forCMS/shop_him_shirts.jpg",
+			poolName: "forhim_cologne"
+		},
+		accessories: {
+			headerImage: assetsDirectory + "images/forCMS/shop_him_accessories.jpg",
+			poolName: "forhim_activewear"
+		},
+		watches: {
+			headerImage: assetsDirectory + "images/forCMS/shop_him_watches.jpg",
+			poolName: "forhim_bags"
+		},
+		pajamas: {
+			headerImage: assetsDirectory + "images/forCMS/shop_him_pjs.jpg",
+			poolName: "forhim_gadgets"
+		},
+		shoes: {
+			headerImage: assetsDirectory + "images/forCMS/shop_him_shoes.jpg",
+			poolName: "forhim_gifts25"
+		},
+		outerwear: {
+			headerImage: assetsDirectory + "images/forCMS/shop_him_coldweather.jpg",
+			poolName: "forhim_gifts50"
+		},
+		giftsunder: {
+			headerImage: assetsDirectory + "images/forCMS/shop_him_under.jpg",
+			poolName: "forhim_gifts100"
+		}
+	},
+	kids: {
+		baby: {
+			headerImage: assetsDirectory + "images/forCMS/shop_kids_baby.jpg",
+			poolName: "forhim_clothing"
+		},
+		girls: {
+			headerImage: assetsDirectory + "images/forCMS/shop_kids_girls.jpg",
+			poolName: "forhim_cologne"
+		},
+		boys: {
+			headerImage: assetsDirectory + "images/forCMS/shop_kids_boys.jpg",
+			poolName: "forhim_activewear"
+		},
+		shoes: {
+			headerImage: assetsDirectory + "images/forCMS/shop_kids_shoes.jpg",
+			poolName: "forhim_watches"
+		},
+		toys: {
+			headerImage: assetsDirectory + "images/forCMS/shop_kids_toys.jpg",
+			poolName: "forhim_bags"
+		},
+		stocking: {
+			headerImage: assetsDirectory + "images/forCMS/shop_kids_stockings.jpg",
+			poolName: "forhim_gadgets"
+		},
+		giftsunder: {
+			headerImage: assetsDirectory + "images/forCMS/shop_kids_under.jpg",
+			poolName: "forhim_gifts100"
+		}
+	},
+	teens: {
+		girlsclothing: {
+			headerImage: assetsDirectory + "images/forCMS/shop_teens_girlsclothing.jpg",
+			poolName: "forhim_clothing"
+		},
+		girlsaccessories: {
+			headerImage: assetsDirectory + "images/forCMS/shop_teens_girlsaccessories.jpg",
+			poolName: "forhim_cologne"
+		},
+		guysclothing: {
+			headerImage: assetsDirectory + "images/forCMS/shop_teens_guysclothing.jpg",
+			poolName: "forhim_activewear"
+		},
+		guysaccessories: {
+			headerImage: assetsDirectory + "images/forCMS/shop_teens_guysaccessories.jpg",
+			poolName: "forhim_watches"
+		},
+		guysactive: {
+			headerImage: assetsDirectory + "images/forCMS/shop_teens_guysactive.jpg",
+			poolName: "forhim_bags"
+		},
+		gadgets: {
+			headerImage: assetsDirectory + "images/forCMS/shop_teens_gadgets.jpg",
+			poolName: "forhim_gadgets"
+		},
+		girlsbeauty: {
+			headerImage: assetsDirectory + "images/forCMS/shop_teens_girlsbeauty.jpg",
+			poolName: "forhim_gifts100"
+		},
+		giftsunder: {
+			headerImage: assetsDirectory + "images/forCMS/shop_teens_under.jpg",
+			poolName: "forhim_gifts100"
+		}
+	},
+	homedecor: {
+		kitchen: {
+			headerImage: assetsDirectory + "images/forCMS/shop_homedecor_kitchen.jpg",
+			poolName: "forhim_clothing"
+		},
+		coffee: {
+			headerImage: assetsDirectory + "images/forCMS/shop_homedecor_coffee.jpg",
+			poolName: "forhim_cologne"
+		},
+		holiday: {
+			headerImage: assetsDirectory + "images/forCMS/shop_homedecor_holiday.jpg",
+			poolName: "forhim_activewear"
+		},
+		homedecor: {
+			headerImage: assetsDirectory + "images/forCMS/shop_homedecor_homedecor.jpg",
+			poolName: "forhim_watches"
+		},
+		barware: {
+			headerImage: assetsDirectory + "images/forCMS/shop_homedecor_barware.jpg",
+			poolName: "forhim_bags"
+		},
+		gourmet: {
+			headerImage: assetsDirectory + "images/forCMS/shop_homedecor_gourmet.jpg",
+			poolName: "forhim_gadgets"
+		},
+		giftsthatgivehope: {
+			headerImage: assetsDirectory + "images/forCMS/shop_homedecor_giftsthatgivehope.jpg",
+			poolName: "forhim_gifts100"
+		},
+		giftsunder: {
+			headerImage: assetsDirectory + "images/forCMS/shop_homedecor_giftsunder.jpg",
+			poolName: "forhim_gifts100"
+		}
+	},
+	beauty: {
+		perfume: {
+			headerImage: assetsDirectory + "images/forCMS/shop_beauty_perfume.jpg",
+			poolName: "beauty_fragrance"
+		},
+		fragrancegifts: {
+			headerImage: assetsDirectory + "images/forCMS/shop_beauty_fragrancegifts.jpg",
+			poolName: "beauty_cologne"
+		},
+		makeupgifts: {
+			headerImage: assetsDirectory + "images/forCMS/shop_beauty_makeupgifts.jpg",
+			poolName: "beauty_makeup"
+		},
+		cologne: {
+			headerImage: assetsDirectory + "images/forCMS/shop_beauty_cologne.jpg",
+			poolName: "beauty_gifts25"
+		},
+		skincaregifts: {
+			headerImage: assetsDirectory + "images/forCMS/shop_beauty_skincaregifts.jpg",
+			poolName: "beauty_gifts50"
+		},
+		stockingstuffers: {
+			headerImage: assetsDirectory + "images/forCMS/shop_beauty_stockingstuffers.jpg",
+			poolName: "beauty_gifts100"
+		},
+		giftsunder: {
+			headerImage: assetsDirectory + "images/forCMS/shop_beauty_giftsunder.jpg",
+			poolName: "beauty_gifts25"
+		}
+	},
+	stargifts: {
+		her: {
+			headerImage: assetsDirectory + "images/forCMS/shop_stargifts_her.jpg",
+			poolName: "forhim_clothing"
+		},
+		him: {
+			headerImage: assetsDirectory + "images/forCMS/shop_stargifts_him.jpg",
+			poolName: "forhim_cologne"
+		},
+		kids: {
+			headerImage: assetsDirectory + "images/forCMS/shop_stargifts_kids.jpg",
+			poolName: "forhim_activewear"
+		},
+		teens: {
+			headerImage: assetsDirectory + "images/forCMS/shop_stargifts_teens.jpg",
+			poolName: "forhim_watches"
+		},
+		homedecor: {
+			headerImage: assetsDirectory + "images/forCMS/shop_stargifts_homedecor.jpg",
+			poolName: "forhim_bags"
+		},
+		beauty: {
+			headerImage: assetsDirectory + "images/forCMS/shop_stargifts_beauty.jpg",
+			poolName: "forhim_gadgets"
+		},
+        marthastewart: {
+            headerImage: assetsDirectory + "images/forCMS/shop_marthastewart.png",
+            poolName: "forhim_gadgets"
+        }
+	},
+
+    recipient: {
+        trendsetter:{
+            headerImage: assetsDirectory + "images/forCMS/shop_trendsetter.png",
+            poolName: "forhim_gadgets"
+        },
+        fitness:{
+            headerImage: assetsDirectory + "images/forCMS/shop_fitness.png",
+            poolName: "forhim_gadgets"
+        },
+        jetsetter: {
+            headerImage: assetsDirectory + "images/forCMS/shop_traveler.png",
+            poolName: "forhim_gadgets"
+        },
+        sportsfan: {
+            headerImage: assetsDirectory + "images/forCMS/shop_sportsfan.png",
+            poolName: "forhim_gadgets"
+        },
+        partyhost: {
+            headerImage: assetsDirectory + "images/forCMS/shop_partyhost.png",
+            poolName: "forhim_gadgets"
+        },
+        coworker: {
+            headerImage: assetsDirectory + "images/forCMS/shop_coworker.png",
+            poolName: "forhim_gadgets"
+        }
+    },
+    tommyhilfiger: {
+        her: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_TH_Her.png",
+            poolName: "forhim_clothing"
+        },
+        him: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_TH_Him.png",
+            poolName: "forhim_cologne"
+        },
+        kids: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_TH_Kids.png",
+            poolName: "forhim_activewear"
+        },
+        home: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_TH_Home.png",
+            poolName: "forhim_watches"
+        }
+    },
+    calvinklein: {
+        her: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_CK_Her.png",
+            poolName: "forhim_clothing"
+        },
+        him: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_CK_Him.png",
+            poolName: "forhim_cologne"
+        },
+        kids: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_CK_Kids.png",
+            poolName: "forhim_activewear"
+        },
+        fragrance: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_CK_Frag.png",
+            poolName: "forhim_watches"
+        }
+    },
+    michaelkors: {
+        her: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_MK_Her.png",
+            poolName: "forhim_clothing"
+        },
+        beauty: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_MK_Beauty.png",
+            poolName: "forhim_cologne"
+        }
+    },
+    inc: {
+        her: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_INC_Her.png",
+            poolName: "forhim_clothing"
+        },
+        home: {
+            headerImage: assetsDirectory + "images/forCMS/TABLET_POOL_INC_Home.png",
+            poolName: "forhim_cologne"
+        }
+    }
+
+
+};

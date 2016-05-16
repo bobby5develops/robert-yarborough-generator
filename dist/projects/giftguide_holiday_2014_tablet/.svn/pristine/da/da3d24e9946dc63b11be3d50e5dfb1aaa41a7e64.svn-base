@@ -1,0 +1,193 @@
+var BBPool = ( function() {
+
+	function processData( data ) {
+		var poolData = [];
+
+		var votes = 0;
+		if (data.entryStats) {
+			votes = $.grep( data.entryStats, function( ee, ii ){
+				return ee && ee.entryId && ee.entryId ? ee.entryId==ee.entryId : false;
+			});
+		}
+
+		if ( !data.entries ) data.entries = [];
+
+		if( data.entries.length ) {
+			for( var i=0; i<data.entries.length; i++){
+				var entry = {};
+				entry.pfeed_priceforfilters = parseFloat(data.entries[i].properties.pfeed_priceforfilters);
+				//entry.imageWidth = imageWidth;
+				// LETS FIX THIS SOMEWHERE PLEASE
+				entry.image_fullImage = data.entries[i].fileUrl;
+				entry.pfeed_url = data.entries[i].properties.pfeed_url;
+				entry.entryId = data.entries[i].entryId;
+				entry.pfeed_brand = data.entries[i].properties.pfeed_brand;
+
+				if(data.entries[i].properties.pfeed_id) {
+					entry.pfeed_id = data.entries[i].properties.pfeed_id;
+				}
+
+				entry.mostVoted = false;
+				
+				entry.pfeed_productgroup = data.entries[i].properties.pfeed_productgroup;
+				entry.pfeed_price1 = data.entries[i].properties.pfeed_price1;
+				entry.pfeed_price2 = data.entries[i].properties.pfeed_price2;
+				entry.pfeed_price3 = data.entries[i].properties.pfeed_price3;
+				entry.pfeed_name = data.entries[i].properties.pfeed_name;
+				entry.label = data.entries[i].properties.pfeed_name;
+				entry.pfeed_name = data.entries[i].properties.pfeed_name;
+				//entry.votes = Math.floor(Math.random()*255);
+				entry.pfeed_priceforfilters = parseFloat( data.entries[i].properties.pfeed_priceforfilters );
+				entry.inVoteList = false;
+				entry.votedOn = false;
+				entry.votes = votes.length>0 ? votes[0].numLikes : 0;
+				entry.votes = Math.floor( Math.random() * 255 );
+
+				entry.insertIndex = data.entries.length - i;
+				entry.testIndex = entry.insertIndex % 2;
+				poolData.push( entry );
+			}
+		}
+
+		return poolData;
+	}
+
+	function processDataRalphLauren( data ) {
+		var poolData = [];
+
+		var votes = 0;
+		if (data.entryStats) {
+			votes = $.grep( data.entryStats, function( ee, ii ){
+				return ee && ee.entryId && ee.entryId ? ee.entryId==ee.entryId : false;
+			});
+		}
+
+		if( data.entries.length ) {
+			for( var i=0; i<data.entries.length; i++){
+				var entry = {};
+				entry.pfeed_priceforfilters = parseFloat(data.entries[i].properties.pfeed_priceforfilters);
+				//entry.imageWidth = imageWidth;
+				// LETS FIX THIS SOMEWHERE PLEASE
+				
+				entry.pfeed_url = data.entries[i].properties.pfeed_url;
+				entry.entryId = data.entries[i].entryId;
+				entry.pfeed_brand = data.entries[i].properties.pfeed_brand;
+				entry.ralphlauren = true;
+
+				if(data.entries[i].properties.pfeed_id) {
+					entry.pfeed_id = data.entries[i].properties.pfeed_id;
+				}
+
+				if (entry.pfeed_id) {
+					if ( finder.getConfig().ralphlauren.products[ entry.pfeed_id ] ) {
+						entry.image_fullImage = assetsDirectory + "images/ralphlauren/" + finder.getConfig().ralphlauren.products[ entry.pfeed_id ].newname;
+						entry.insertIndex = finder.getConfig().ralphlauren.products[ entry.pfeed_id ].sequenceIndex;
+					} else {
+						entry.image_fullImage = data.entries[i].fileUrl;
+						entry.insertIndex = data.entries.length - i;
+					}
+				}
+				
+				entry.pfeed_productgroup = data.entries[i].properties.pfeed_productgroup;
+				entry.pfeed_price1 = data.entries[i].properties.pfeed_price1;
+				entry.pfeed_price2 = data.entries[i].properties.pfeed_price2;
+				entry.pfeed_price3 = data.entries[i].properties.pfeed_price3;
+				entry.pfeed_name = data.entries[i].properties.pfeed_name;
+				entry.label = data.entries[i].properties.pfeed_name;
+				entry.pfeed_name = data.entries[i].properties.pfeed_name;
+				//entry.votes = Math.floor(Math.random()*255);
+				entry.pfeed_priceforfilters = parseFloat( data.entries[i].properties.pfeed_priceforfilters );
+				entry.inVoteList = false;
+				entry.votedOn = false;
+				entry.votes = votes.length>0 ? votes[0].numLikes : 0;
+				entry.votes = Math.floor( Math.random() * 255 );
+				
+				entry.testIndex = entry.insertIndex % 2;
+				poolData.push( entry );
+			}
+		}
+
+		return poolData;
+	}
+
+	// get the top gifted product
+	// grab the object with the most votes
+	function setTopGiftedItem( data ) {
+		var mostVotes = _.max( data, function( o ){ return o.votes; } );
+		mostVotes.insertIndex = -1;
+		mostVotes.mostVoted = true;
+		return data;
+	}
+
+	// basic logical sort using underscore
+	// similar to js native sorting abilites
+	function sort( array, f ) {
+		var sortedData = _.sortBy( array, f );
+		return sortedData;
+	}
+
+	// filter
+	function filter( array, f) {
+		var matches = _.filter( array, f );
+		return matches;
+	}
+
+	// special sorts by reverse insertIndex 
+	// this is how marketing wants the pool to show up on the page
+
+	function getTopTenList( data ) {
+		var tempData = processData( data );
+		tempData = sortDataByPoolOrder( tempData );
+		tempData = tempData.slice(0,10);
+		return tempData;
+	}
+
+	function filterDataUnderValue( data, value ) {
+		var tempData = BBPool.filter( data, function( entry ) {
+			if( entry[ "pfeed_priceforfilters" ] <= value ) return entry;
+		} );
+		return tempData;
+	}
+
+	function sortDataByPoolOrder( data ) {
+		var currentSort = function( o ) { return o.insertIndex; };
+		var sortedData = sort( data, currentSort );
+		return sortedData;
+	}
+
+	function sortDataPriceHighToLow( data ) {
+		var currentSort = function( o ) { return -o.pfeed_priceforfilters; };
+		var sortedData = sort( data, currentSort );
+		return sortedData;
+	}
+
+	function sortDataPriceLowToHigh( data ) {
+		var currentSort = function( o ) { return o.pfeed_priceforfilters; };
+		var sortedData = sort( data, currentSort );
+		return sortedData;
+	}
+
+	function sortDataVotesHighToLow( data ) {
+		var currentSort = function( o ) { return -o.votes; };
+		var sortedData = sort( data, currentSort );
+		return sortedData;
+	}
+
+	// table of contents
+	return {
+		processData: processData,
+		processDataRalphLauren: processDataRalphLauren,
+		sort: sort,
+		filter: filter,
+
+		// specific pool functions
+		filterDataUnderValue: filterDataUnderValue,
+		getTopTenList: getTopTenList,
+		sortDataByPoolOrder: sortDataByPoolOrder,
+		setTopGiftedItem: setTopGiftedItem,
+		sortDataPriceHighToLow: sortDataPriceHighToLow,
+		sortDataPriceLowToHigh: sortDataPriceLowToHigh,
+		sortDataVotesHighToLow: sortDataVotesHighToLow
+	};
+
+} )();

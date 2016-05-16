@@ -1,0 +1,117 @@
+.finderPage#suitQuizPool {
+    height: 614px;
+    font-family: "Helvetica", sans-serif;
+}
+.finderPage#suitQuizPool  #sidebarImage {
+    position:absolute;
+    z-index: 19;
+    top:0;
+
+/*    width: 264px;
+    height:614px;
+*/
+}
+
+.finderPage#suitQuizPool #noResults {
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.finderPage#suitQuizPool  #sidebarImage img{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.finderPage#suitQuizPool  #slide1 {
+    border-right: 1px solid #00427a;
+}
+.finderPage#suitQuizPool  #headerImage {
+    position:absolute;
+    left:275px;
+    top:30px;
+    z-index: 50;
+}
+
+.finderPage#suitQuizPool  .quizAgain {
+    position:absolute;
+    right:27px;
+    top:58px;
+    z-index: 55;
+    cursor:pointer;
+    padding: 10px;
+}
+
+.finderPage#suitQuizPool  #quiz_poolBackground {
+    position:absolute;
+    left:269px;
+    top:110px;
+    width:590px;
+    height:650px;
+    border:1px solid #CCC;
+    background-image:url(../images/pool/stripes.png);
+}
+
+.finderPage#suitQuizPool  #quiz_poolContainer {
+    position:absolute;
+    left:269px;
+    top:114px;/*
+    width:605px;
+    height:450px;*/
+}
+.finderPage#suitQuizPool #quiz_poolContainer #poolResults {
+    position: absolute;
+    top:35px;
+    height:465px !important;
+    width:584px !important;
+    position:absolute;
+}
+.finderPage#suitQuizPool  #quiz_poolContainer #poolHeader {
+    position:absolute;
+    height:30px;
+    width:200px;
+    left:365px;
+    top:4px;
+}
+.finderPage#suitQuizPool  #quiz_poolContainer #poolHeader #poolPaginationTop {
+    margin:0 !important;
+    margin-right:5px !important;
+    float:right;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+}
+
+.finderPage#suitQuizPool #facetsContainer {
+    width: 300px;
+    position: absolute;
+    top:0px;
+}
+
+.finderPage#suitQuizPool .facet{
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.finderPage#suitQuizPool input{
+}
+
+.finderPage#suitQuizPool #poolResults {
+
+}
+
+.finderPage#suitQuizPool .productListing {
+    margin: 6px;
+}
+
+.finderPage#suitQuizPool  #quiz_poolContainer #poolHeader #poolPaginationTop .itemsFound {
+    padding-right:5px;
+}
+.finderPage#suitQuizPool  #quiz_poolContainer #poolHeader #poolPaginationTop .nextPage {
+    padding-right:5px;
+}
+.finderPage#suitQuizPool #poolResults  .giftListRow , .addToBridalParty{
+    display:none;
+}
+

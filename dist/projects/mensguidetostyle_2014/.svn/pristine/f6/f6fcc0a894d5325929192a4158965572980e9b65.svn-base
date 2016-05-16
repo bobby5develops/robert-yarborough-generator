@@ -1,0 +1,242 @@
+.finderPage#wearsweater {
+    height: 615px;
+    overflow: hidden;
+    /*background-image: url('../images/wearsuit/FPO.jpg');*/
+}
+.finderPage#wearsweater .panelHolder{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.finderPage#wearsweater .panel{
+    position: absolute;
+    height: 551px;
+    width: 198px;
+    float:left;
+    display: block;
+    text-align: center;
+}
+
+/*======================== PANEL 1 ===================*/
+
+.finderPage#wearsweater .panel.p1 {
+    top: 5px;
+    left: 65px;
+    width:395px;
+    z-index: 6;
+}
+
+/*======================== PANEL 2 ===================*/
+
+.finderPage#wearsweater .p2{
+    top: 0;
+    left: 0;
+    width:265px;
+    z-index: 2;
+}
+
+/*======================== PANEL 3 ===================*/
+
+.finderPage#wearsweater .p3{
+    top: 0;
+    left: 0;
+    width:898px;
+    z-index: 5;
+}
+
+/*======================== PANEL 4 ===================*/
+
+.finderPage#wearsweater .p4{
+    top: 40px;
+    right: 25px;
+    width:145px;
+}
+
+.finderPage#wearsweater #title{
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    z-index: 6;
+}
+
+.finderPage#wearsweater #shopall{
+    background-image: url('../images/transparent.png');
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    width:200px;
+    height:20px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.finderPage#wearsweater #clicktosee{
+    position: absolute;
+    left: 18px;
+    bottom: 4px;
+}
+
+/*============================ SUB NAV ===================*/
+
+.finderPage#wearsweater #closesubNav{
+    position: absolute;
+    top:-20px;
+    left:0px;
+    display: none;
+    height:155px;
+    width:900px;
+    padding-left:12px;
+    background: none;
+}
+
+.finderPage#wearsweater #subNav{
+    position: absolute;
+    top:0px;
+    left:98px;
+    display: none;
+    height:27px;
+    width:697px;
+    padding-left:12px;
+    background: none;
+    border:1px solid #d3d3d3\9;
+    z-index: 10;
+}
+
+.finderPage#wearsweater #subNav .imgholder{
+    position: absolute;
+    height:27px;
+    width:697px;
+    padding-left:-15px;
+    background: none;
+    -moz-border-radius : 0px; /* Firefox */
+    -webkit-border-radius : 0px; /* Safari & Chrome */
+    -khtml-border-radius : 0px; /* Linux browsers */
+    border-radius : 0px; /* CSS3 compatible browsers */
+    -moz-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+    -webkit-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+    box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+}
+
+.finderPage#wearsweater #poolBackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 900px;
+    height: 600px;
+    background-image: url('../images/dressing101/transparentGrey.png');
+    z-index: 111;
+}
+
+.finderPage#wearsweater  #classic_poolBackground {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 900px;
+    height: 650px;
+    border: 1px solid #CCC;
+    background-color: white;
+}
+
+.finderPage#wearsweater  #classic_poolContainer {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 860px;
+    height: 545px;
+    background-color: #ffffff;
+}
+
+.finderPage#wearsweater #classic_poolContainer #poolResults {
+    height: 500px !important;
+    width: 830px !important;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: white;
+}
+
+.finderPage#wearsweater  #classic_poolContainer #poolHeader {
+    position: absolute;
+    top: 15px;
+    left: 550px;
+    width: 280px;
+}
+
+.finderPage#wearsweater  #classic_poolContainer #poolHeader #poolPaginationTop {
+    margin: 0 !important;
+    margin-right: 5px !important;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.finderPage#wearsweater  #classic_poolContainer #poolHeader #poolPaginationTop .itemsFound {
+    padding-right: 5px;
+}
+
+.finderPage#wearsweater  #classic_poolContainer #poolHeader #poolPaginationTop .nextPage {
+    padding-right: 5px;
+}
+
+.finderPage#wearsweater #poolResults  .giftListRow, .addToBridalParty {
+    display: none;
+}
+
+.finderPage#wearsweater .facetTitle {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.finderPage#wearsweater .facetTabsContainer {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 11px;
+}
+
+.finderPage#wearsweater #facetsContainer LI {
+    text-decoration: underline;
+!important margin-left : 20 px;
+    margin-right: 10px;
+}
+
+.finderPage#wearsweater #facetsContainer LI.toggled {
+    color:blue;
+}
+
+.finderPage#wearsweater #facetsContainer LI INPUT {
+    display: none;
+}
+
+.finderPage#wearsweater #close {
+    position: absolute;
+    left: 824px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.finderPage#wearsweater .facetTabsContainer li {
+    float: left;
+}
+
+.finderPage#wearsweater .secondTitle{
+    left:5px;
+    top: 370px;
+}
+.finderPage#wearsweater #classic .secondTitle{
+    left:5px;
+    top: 380px;
+}
+.finderPage#wearsweater .firstTitle{
+    left:5px;
+    top: 442px;
+}

@@ -1,0 +1,257 @@
+
+.product.notralphlauren {
+	
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	margin: 12px;	
+	width: 176px;
+	font: 11px Verdana, Arial;
+	position: relative;
+
+	box-sizing: border-box;
+	_webkit-box-sizing: border-box;
+
+	-webkit-transition: opacity 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.5s;
+}
+
+.product.notralphlauren .addToBridalParty {
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.product.notralphlauren .colorSwatches {
+	margin-top: 10px;
+}
+
+.product.notralphlauren.hasPromotions .bonusOffers {
+	display: block;	
+}
+
+.product.notralphlauren .bonusOffers {
+	padding-top: 10px;
+	background: #ffffff;
+	color: #cc0000;
+	font-weight: bold;
+	border-top: 1px solid #efefef;
+	margin-top: 10px;
+	position: relative;
+	display: none;
+	cursor: pointer
+}
+
+.product.notralphlauren .bonusOffers .offer {
+	font-weight: normal;
+	color: #cc0000;
+	cursor: auto;
+	padding: 5px;
+}
+
+
+.product.notralphlauren .giftListRow {
+	cursor: pointer;
+}
+
+.product.notralphlauren.inWishlist .giftListRow {
+	display: none;
+}
+
+.product.notralphlauren .giftListRow2 {
+	display: none;
+	color: #999;
+}
+
+.product.notralphlauren.inWishlist .giftListRow2 {
+	display: block;
+}
+
+.product.notralphlauren .giftListRow, .product.notralphlauren .giftListRow2 {
+	font-weight: bold;
+}
+
+.product.notralphlauren .quickview {
+	position: absolute;
+	top: 185px;
+	right: 4px;
+	opacity: .7;
+	height: 26px;
+	width: 88px;
+	overflow: hidden;
+	display: none;
+}
+
+.product.notralphlauren .quickview.hover {
+	opacity: 1 !important;
+}
+
+.touch .product.notralphlauren .quickview {
+	display: block !important;
+}
+
+.product.notralphlauren .quickview A {
+	display: block;
+	background: url('../images/qv-button.png');
+	width: 88px;
+	height: 26px;
+	text-indent: -9000px;
+}
+
+ .product.notralphlauren.hover .quickview {
+ 	display: block;
+ }
+
+.product.notralphlauren .quickview A:hover {
+	background-position: 0px -26px;
+}
+
+.product.notralphlauren .quickview A.clicked {
+	background-position: 0px -52px !important;
+}
+
+
+
+
+
+.product.notralphlauren .image {
+	width: 170px;	
+	border: 1px solid #cecece;
+	overflow: hidden;
+	display: block;
+}
+
+.product.notralphlauren .moreColors {
+	text-align: center;
+	background: black;
+	color: white;
+	font: 10px Arial;
+	text-transform: uppercase;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: bold;
+}
+
+.product.notralphlauren A {
+	text-decoration: none;
+}
+
+.product.notralphlauren .product.notralphlaurenImage {
+	width: 171px;	
+	height: 211px;
+}
+
+
+
+.product.notralphlauren .votingRow {
+	padding-top: 5px;
+	font-family: Conv_ITCAvantGardeStd-Md, Arial;
+	position: relative;
+	cursor: pointer;
+}
+
+.product.notralphlauren .votingRow{
+	color: #000000;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.product.notralphlauren.voted .votingRow .button {
+	color: #999999;
+}
+
+.product.notralphlauren.voted .votingRow {
+	cursor: default;
+}
+
+.product.notralphlauren .voteCount{
+	color: #000000;
+	font-size: 9px;
+	white-space: nowrap;
+	position: absolute;
+	top: 7px;
+	font-family: verdana, arial;
+	font-weight: normal;
+}
+
+.product.notralphlauren .loveit{
+
+}
+
+
+.product.notralphlauren .label {
+	clear:both;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+.product.notralphlauren .label A {
+	color: black;
+	text-decoration: none;
+}
+
+.product.notralphlauren .price1 {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.product.notralphlauren .price2 {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.product.notralphlauren .price3 {
+	font-weight: bold;
+	color: red;
+	margin-bottom: 5px;
+}
+
+.product.notralphlauren:HOVER {
+
+}
+
+.product.notralphlauren .voteButton {
+	cursor: pointer;
+}
+
+
+.product.topgifted {
+	width: 176px;
+	height: 371px;
+	background-color: #cc0000;
+	background: url('../images/forCMS/topgifted.png');
+	padding: 96px 15px 15px 15px;
+}
+
+.product.topgifted .image{
+	width: 150px;
+}
+
+.product.topgifted .price{
+	display: none;
+}
+
+.product.topgifted .votes{
+	display: none;
+}
+
+.product.topgifted .label{
+	height: 36px;
+	overflow: hidden;
+}
+
+.product.topgifted .buttons {
+	padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+

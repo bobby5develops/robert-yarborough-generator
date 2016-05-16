@@ -1,0 +1,41 @@
+
+#navContainer {
+    position: relative;
+    z-index: 1;
+}
+
+#navContainer img {
+    display: block;
+}
+
+#navContainer .dropdownimage {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+#navContainer .dropdownimage.active {
+    display: block;
+}
+
+
+
+
+/* buttonbucket is for the buttons in the black bar top nav */
+#navContainer .buttonbucket {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 100%;
+}
+#navContainer .buttonbucket .navitem {
+    display: block;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    background-color: #cc0000;
+    filter: alpha(opacity = 0);
+    opacity: 0.0;
+}
+
+

@@ -1,0 +1,129 @@
+DIV#clickToClose {
+	position:absolute;
+	top:10px;
+	left:10px;
+	background-image:url(../images/toggle_open.png);
+	background-repeat:no-repeat;
+	padding-left:18px;
+	line-height:16px;
+	height:17px;
+	width:17px;
+	font-family: 'ITCAvantGardeGothicStdMedium', Arial, verdana;
+	font-weight:normal; 
+	font-size:12px;
+	cursor:pointer;
+}
+
+DIV.plusDot{
+	position:absolute;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	z-index:888;
+}
+DIV.plusDot:hover {
+	z-index:99999;
+}
+DIV.plusDot>IMG {
+	position:absolute;
+	z-index:1;
+}
+DIV.plusDot DIV.dotSign {
+	position:absolute;
+	background-image:url(../images/toggle_closed.png);
+	width:32px;
+	height:32px;
+	background-position:center;
+	background-repeat:no-repeat;
+	top:-8px;
+	left:-8px;
+	z-index:9999
+}
+DIV.plusDot.opened DIV.dotSign {
+	background-image:url(../images/toggle_open.png);
+}
+IMG.heroSmall {
+	position:absolute;
+	display:none;
+}
+IMG.heroBig {
+	position:absolute;
+	display:none;
+}
+DIV.minusDot{
+	position:absolute;
+	width:16px;
+	height:16px;
+	display:none;
+	cursor:pointer;
+	overflow:visible;
+}
+DIV.minusDot:hover {
+	z-index:99999;
+}
+DIV.minusDot>IMG {
+	position:absolute;
+	z-index:888;
+}
+DIV.dotContent {
+	position:absolute;
+	min-width:145px;
+	padding:10px;
+	font-family: 'ITCAvantGardeGothicStdMedium', Arial, verdana;
+	font-weight:normal; 
+	font-size:13px;
+	color:#FFFFFF; 
+	background-color:#000000;
+	margin:8px;
+	
+	display:none;
+}
+DIV.dotContent.flip{
+	left:-165px;
+}
+DIV.dotContent H4 {
+	padding:0px;
+	margin:0px;
+	margin-bottom:5px;
+	font-size : 18px;
+	font-family:'Didot W01 Italic';
+	color:#e21a2c;
+}
+DIV.dotContent IMG {
+	display:block;
+}
+DIV.dotContent P {
+	padding:0px;
+	margin:0px;
+	margin-bottom:20px;
+	line-height:20px;
+	font-size : 15px;
+	font-family:'AvantGardeGothicITCW01X', Arial, Verdana
+}
+DIV.dotContent A {
+	font-size : 12px;
+	clear:both;
+	text-decoration : none;
+	color:#FFF;
+	display:block;
+	clear:both;
+	margin:0;
+	height:15px;
+}
+DIV.dotContent A:hover {
+	color:#CCC;
+}
+
+DIV.dotContent A.minusShare {
+	padding-left : 23px; 
+	background : url(../images/common/share.png) no-repeat left center;
+}
+DIV.dotContent A.minusSharePin {
+	padding-left : 18px; 
+	background : url(../images/pinit.png) no-repeat;
+}
+
+DIV.dotContent DIV.spacer {
+	clear:both;
+	margin:0 0 10px 0;
+}

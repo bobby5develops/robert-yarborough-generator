@@ -1,0 +1,11 @@
+.finderPage#fitshirtextraslim {
+    height:616px;
+}
+
+.finderPage#fitshirtextraslim .mainimage {
+    display: block;
+    margin: 0;
+    border: 0;
+    padding:0;
+}
+

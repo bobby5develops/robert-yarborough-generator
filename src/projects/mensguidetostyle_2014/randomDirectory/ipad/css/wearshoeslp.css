@@ -1,0 +1,192 @@
+.finderPage#wearshoeslp {
+    height: 613px;
+    width:898px;
+    font-family: 'helvetica','arial', san-serif;
+}
+
+.finderPage#wearshoeslp #top{
+    width:898px;
+    height:616px;
+    overflow: hidden;
+    background:url('../images/wearshoeslp/bg.jpg') no-repeat;
+}
+
+.finderPage#wearshoeslp #bottom{
+    bottom:0;
+    left:0;
+    position: absolute;
+    z-index:15;
+    width:898px;
+    height:95px;
+}
+
+/*============TITLE==================*/
+
+
+.finderPage#wearshoeslp #title{
+    position:absolute;
+    top:53px;
+    left:43px;
+    height:100px;
+    width: 553px;
+    background: transparent;
+    z-index:11;
+}
+
+.finderPage#wearshoeslp #title img{
+
+    z-index:1100;
+}
+
+/*.finderPage#wearshoeslp #menuLinks a:hover {     border: 2px solid #b7153d; }*/
+
+.finderPage#wearshoeslp .linkClick {
+    padding:0;
+    overflow: hidden;
+    background: transparent;
+    float:left;
+    margin: 0 14px 13px 0;
+}
+
+/*============================THUMB 1===================*/
+.finderPage#wearshoeslp #t1 {
+    width: 470px;
+    height:419px;
+    position:absolute;
+    top:170px;
+    left:67px;
+}
+
+.finderPage#wearshoeslp #shopall{
+    background-image: url('../images/transparent.png');
+    position: absolute;
+    display: block;
+    right: 245px;
+    top: 80px;
+    width:135px;
+    height:20px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+/*=============================== POOL ==============================*/
+
+.finderPage#wearshoeslp #poolBackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 900px;
+    height: 600px;
+    background-image: url('../images/dressing101/transparentGrey.png');
+    z-index: 111;
+}
+
+.finderPage#wearshoeslp  #classic_poolBackground {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 900px;
+    height: 650px;
+    border: 1px solid #CCC;
+    background-color: white;
+}
+
+.finderPage#wearshoeslp  #classic_poolContainer {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 860px;
+    height: 545px;
+    background-color: #ffffff;
+}
+
+.finderPage#wearshoeslp #classic_poolContainer #poolResults {
+    height: 500px !important;
+    width: 830px !important;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: white;
+}
+
+.finderPage#wearshoeslp  #classic_poolContainer #poolHeader {
+    position: absolute;
+    top: 15px;
+    left: 550px;
+    width: 280px;
+}
+
+.finderPage#wearshoeslp  #classic_poolContainer #poolHeader #poolPaginationTop {
+    margin: 0 !important;
+    margin-right: 5px !important;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.finderPage#wearshoeslp  #classic_poolContainer #poolHeader #poolPaginationTop .itemsFound {
+    padding-right: 5px;
+}
+
+.finderPage#wearshoeslp  #classic_poolContainer #poolHeader #poolPaginationTop .nextPage {
+    padding-right: 5px;
+}
+
+.finderPage#wearshoeslp #poolResults  .giftListRow, .addToBridalParty {
+    display: none;
+}
+
+.finderPage#wearshoeslp .facetTitle {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.finderPage#wearshoeslp .facetTabsContainer {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 11px;
+}
+
+.finderPage#wearshoeslp #facetsContainer LI {
+    text-decoration: underline;
+!important margin-left : 20 px;
+    margin-right: 10px;
+}
+
+.finderPage#wearshoeslp #facetsContainer LI.toggled {
+    color:blue;
+}
+
+.finderPage#wearshoeslp #facetsContainer LI INPUT {
+    display: none;
+}
+
+.finderPage#wearshoeslp #close {
+    position: absolute;
+    left: 824px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.finderPage#wearshoeslp .facetTabsContainer li {
+    float: left;
+}
+.finderPage#wearshoeslp .secondTitle{
+    left:5px;
+    top: 370px;
+}
+.finderPage#wearshoeslp #classic .secondTitle{
+    left:5px;
+    top: 380px;
+}
+.finderPage#wearshoeslp .firstTitle{
+    left:5px;
+    top: 442px;
+}

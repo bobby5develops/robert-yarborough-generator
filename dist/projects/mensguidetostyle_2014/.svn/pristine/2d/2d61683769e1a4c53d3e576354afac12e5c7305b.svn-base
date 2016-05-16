@@ -1,0 +1,239 @@
+.hotspot {
+    position: absolute;
+}
+
+.hotspot .plus {
+     position: absolute;
+     width: 30px;
+     height: 30px;
+     background: transparent url('../images/hotspot/plus.png') no-repeat;
+     background-position: center center;
+     cursor: pointer;
+     z-index: 10;
+}
+.hotspot.northEast .tooltip {
+    bottom: -10px;
+    left: 18px;
+}
+
+.hotspot.southEast .tooltip {
+    top: 20px;
+    left: 20px;
+}
+
+.hotspot.southWest .tooltip {
+    top: 20px;
+    right: -10px;
+}
+
+.hotspot.northWest .tooltip {
+    bottom: -10px;
+    right: -10px;
+}
+
+.hotspot .tooltip {
+    position: absolute;
+    background: #000;
+    border: 1px solid #000;
+    width: 250px;
+    z-index: 195;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    font-family:'Helvetica','Arial',san-serif;
+    font-size: 16px;
+    font: bold;
+    padding:10px;
+}
+
+.blackHotspot .plus{
+    background: transparent url('../images/plus.png') no-repeat;
+    display: none;
+}
+.blackHotspot .plusWhite{
+    background: transparent url('../images/plusWhite.png') no-repeat;
+    display: none;
+}
+
+#htwproducts .blackHotspot .plus{
+    background: transparent url('../images/plus_gray.png') no-repeat;
+    display: none;
+}
+
+.blackHotspot .tooltip {
+    background: #000;
+    width: 180px;
+    font-family:'Myriad Pro','Helvetica','Arial',san-serif;
+    font-size: 16px;
+    padding: 14px;
+    padding-left: 15px;
+    border: 0px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 200;
+}
+
+.blackHotspot .tooltip b {
+    display: block;
+    font-family:'Didot W01 Roman', Helvetica, Arial, serif;
+    letter-spacing: 0;
+    margin-bottom: 2px;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.blackHotspot .tooltip .title {
+    font-family:'Myriad Pro','Helvetica','Arial',san-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.blackHotspot .tooltip .minus{
+    position: absolute;
+    left: -5px;
+    top:-5px;
+    background: url('../images/minus.png') no-repeat !important;
+    width:25px;
+    height:25px;
+}
+
+.blackHotspot .tooltip #northEast .minus{
+    bottom: -15px;
+    left:-17px;
+    top:auto;
+}
+
+.blackHotspot .tooltip #northWest .minus{
+    bottom: -15px;
+    right:-15px;
+    left:auto;
+    top:auto;
+}
+
+#htwproducts .blackHotspot .tooltip .minus{
+    background:url('../images/minus_gray.png') no-repeat !important;
+}
+
+.blackHotspot .tooltip #southWest .shopNow{
+    padding: 15px 0;
+    cursor: pointer;
+}
+.blackHotspot .tooltip #southEast .sharing{
+    left:0;
+    float:left;
+    cursor:pointer;
+    position:relative;
+}
+.blackHotspot .tooltip #southWest,
+.blackHotspot .tooltip #southEast{
+    line-height:20px;
+}
+.blackHotspot .tooltip .shopNow{
+    padding: 15px 0;
+    cursor: hand; cursor: pointer;
+}
+
+ .blackHotspot .tooltip .shareThis{
+    cursor: pointer;
+}
+
+.blackHotspot.northEast .tooltip, {
+    bottom: -10px;
+    left: 18px;
+}
+
+.blackHotspot.southEast .tooltip {
+    top: 5px;
+    left: 5px;
+}
+
+.blackHotspot.southWest .tooltip {
+    top: 7px;
+    right: -10px;
+    text-align: left;
+}
+
+.blackHotspot.southWest .sharing {
+    top: 7px;
+    right: -10px;
+    float: left;
+}
+
+.blackHotspot.southWest .minus{
+    left:199px;
+    top:-6px;
+}
+
+.blackHotspot.northWest .minus{
+    left:199px;
+    top:229px;
+}
+
+.blackHotspot.northWest .tooltip {
+    bottom: -10px;
+    right: -10px;
+}
+
+/* specific */
+#suitsLauren .hotspot .plus {
+    background: transparent url('../images/hotspot/plusWhite.png') no-repeat;
+}
+
+#suitsLauren .blackHotspot.southWest .minus{
+    left:199px;
+    top:-13px;
+}
+
+#suitsLauren .blackHotspot.southWest .tooltip{
+    top:13px;
+}
+
+#suitsCK .northWest .plus{
+    background: transparent url('../images/hotspot/plusWhite.png') no-repeat;
+}
+
+/*
+#suitsCK .northWest .minus{
+    left:161px;
+    top:243px;
+}
+
+#suitsCK .blackHotspot.northWest .tooltip{
+    bottom: -20px;
+    right: -12px;
+    width: 143px;
+    line-height: 18px;
+}
+*/
+
+#suitsMK .southWest .plus{
+    background: transparent url('../images/hotspot/plusWhite.png') no-repeat;
+}
+
+#suitsMK .southWest .tooltip{
+    width: 171px;
+}
+
+#suitsMK .southWest .minus{
+    left:190px;
+    top:-7px;
+}
+
+#boldbuds .southEast .plus{
+    background: transparent url('../images/hotspot/plusWhite.png') no-repeat;
+}
+
+#boldbuds .southEast .minus{
+    left:-11px;
+    top:-10px;
+}
+
+#boldbuds .southEast .tooltip{
+    width:160px;
+    left:11px;
+    top:10px;
+}
+

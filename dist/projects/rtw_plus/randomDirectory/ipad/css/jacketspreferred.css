@@ -1,0 +1,33 @@
+.finderPage#jacketspreferred{
+	background : url('../images/jacketspreferred/bg.jpg') no-repeat;
+	height:659px!important;
+	position:relative;
+}
+.finderPage#jacketspreferred img#onestar{
+	position:absolute;
+	top:480px;
+	left:20px;
+}
+.finderPage#jacketspreferred img#trendreport{
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+.finderPage#jacketspreferred div.plusDot#plusDot1{
+	top:117px;
+	left:295px;
+}
+.finderPage#jacketspreferred div.plusDot#plusDot2{
+	top:110px;
+	left:490px;
+}
+
+.finderPage#jacketspreferred div.plusDot#plusDot3{
+    top:270px;
+    left:538px;
+}
+
+
+.finderPage#jacketspreferred div.plusDot#plusDot1 .dotContent{
+    min-width: 150px !important;
+}

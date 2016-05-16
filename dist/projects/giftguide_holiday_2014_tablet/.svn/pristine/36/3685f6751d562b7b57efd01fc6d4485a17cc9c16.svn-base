@@ -1,0 +1,30 @@
+<div id="home" class="finderPage">
+
+
+    <img src="randomDirectory/images/forCMS/redbackground1024px.png">
+
+
+    <div class="childrenabsolute">
+        <a class="animeimage forher" anime="top" href="#/landing/her"><img src="randomDirectory/images/forCMS/home_tag_forher.png"></a>
+        <a class="animeimage forhim" anime="top" href="#/landing/him"><img src="randomDirectory/images/forCMS/home_tag_forhim.png"></a>
+        <a class="animeimage forthehome" anime="left" href="#/landing/homedecor"><img src="randomDirectory/images/forCMS/home_tag_forthehome.png"></a>
+        <a class="animeimage forteens" anime="left" href="#/landing/teens"><img src="randomDirectory/images/forCMS/home_tag_for_teens.png"></a>
+        <a class="animeimage forkids" anime="right" href="#/landing/kids"><img src="randomDirectory/images/forCMS/home_tag_for_kids.png"></a>
+        <a class="animeimage forbeauty" anime="right" href="#/landing/beauty"><img src="randomDirectory/images/forCMS/home_tag_beauty.png"></a>
+        <a class="animeimage forreciept" anime="right" href="#/landing/recipient"><img src="randomDirectory/images/forCMS/home_tag_shop_reciept.png"></a>
+        <a class="animeimage forstargifts"  href="#/landing/stargifts"><img src="randomDirectory/images/forCMS/home_tag_star_gifts.png"></a>
+        <a class="animeimage forralphlauren"  href="#/stargifts/ralphlauren"><img src="randomDirectory/images/forCMS/home_footer_from_ralphlauren.png"></a>
+        <a class="animeimage footerfindoutmore"  href="http://www1.macys.com/internationalContext/index.ognc"><img src="randomDirectory/images/forCMS/home_footer_find_out_more.png"></a>
+        <a class="animeimage footergiftcards"  href="http://www1.macys.com/shop/gifts-gift-cards?id=1405"><img src="randomDirectory/images/forCMS/home_footer_gift_cards.png"></a>
+        <a class="animeimage footersantamail"  href="http://macys.com/believe"><img src="randomDirectory/images/forCMS/home_footer_santa_mail.png"></a>
+        <a class="animeimage footerlettertosanta"  href="http://macys.com/believe"><img src="randomDirectory/images/forCMS/home_footer_letter_to_santa.png"></a>
+        <div class="animeimage headline">
+            <img class="headline-main" src="randomDirectory/images/forCMS/home_headline_main.png">
+            <img class="headline-week1" src="randomDirectory/images/forCMS/home_headline_week1.png">
+        </div>
+        <a class="home_top10" href="#/topgifts"><img src="randomDirectory/images/forCMS/home_top10.png"/></a>
+        <a class="home_gifts" href="#/shop/her/giftsunder"><img src="randomDirectory/images/forCMS/home_giftsunder.png"/></a>
+
+    </div>
+
+</div>

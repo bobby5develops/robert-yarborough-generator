@@ -1,0 +1,32 @@
+.finderPage#lookofleather{
+	background : url('../images/lookofleather/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#lookofleather img#onestar{
+	position:absolute;
+	top:455px;
+	left:25px;
+}
+.finderPage#lookofleather img#trendreport{
+	position:absolute;
+	top:35px;
+	left:15px;
+}
+.finderPage#lookofleather div.plusDot#plusDot1{
+	top:134px;
+	left:400px;
+}
+.finderPage#lookofleather div.plusDot#plusDot2{
+	top:195px;
+	left:505px;
+}
+
+
+.finderPage#lookofleather div.plusDot#plusDot2 .dotContent{
+    min-width: 170px !important;
+}
+
+.finderPage#lookofleather div.plusDot#plusDot2 .dotContent.flip{
+    left: -177px !important;
+}

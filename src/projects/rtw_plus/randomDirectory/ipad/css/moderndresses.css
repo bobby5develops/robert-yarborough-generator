@@ -1,0 +1,31 @@
+.finderPage#moderndresses{
+	background : url('../images/moderndresses/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#moderndresses img#onestar{
+	position:absolute;
+	top:450px;
+	left:10px;
+}
+.finderPage#moderndresses img#trendreport{
+	position:absolute;
+	top:25px;
+	left:15px;
+}
+.finderPage#moderndresses div.plusDot#plusDot1{
+	top:100px;
+	left:390px;
+}
+.finderPage#moderndresses div.plusDot#plusDot2{
+	top:280px;
+	left:530px;
+}
+
+
+div#plusDot2.plusDot .dotContent{
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+}

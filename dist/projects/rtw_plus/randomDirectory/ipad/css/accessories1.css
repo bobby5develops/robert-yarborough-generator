@@ -1,0 +1,59 @@
+.finderPage#accessories1 {
+	height:659px;
+	width:900px;
+	background-image:url('../images/accessories1/bg.jpg');
+	background-repeat:no-repeat;
+}
+.finderPage.acc{
+	position:relative;
+}
+.finderPage.acc #additions{
+	position:absolute;
+	top:25px;
+	left:555px;
+}
+.finderPage.acc #additions img{
+	display:block;
+	margin:0;
+}
+.finderPage.acc #additions p{
+	padding:0 0 0 17px;
+	line-height:30px;
+	font-size:12px;
+	letter-spacing:.1em;
+}
+.finderPage.acc #additions p a{
+	color:#fff;
+}
+.finderPage.acc #additions p a:hover, .finderPage.acc #additions p a.current{
+	color:#e21a2c;
+}
+.finderPage.acc .section{
+	position:absolute;
+	top:450px;
+	left:575px;
+	border-top:8px solid #e21a2c;
+	color:#fff;
+	overflow:visible;
+}
+.finderPage.acc .section h3{
+	margin:10px 0 0 0;
+	font-size:22px;
+
+	width:250px;
+	padding:0;
+	font-family:'Didot W01 Italic';
+}
+.finderPage.acc .section p{
+	margin:0px 0 10px 0;
+	font-size:15px;
+	letter-spacing:.1em;
+	width:240px;
+	padding:0;
+	/*	font-family:'AvantGardeGothicITCW01X', Arial, Verdana */
+		font-family:'AvantGardeGothicITCW01B 731069'
+}
+.finderPage.acc .section a{
+	font-size:13px;
+	cursor:pointer;
+}

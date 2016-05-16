@@ -1,0 +1,24 @@
+<div id="fitshirt" class="finderPage">
+
+    <img usemap="#shirtMap" class="mainimage" src="randomDirectory/images/fitshirt/fgShirt_main.jpg">
+
+    <div class="nextNavButton">
+        <a href="#/fitshirtextraslim" track="fitshirtextraslim">
+            <img src="randomDirectory/images/next_blk.png" alt="" border="0">
+        </a>
+    </div>
+
+    <div class="prevNavButton">
+        <a href="#/fitsize" track="fitsize">
+            <img src="randomDirectory/images/prev_blk.png" alt="" border="0">
+        </a>
+    </div>
+
+</div>
+
+<map name="shirtMap" id="shirtMap">
+    <area shape="rect" coords="44,177,243,543" href="#/fitshirtextraslim" track="fitshirt"extraslim/>
+    <area shape="rect" coords="242,178,449,542" href="#/fitshirtslim" track="fitshirtslim"/>
+    <area shape="rect" coords="447,176,653,543" href="#/fitshirtfitted" track="fitshirtfitted" />
+    <area shape="rect" coords="651,177,856,543" href="#/fitshirtclassic" track="fitshirtclassic" />
+</map>

@@ -1,0 +1,42 @@
+.finderPage#lookofleather2{
+	background : url('../images/lookofleather2/bg.jpg') no-repeat;
+	height:658px!important;
+	position:relative;
+}
+.finderPage#lookofleather2 img#trendreport{
+	position:absolute;
+	top:25px;
+	left:15px;
+}
+.finderPage#lookofleather2 div.plusDot#plusDot1{
+	top:125px;
+	left:382px;
+}
+.finderPage#lookofleather2 div.plusDot#plusDot2{
+	top:98px;
+	left:487px;
+}
+.finderPage#lookofleather2 div.plusDot#plusDot3{
+	top:382px;
+	left:615px;
+}
+.finderPage#lookofleather2 div.plusDot#plusDot4{
+	top:137px;
+	left:700px;
+}
+
+
+
+.finderPage#lookofleather2 div.plusDot#plusDot1 .dotContent{
+    min-width: 180px !important;
+}
+
+
+
+.finderPage#lookofleather2 div.plusDot#plusDot3 .dotContent.flip{
+    min-width: 180px !important;
+    left: -197px !important;
+
+}
+
+

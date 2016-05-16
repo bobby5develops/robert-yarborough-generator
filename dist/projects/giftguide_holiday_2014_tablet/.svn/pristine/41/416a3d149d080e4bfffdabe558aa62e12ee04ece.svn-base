@@ -1,0 +1,35 @@
+.finderPage#shop {
+
+}
+
+.marquee {
+	position: relative;
+	display: block;
+	border: 1px solid #c8c8c8;
+	overflow: hidden;
+	margin: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.marquee img {
+	display: block;
+}
+
+.shareButton {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	color: #919191;
+	padding: 5px 9px 5px 9px;
+	font-size: 11px;
+	background-color: #f0efef;
+	text-decoration: none;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+}
+
+.filterBar {
+}

@@ -1,0 +1,244 @@
+.finderPage#wearsuitlp {
+    height: 613px;
+    overflow: hidden;
+    /*background-image: url('../images/wearsuit/FPO.jpg');*/
+}
+.finderPage#wearsuitlp .panelHolder{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.finderPage#wearsuitlp .panel{
+    position: absolute;
+    height: 615px;
+    width: 898px;
+    float:left;
+    display: block;
+    text-align: center;
+}
+
+/*======================== PANEL 1 ===================*/
+
+.finderPage#wearsuitlp .panel.p1 {
+    top: 0;
+    left: 330px;
+    width:434px;
+    z-index: 7;
+    position:absolute;
+}
+
+/*======================== PANEL 2 ===================*/
+
+.finderPage#wearsuitlp .p2{
+    top: 0;
+    left: -295px;
+    width:898px;
+    z-index: 6;
+    position:absolute;
+}
+
+/*======================== PANEL 3 ===================*/
+
+.finderPage#wearsuitlp .p3{
+    top: 0;
+    left: 0;
+    width:898px;
+    z-index: 5;
+}
+
+/*======================== PANEL 4 ===================*/
+
+.finderPage#wearsuitlp .p4{
+    top: 40px;
+    right: 25px;
+    width:145px;
+}
+
+.finderPage#wearsuitlp #title{
+    position: absolute;
+    left: 205px;
+    bottom: 305px !important;
+    z-index: 8;
+}
+
+.finderPage#wearsuitlp #shopall{
+    background-image: url('../images/transparent.png');
+    position: absolute;
+    display: block;
+    right: 54px;
+    bottom: 4px;
+    width:171px;
+    height:32px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.finderPage#wearsuitlp #clicktosee{
+    position: absolute;
+    left: 18px;
+    bottom: 4px;
+}
+
+
+/*============================ SUB NAV ===================*/
+
+.finderPage#wearsuitlp #closesubNav{
+    position: absolute;
+    top:-20px;
+    left:0px;
+    display: none;
+    height:155px;
+    width:900px;
+    padding-left:12px;
+    background: none;
+}
+
+.finderPage#wearsuitlp #subNav{
+    position: absolute;
+    top:0px;
+    left:98px;
+    display: none;
+    height:27px;
+    width:697px;
+    padding-left:12px;
+    background: none;
+    border:1px solid #d3d3d3\9;
+    z-index: 10;
+}
+
+.finderPage#wearsuitlp #subNav .imgholder{
+    position: absolute;
+    height:27px;
+    width:697px;
+    padding-left:-15px;
+    background: none;
+    -moz-border-radius : 0px; /* Firefox */
+    -webkit-border-radius : 0px; /* Safari & Chrome */
+    -khtml-border-radius : 0px; /* Linux browsers */
+    border-radius : 0px; /* CSS3 compatible browsers */
+    -moz-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+    -webkit-box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+    box-shadow: 0 2px 4px #949494, 0 0 0 #949494;
+}
+
+.finderPage#wearsuitlp #poolBackground {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 900px;
+    height: 600px;
+    background-image: url('../images/dressing101/transparentGrey.png');
+    z-index: 111;
+}
+
+.finderPage#wearsuitlp  #classic_poolBackground {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 900px;
+    height: 650px;
+    border: 1px solid #CCC;
+    background-color: white;
+}
+
+.finderPage#wearsuitlp  #classic_poolContainer {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 860px;
+    height: 545px;
+    background-color: #ffffff;
+}
+
+.finderPage#wearsuitlp #classic_poolContainer #poolResults {
+    height: 500px !important;
+    width: 830px !important;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: white;
+}
+
+.finderPage#wearsuitlp  #classic_poolContainer #poolHeader {
+    position: absolute;
+    top: 15px;
+    left: 550px;
+    width: 280px;
+}
+
+.finderPage#wearsuitlp  #classic_poolContainer #poolHeader #poolPaginationTop {
+    margin: 0 !important;
+    margin-right: 5px !important;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.finderPage#wearsuitlp  #classic_poolContainer #poolHeader #poolPaginationTop .itemsFound {
+    padding-right: 5px;
+}
+
+.finderPage#wearsuitlp  #classic_poolContainer #poolHeader #poolPaginationTop .nextPage {
+    padding-right: 5px;
+}
+
+.finderPage#wearsuitlp #poolResults  .giftListRow, .addToBridalParty {
+    display: none;
+}
+
+.finderPage#wearsuitlp .facetTitle {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.finderPage#wearsuitlp .facetTabsContainer {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+    font-family:'AvantGardeGothicITCW01M 731087', Arial;
+    font-size: 11px;
+}
+
+.finderPage#wearsuitlp #facetsContainer LI {
+    text-decoration: underline;
+!important margin-left : 20 px;
+    margin-right: 10px;
+}
+
+.finderPage#wearsuitlp #facetsContainer LI.toggled {
+    color:blue;
+}
+
+.finderPage#wearsuitlp #facetsContainer LI INPUT {
+    display: none;
+}
+
+.finderPage#wearsuitlp #close {
+    position: absolute;
+    left: 824px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.finderPage#wearsuitlp .facetTabsContainer li {
+    float: left;
+}
+
+.finderPage#wearsuitlp .secondTitle{
+    left:5px;
+    top: 370px;
+}
+.finderPage#wearsuitlp #classic .secondTitle{
+    left:5px;
+    top: 380px;
+}
+.finderPage#wearsuitlp .firstTitle{
+    left:5px;
+    top: 442px;
+}
